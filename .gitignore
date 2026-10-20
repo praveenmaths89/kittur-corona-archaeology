@@ -1,6 +1,6 @@
 # Raw CORONA / Landsat / Sentinel scans live on Zenodo (see ZENODO_MANIFEST.csv)
-raw/
-corona/
+/raw/
+/corona/
 sites/*/raw/
 *.tgz
 *.ntf
