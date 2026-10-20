@@ -12,7 +12,7 @@ Reconstructing Kittur Fort (Belagavi district, Karnataka) and its 1824 siege lan
 - `ZENODO_MANIFEST.csv` - list of raw scans (path, size, sha256) deposited on Zenodo
 
 ## Raw imagery (Zenodo)
-Raw CORONA scans and other large inputs (about 26.5 GB, 78 files) are not in git. They are archived at Zenodo: DOI 10.5281/zenodo.XXXXXXX (placeholder).
+Raw CORONA scans and other large inputs (about 26.5 GB, 78 files) are not in git. They are archived at Zenodo: DOI 10.5281/zenodo.23504505 (reserved), https://zenodo.org/records/23504505 (deposit: https://zenodo.org/deposit/23504505). The record is restricted (available on request) until the associated paper is published.
 
 They can also be re-downloaded from USGS EarthExplorer by scene ID. Create a free USGS account, generate an M2M application token, then:
 
