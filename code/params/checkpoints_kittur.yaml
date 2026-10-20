@@ -1,0 +1,5 @@
+# Independent checkpoints for the 1968 Kittur crop (not used in the fit), recorded during georeferencing.
+# dE, dN = CORONA feature position minus reference position (m).
+- {name: "Copernicus DEM summit vs CORONA citadel-core centre", dE: 2, dN: -11}
+- {name: "East round pond vs Sentinel-2 dark pond", dE: 10, dN: 30}
+- {name: "Citadel hill vs Sentinel-2 vegetated hill", dE: 20, dN: 30}

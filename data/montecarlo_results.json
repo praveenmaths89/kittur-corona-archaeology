@@ -1,0 +1,80 @@
+{
+ "N": 1000,
+ "model": "vertical noise 2 m (Copernicus) / 10 m (CORONA stereo) on summit, half that on lower-fort means; citadel relief = max inside ring core+30 m minus median at 300-600 m; lower-fort relief = median within ~80 m of centroid minus median on 450 m circle; translation 25 m RMS at fort; random linear term giving 50-100 m RMS at 2.5 km (crop edge); 10 m/axis local residual per feature; 4 m vertex digitizing noise",
+ "areas_ha_or_length_m": {
+  "main enclosure (lower fort)": {
+   "median": 13.368060651568086,
+   "lo95": 12.534484237167842,
+   "hi95": 14.262462525844644
+  },
+  "N/W moat line": {
+   "median": 1061.060523630852,
+   "lo95": 1024.5899734506822,
+   "hi95": 1096.24047261203
+  },
+  "east outer line": {
+   "median": 528.0502146147358,
+   "lo95": 505.70722425318354,
+   "hi95": 551.7795194147493
+  },
+  "NW pond": {
+   "median": 0.22860227544316297,
+   "lo95": 0.2009344107093047,
+   "hi95": 0.25531164922383415
+  },
+  "E pond": {
+   "median": 0.47641591993433663,
+   "lo95": 0.43257385206953053,
+   "hi95": 0.5177273246958308
+  },
+  "ring outer": {
+   "median": 6.9169905905746045,
+   "lo95": 6.511245993693327,
+   "hi95": 7.376133392766775
+  },
+  "ring middle": {
+   "median": 3.7788037964071726,
+   "lo95": 3.552511089298628,
+   "hi95": 4.021755322142025
+  },
+  "ring core": {
+   "median": 1.6539940353743081,
+   "lo95": 1.5400990281865061,
+   "hi95": 1.7675761839649327
+  }
+ },
+ "fort_citadel_distance_m": {
+  "median": 532.6893615430774,
+  "lo95": 496.84210177419743,
+  "hi95": 568.2890762242065
+ },
+ "heights_m": {
+  "Copernicus GLO-30": {
+   "citadel": {
+    "median": 36.88714611542963,
+    "lo95": 32.9976175183438,
+    "hi95": 40.70637416918552
+   },
+   "lower": {
+    "median": 8.82989743810355,
+    "lo95": 6.54667262525323,
+    "hi95": 11.295613802016312
+   }
+  },
+  "CORONA 1967 stereo": {
+   "citadel": {
+    "median": 35.794825229932925,
+    "lo95": 16.89222029947816,
+    "hi95": 55.36531491790252
+   },
+   "lower": {
+    "median": 6.343240351118119,
+    "lo95": -3.896133085143501,
+    "hi95": 16.487959041981707
+   }
+  }
+ },
+ "nominal": {
+  "fort_citadel_m": 532.6763731838696
+ }
+}

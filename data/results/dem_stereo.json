@@ -1,0 +1,18 @@
+{
+ "scale_px_per_m": -0.2930342969638774,
+ "noise_m": 7.72551396156224,
+ "citadel_core_minus_annulus_220_320_m": {
+  "stereo": 29.62371826171875,
+  "copernicus": 25.55670166015625
+ },
+ "lower_fort_minus_annulus_220_320_m": {
+  "stereo": 1.94940185546875,
+  "copernicus": 4.9288330078125
+ },
+ "core_centre_minus_rim_m": 2.4193115234375,
+ "regression_vs_legacy_smooth16m": {
+  "r": 0.5611,
+  "mad": 11.79,
+  "valid": 0.611
+ }
+}

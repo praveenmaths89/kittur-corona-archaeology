@@ -1,0 +1,26 @@
+{
+ "tone": {
+  "n_ties": 50,
+  "inliers": 10,
+  "rms_fit_m": 5.5,
+  "rms_loo_m": 11.1,
+  "median_shift_m": 28.1,
+  "affine": [
+   [
+    0.9774391276755091,
+    -0.02362379123421226,
+    162.35417880599755
+   ],
+   [
+    -0.0023457846466292576,
+    0.9952977641012158,
+    22.2165863122566
+   ]
+  ],
+  "raw_tie_rms_m": 102.1
+ },
+ "gradient": {
+  "n_ties": 0
+ },
+ "soi_1924_roads": "not used as control: 4-corner georeference with errors of the order of 100 m (Table 2), coarser than the 28 m target"
+}

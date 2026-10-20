@@ -1,0 +1,16 @@
+Feature,Measure,As digitised,Monte Carlo median (95% interval)
+Lower-fort enclosure,Area (ha),13.37,13.37 (12.53-14.26)
+Citadel outer ring,Area (ha),6.93,6.92 (6.51-7.38)
+Citadel middle ring,Area (ha),3.78,3.78 (3.55-4.02)
+Citadel core,Area (ha),1.65,1.65 (1.54-1.77)
+NW pond,Area (ha),0.23,0.23 (0.20-0.26)
+E pond,Area (ha),0.48,0.48 (0.43-0.52)
+N/W moat line,Length (m),1060,1061 (1025-1096)
+East outer line,Length (m),528,528 (506-552)
+Lower fort to citadel core,Centroid distance (m),-,533 (497-568)
+Citadel mound,"Relief, Copernicus GLO-30 (m)",-,36.9 (33.0-40.7)
+Citadel mound,"Relief, 1967 stereo surface (m)",-,40.4 (21.5-60.2)
+Lower fort,"Relief, Copernicus GLO-30 (m)",-,8.8 (6.5-11.3)
+Lower fort,"Relief, 1967 stereo surface (m)",-,5.7 (-4.6-16.3)
+Citadel summit,Visible area within 5 km (km²),35.8,-
+Lower-fort centre,Visible area within 5 km (km²),23.3,-

@@ -1,0 +1,22 @@
+Data,Product / identifier,Date(s),Resolution,Use,Licence
+Military correspondence,"National Archives of India, Abhilekh Patal: Foreign Political proceedings",Oct 1824-Jan 1825,-,"Siege narrative, positions",Archival record
+Engineers' descriptions and gazetteer,"Gazetteer of the Bombay Presidency XXI, Belgaum (Campbell, 1884), quoting Lawe (1825) and Welsh (1828)",1825-1884,-,Fort plan and dimensions,Public domain
+Topographic map,"Survey of India one-inch sheets 48 I/09, I/10, I/13, I/14 (Zenodo 10.5281/zenodo.18133392)","surveyed 1922-23, publ. 1924","1:63,360","Pre-dam villages, place names",CC BY 4.0 (Zenodo record)
+CORONA KH-4A aft,"DS1045-1102DA224, piece b",1968-01-31,c. 2-3 m (resampled to 2 m),"Fort plan, pre-dam landscape",Public domain (USGS EarthExplorer)
+CORONA KH-4A forward,"DS1045-1102DF224, piece c",1968-01-31,c. 2-3 m (resampled to 2 m),"Fort plan, pre-dam landscape",Public domain (USGS EarthExplorer)
+CORONA KH-4A aft,"DS1045-1102DA223, piece b",1968-01-31,c. 2-3 m (resampled to 2 m),"Fort plan, pre-dam landscape",Public domain (USGS EarthExplorer)
+CORONA KH-4A aft,"DS1044-2134DA217, piece d",1967-11-11,c. 2-3 m (resampled to 2 m),"Fort plan, 1967 stereo pair",Public domain (USGS EarthExplorer)
+CORONA KH-4A forward,"DS1044-2134DF217, piece a",1967-11-11,c. 2-3 m (resampled to 2 m),"Fort plan, 1967 stereo pair",Public domain (USGS EarthExplorer)
+CORONA KH-4A (Srirangapatna),DS1040-1039DA028,2 Apr 1967,c. 2-3 m (resampled to 2 m),Transferability test,Public domain (USGS EarthExplorer)
+CORONA KH-4A (Hampi),DS1025-1071DA077,10 Oct 1965,c. 2-3 m (resampled to 2 m),Transferability test,Public domain (USGS EarthExplorer)
+CORONA KH-4A (Belgaum),DS1045-1102DA222,31 Jan 1968,c. 2-3 m (resampled to 2 m),Transferability test,Public domain (USGS EarthExplorer)
+Landsat 5 TM / 7 ETM+ Collection 2 Level-2,Dry-season median (L1990),"4 scenes, 1990-02-07 to 1991-03-14",30 m,Change metrics,Public domain (USGS)
+Landsat 5 TM / 7 ETM+ Collection 2 Level-2,Dry-season median (L2000),"4 scenes, 1999-01-31 to 2000-03-14",30 m,Change metrics,Public domain (USGS)
+Landsat 5 TM / 7 ETM+ Collection 2 Level-2,Dry-season median (L2010),"4 scenes, 2009-01-02 to 2009-03-07",30 m,Change metrics,Public domain (USGS)
+Sentinel-2 MSI Level-2A,Dry-season median (S2016),"4 scenes, 2016-02-05 to 2017-03-28",10-20 m,Change metrics,Copernicus Sentinel data (free and open)
+Sentinel-2 MSI Level-2A,Dry-season median (S2020),"4 scenes, 2020-02-14 to 2020-03-15",10-20 m,Change metrics,Copernicus Sentinel data (free and open)
+Sentinel-2 MSI Level-2A,Dry-season median (S2026),"3 scenes, 2026-02-07 to 2026-03-06",10-20 m,Change metrics,Copernicus Sentinel data (free and open)
+Sentinel-2 MSI Level-2A,S2B_43PDT_20260217_0_L2A,2026-02-17,10 m,"Georeferencing reference, 2026 imagery",Copernicus Sentinel data (free and open)
+Digital surface model,Copernicus DEM GLO-30,2011-2015,30 m,"Terrain, viewshed, least-cost paths",Copernicus DEM licence
+Vector data,OpenStreetMap (Overpass extract),2026-10-20,-,"Reservoir, tanks, roads, Belgaum fort outline",ODbL 1.0
+Vector data,Natural Earth admin-1 and land,v5,"1:10m, 1:50m",Location map,Public domain

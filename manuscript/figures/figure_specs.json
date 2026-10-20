@@ -1,0 +1,288 @@
+[
+ {
+  "name": "Fig01_study_area",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig01_study_area.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig01_study_area.pdf",
+  "width_mm": 190.0,
+  "height_mm": 98.0,
+  "px": [
+   4488,
+   2314
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig02_temporal_design",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig02_temporal_design.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig02_temporal_design.pdf",
+  "width_mm": 190.0,
+  "height_mm": 120.0,
+  "px": [
+   4488,
+   2834
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig03_kittur_fort_epochs",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig03_kittur_fort_epochs.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig03_kittur_fort_epochs.pdf",
+  "width_mm": 190.0,
+  "height_mm": 196.0,
+  "px": [
+   4488,
+   4629
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig04_citadel_stereo_dem",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig04_citadel_stereo_dem.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig04_citadel_stereo_dem.pdf",
+  "width_mm": 190.0,
+  "height_mm": 150.0,
+  "px": [
+   4488,
+   3543
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig05_old_sangoli",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig05_old_sangoli.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig05_old_sangoli.pdf",
+  "width_mm": 190.0,
+  "height_mm": 112.0,
+  "px": [
+   4488,
+   2645
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig06_viewshed_approaches",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig06_viewshed_approaches.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig06_viewshed_approaches.pdf",
+  "width_mm": 190.0,
+  "height_mm": 158.0,
+  "px": [
+   4488,
+   3732
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig07_monte_carlo",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig07_monte_carlo.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig07_monte_carlo.pdf",
+  "width_mm": 190.0,
+  "height_mm": 80.0,
+  "px": [
+   4488,
+   1889
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig08_regional_forts",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig08_regional_forts.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig08_regional_forts.pdf",
+  "width_mm": 190.0,
+  "height_mm": 92.0,
+  "px": [
+   4488,
+   2173
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "Fig09_transferability",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig09_transferability.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig09_transferability.pdf",
+  "width_mm": 190.0,
+  "height_mm": 210.0,
+  "px": [
+   4488,
+   4960
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "FigS1_timeline_strip",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS1_timeline_strip.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS1_timeline_strip.pdf",
+  "width_mm": 190.0,
+  "height_mm": 58.0,
+  "px": [
+   4488,
+   1370
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "supplementary"
+ },
+ {
+  "name": "FigS2_3d_schematic",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS2_3d_schematic.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS2_3d_schematic.pdf",
+  "width_mm": 190.0,
+  "height_mm": 105.0,
+  "px": [
+   4488,
+   2480
+  ],
+  "dpi": 600,
+  "min_font_pt": null,
+  "max_font_pt": null,
+  "fonts": [],
+  "kind": "supplementary"
+ },
+ {
+  "name": "FigS3_corona_coverage_accuracy",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS3_corona_coverage_accuracy.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS3_corona_coverage_accuracy.pdf",
+  "width_mm": 190.0,
+  "height_mm": 95.0,
+  "px": [
+   4488,
+   2244
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "supplementary"
+ },
+ {
+  "name": "FigS4_stereo_pair",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS4_stereo_pair.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS4_stereo_pair.pdf",
+  "width_mm": 190.0,
+  "height_mm": 72.0,
+  "px": [
+   4488,
+   1700
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "supplementary"
+ },
+ {
+  "name": "FigS5_tanks_1968_2026",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS5_tanks_1968_2026.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS5_tanks_1968_2026.pdf",
+  "width_mm": 140.0,
+  "height_mm": 135.0,
+  "px": [
+   3307,
+   3188
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 7.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "supplementary"
+ },
+ {
+  "name": "Fig10_cross_site_timelines",
+  "tif": "/workspace/kittur_map/manuscript/figures/Fig10_cross_site_timelines.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/Fig10_cross_site_timelines.pdf",
+  "width_mm": 190.0,
+  "height_mm": 68.0,
+  "px": [
+   4488,
+   1606
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "main"
+ },
+ {
+  "name": "FigS6_site_timeline_strips",
+  "tif": "/workspace/kittur_map/manuscript/figures/FigS6_site_timeline_strips.tif",
+  "pdf": "/workspace/kittur_map/manuscript/figures/FigS6_site_timeline_strips.pdf",
+  "width_mm": 190.0,
+  "height_mm": 116.0,
+  "px": [
+   4488,
+   2740
+  ],
+  "dpi": 600,
+  "min_font_pt": 7.0,
+  "max_font_pt": 9.0,
+  "fonts": [
+   "Arial"
+  ],
+  "kind": "supplementary"
+ }
+]

@@ -1,0 +1,197 @@
+{
+ "fetch": {
+  "status": "ok",
+  "seconds": 17.9,
+  "finished": "2026-10-20T20:59:32+05:30",
+  "notes": [
+   "provenance: 104/104 files verified by sha256; 0 mismatched; 0 missing"
+  ]
+ },
+ "preprocess": {
+  "status": "ok",
+  "seconds": 6.1,
+  "finished": "2026-10-20T20:59:39+05:30",
+  "notes": [
+   "DEM (1663, 1789), z 571.6-995.9 m; hillshade, slope, local relief written",
+   "  hillshade vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "SoI 48_I_14: 5736x6986 px, SoI_48_I_14_1924_cornergeoref.tif; transform diff vs raw/soi: {'max_transform_diff': 0.0}",
+   "SoI 48_I_13: 5928x7152 px, SoI_48_I_13_1924_cornergeoref.tif; transform diff vs raw/soi: {'max_transform_diff': 0.0}",
+   "SoI 48_I_10: 6037x6980 px, SoI_48_I_10_1924_cornergeoref.tif; transform diff vs raw/soi: {'max_transform_diff': 0.0}",
+   "SoI 48_I_09: 5792x7142 px, SoI_48_I_09_1924_cornergeoref.tif; transform diff vs raw/soi: {'max_transform_diff': 0.0}",
+   "CORONA DS1044-2134DA217_d: corona/DS1044-2134DA217/DS1044-2134DA217_d.tif (376 MB)",
+   "CORONA DS1044-2134DF217_a: corona/DS1044-2134DF217/DS1044-2134DF217_a.tif (333 MB)",
+   "CORONA DS1045-1102DA223_b: corona/DS1045-1102DA223/DS1045-1102DA223_b.tif (356 MB)",
+   "CORONA DS1045-1102DA224_b: corona/DS1045-1102DA224_b.tif (356 MB)",
+   "CORONA DS1045-1102DF224_c: corona/DS1045-1102DF224/DS1045-1102DF224_c.tif (356 MB)"
+  ]
+ },
+ "georeference": {
+  "status": "ok",
+  "seconds": 36.1,
+  "finished": "2026-10-20T21:00:15+05:30",
+  "notes": [
+   "DA224 kittur: corona_1968_kittur.tif; scan pixel ~2.22 m",
+   "DA224 nandagad: corona_1968_nandagad.tif; scan pixel ~2.24 m",
+   "DF224 sangolli: corona_1968_sangolli.tif, scan pixel ~2.18 m",
+   "DA223 sampgaon: corona_1968DA223_sampgaon.tif (refinement shift applied: False)",
+   "DA223 bailhongal: corona_1968DA223_bailhongal.tif (refinement shift applied: False)",
+   "DA223 oldsangoli: corona_1968DA223_oldsangoli.tif (refinement shift applied: False)",
+   "DA223 tigadi: corona_1968DA223_tigadi.tif (refinement shift applied: False)",
+   "srirangapatna: corona_srirangapatna.tif; recorded fit: 11/46 ties, fit RMS 17.0 m, LOO RMS 22.4 m",
+   "hampi: corona_hampi.tif; recorded fit: 21/45 ties, fit RMS 17.8 m, LOO RMS 20.5 m",
+   "belgaum: corona_belgaum.tif; recorded fit: 14/40 ties, fit RMS 15.1 m, LOO RMS 19.6 m",
+   "DA217: located at (15613,4392) by SIFT locate (7 inliers); 82 GCPs, RMS 2.8 m vs 1968; coverage 1.00",
+   "DF217: located at (24641,7706) by SIFT locate (5 inliers); 120 GCPs, RMS 3.1 m vs 1968; coverage 1.00",
+   "DF224: located at (27245,9797) by prior affine; 317 GCPs, RMS 2.9 m vs 1968; coverage 0.69",
+   "mosaic15: DF224 45%, DA224 27% of the 32 x 32 km square",
+   "accuracy nandagad_recorded_checkpoints: {'n': 106, 'rms_m': 30.4, 'mean_dE': -17.7, 'mean_dN': -0.2}",
+   "accuracy kittur_recorded_checkpoints: {'n': 3, 'rms_m': 28.4, 'points': [{'name': 'Copernicus DEM summit vs CORONA citadel-core centre', 'dE': 2, 'dN': -11}, {'name': 'East round pond vs Sentinel-2 dark pond', 'dE': 10, 'dN': 30}, {'name': 'Citadel hill vs Sentinel-2 vegetated hill', 'dE': 20, 'dN': 30}]}",
+   "accuracy corona_1968_kittur_auto_ncc: {'n_patches': 9, 'n_kept': 9, 'mean_dE': -11.1, 'mean_dN': -2.2, 'rms_m': 123.0, 'median_ncc': 0.6}",
+   "accuracy corona_1968_nandagad_auto_ncc: {'n_patches': 33, 'n_kept': 27, 'mean_dE': -1.9, 'mean_dN': -10.0, 'rms_m': 22.9, 'median_ncc': 0.58}",
+   "accuracy corona_1968_sangolli_auto_ncc: {'n_patches': 22, 'n_kept': 22, 'mean_dE': -2.7, 'mean_dN': 5.0, 'rms_m': 89.7, 'median_ncc': 0.55}",
+   "accuracy corona_1968DA223_sampgaon_auto_ncc: {'n_patches': 5, 'n_kept': 5, 'mean_dE': 100.0, 'mean_dN': 10.0, 'rms_m': 128.5, 'median_ncc': 0.49}",
+   "accuracy corona_1968DA223_bailhongal_auto_ncc: {'n_patches': 6, 'n_kept': 4, 'mean_dE': -30.0, 'mean_dN': -62.5, 'rms_m': 76.6, 'median_ncc': 0.48}",
+   "accuracy corona_1968DA223_oldsangoli_auto_ncc: {'n_patches': 9, 'n_kept': 8, 'mean_dE': 26.2, 'mean_dN': -16.2, 'rms_m': 108.2, 'median_ncc': 0.51}",
+   "accuracy corona_1968DA223_tigadi_auto_ncc: {'n_patches': 2, 'rms_m': None}",
+   "accuracy corona_srirangapatna_auto_ncc: {'n_patches': 27, 'n_kept': 19, 'mean_dE': 22.6, 'mean_dN': 7.4, 'rms_m': 50.3, 'median_ncc': 0.56}",
+   "accuracy corona_srirangapatna_recorded_fit: {'ties': 46, 'inliers': 11, 'rms_fit_m': 17.0, 'rms_loo_m': 22.4}",
+   "accuracy corona_hampi_auto_ncc: {'n_patches': 35, 'n_kept': 29, 'mean_dE': 37.2, 'mean_dN': 1.0, 'rms_m': 45.3, 'median_ncc': 0.61}",
+   "accuracy corona_hampi_recorded_fit: {'ties': 45, 'inliers': 21, 'rms_fit_m': 17.8, 'rms_loo_m': 20.5}",
+   "accuracy corona_belgaum_auto_ncc: {'n_patches': 8, 'n_kept': 6, 'mean_dE': -46.7, 'mean_dN': -25.0, 'rms_m': 74.9, 'median_ncc': 0.5}",
+   "accuracy corona_belgaum_recorded_fit: {'ties': 40, 'inliers': 14, 'rms_fit_m': 15.1, 'rms_loo_m': 19.6}",
+   "accuracy coreg_1967: {'DA217': {'entity': 'DS1044-2134DA217', 'piece': 'd', 'locate': 'SIFT locate (7 inliers)', 'locate_col': 15613, 'locate_row': 4392, 'rotation': -179.42704222437263, 'gsd_m': 2.75, 'gcps': 82, 'rms_m': 2.79, 'coverage': 1.0}, 'DF217': {'entity': 'DS1044-2134DF217', 'piece': 'a', 'locate': 'SIFT locate (5 inliers)', 'locate_col': 24641, 'locate_row': 7706, 'rotation': 13.715901111206554, 'gsd_m': 2.68, 'gcps': 120, 'rms_m': 3.13, 'coverage': 1.0}, 'DF224': {'entity': 'DS1045-1102DF224', 'piece': 'c', 'locate': 'prior affine', 'locate_col': 27245, 'locate_row': 9797, 'rotation': None, 'gsd_m': 2.18, 'gcps': 317, 'rms_m': 2.89, 'coverage': 0.687}}",
+   "regression corona_1967DA_kittur.tif vs legacy: {'r': 0.9295, 'mad': 12.04, 'valid': 1.0}",
+   "regression corona_1967DF_kittur.tif vs legacy: {'r': 0.9373, 'mad': 3.894, 'valid': 1.0}",
+   "regression corona_1968DA223_bailhongal.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "regression corona_1968DA223_oldsangoli.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "regression corona_1968DA223_sampgaon.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "regression corona_1968DA223_tigadi.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "regression corona_1968DF_kittur.tif vs legacy: {'r': 0.9946, 'mad': 1.917, 'valid': 0.687}",
+   "regression corona_1968_kittur.tif vs legacy: {'r': 1.0, 'mad': 0.49, 'valid': 1.0}",
+   "regression corona_1968_mosaic15km_10m.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 0.712}",
+   "regression corona_1968_mosaic15km_source.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 0.712}",
+   "regression corona_1968_nandagad.tif vs legacy: {'r': 1.0, 'mad': 0.486, 'valid': 0.961}",
+   "regression corona_1968_sangolli.tif vs legacy: {'r': 1.0, 'mad': 0.498, 'valid': 1.0}",
+   "regression corona_belgaum.tif vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
+   "regression corona_hampi.tif vs legacy: {'r': 0.9994, 'mad': 0.929, 'valid': 1.0}",
+   "regression corona_srirangapatna.tif vs legacy: {'r': 0.9999, 'mad': 0.463, 'valid': 1.0}"
+  ]
+ },
+ "dem": {
+  "status": "ok",
+  "seconds": 5.2,
+  "finished": "2026-10-20T21:00:21+05:30",
+  "notes": [
+   "SGBM valid fraction 0.60",
+   "height scale -0.2930 px/m; residual noise 7.7 m (1 sigma, 30 m blocks); 21942 blocks",
+   "scale_px_per_m: -0.2930342969638774",
+   "noise_m: 7.72551396156224",
+   "citadel_core_minus_annulus_220_320_m: {'stereo': 29.62371826171875, 'copernicus': 25.55670166015625}",
+   "lower_fort_minus_annulus_220_320_m: {'stereo': 1.94940185546875, 'copernicus': 4.9288330078125}",
+   "core_centre_minus_rim_m: 2.4193115234375",
+   "regression vs legacy: {'r': 0.5611, 'mad': 11.79, 'valid': 0.611}"
+  ]
+ },
+ "metrics": {
+  "status": "ok",
+  "seconds": 5.9,
+  "finished": "2026-10-20T21:00:27+05:30",
+  "notes": [
+   "features: lower_fort 13.37 ha; pond_nw 0.23 ha; pond_e 0.48 ha; ring_outer 6.93 ha; ring_middle 3.78 ha; ring_core 1.65 ha",
+   "epoch metrics: 54 rows -> results/epoch_metrics.csv",
+   "  regression vs legacy epochs/metrics.csv: max |diff| ndvi/built_frac = 0.0000 over 54 rows",
+   "tanks: 29 OSM water bodies >= 1 ha within 15 km: {'no water signature in 1968': 10, 'intermediate': 3, 'outside 1968 coverage': 9, 'dark in 1968 (pre-1968 tank)': 7}",
+   "srirangapatna: water_1960s_pct 4.6, darkveg_1960s_pct 25.4, water_2026_pct 1.7, veg_2026_pct 67.9, built_2026_pct 13.6",
+   "hampi: water_1960s_pct 12.0, darkveg_1960s_pct 18.0, water_2026_pct 0.3, veg_2026_pct 44.5, built_2026_pct 33.5",
+   "belgaum: water_1960s_pct 5.7, darkveg_1960s_pct 24.3, water_2026_pct 0.8, veg_2026_pct 30.1, built_2026_pct 34.9",
+   "kittur: water_1960s_pct 8.8, darkveg_1960s_pct 21.2, water_2026_pct 0.3, veg_2026_pct 25.1, built_2026_pct 25.6",
+   "  regression vs sites/belgaum/analysis/fort_digitized.json: max |diff| = 0.000",
+   "belgaum fort: moat_centreline_ha 61.3, inner_wall_line_ha 58.0, moat_outer_edge_ha 64.8, with_glacis_ha 80.1, moat_area_ha 6.8, perimeter_centreline_m 2831.1, osm_way_ha 51.8, gazetteer_ha 40.5, ew_m 875.6, ns_m 846.0",
+   "site epochs: 42 rows; belgaum: 6 epochs, hampi: 6 epochs, srirangapatna: 6 epochs",
+   "  regression vs release/data/sites_epoch_metrics.csv: max |diff| = 0.0000 over 42 rows"
+  ]
+ },
+ "landscape": {
+  "status": "ok",
+  "seconds": 2.9,
+  "finished": "2026-10-20T21:00:30+05:30",
+  "notes": [
+   "viewshed citadel: z 769.4 m, 35.8 km2 within 5 km (46%), 153 km2 within 25 km",
+   "viewshed lower_fort: z 731.9 m, 23.3 km2 within 5 km (30%), 38 km2 within 25 km",
+   "max z by annulus: 0-250 m: 769.4 m; 250-500 m: 760.2 m; 500-1000 m: 769.5 m; 1000-1500 m: 766.8 m; 1500-2000 m: 786.7 m; 2000-3000 m: 806.4 m; 3000-5000 m: 791.1 m",
+   "LCP Belgaum_NW: 46.9 km (straight 43.1), arrives from 338 deg, 98% of last 2 km visible from citadel",
+   "LCP Dharwad_SE: 20.6 km (straight 19.1), arrives from 133 deg, 100% of last 2 km visible from citadel",
+   "zones (ha): Battery close to gate (12 m) 0.40, Crest of glacis (30-100 m) 2.81, Advanced post (150 m of gate) 4.02, Escalade gap lower/upper fort 4.85; dead-ground camp cells 3.6 km2"
+  ]
+ },
+ "montecarlo": {
+  "status": "ok",
+  "seconds": 2.5,
+  "finished": "2026-10-20T21:00:32+05:30",
+  "notes": [
+   "Lower-fort enclosure: 13.37 ha (95%: 12.53-14.26)",
+   "N/W moat line: 1061.06 m (95%: 1024.59-1096.24)",
+   "East outer line: 528.05 m (95%: 505.71-551.78)",
+   "NW pond: 0.23 ha (95%: 0.20-0.26)",
+   "E pond: 0.48 ha (95%: 0.43-0.52)",
+   "Citadel outer ring: 6.92 ha (95%: 6.51-7.38)",
+   "Citadel middle ring: 3.78 ha (95%: 3.55-4.02)",
+   "Citadel core: 1.65 ha (95%: 1.54-1.77)",
+   "fort-citadel distance 533 m (95%: 497-568)",
+   "height citadel (Copernicus GLO-30): 36.9 m (95%: 33.0-40.7)",
+   "height lower (Copernicus GLO-30): 8.8 m (95%: 6.5-11.3)",
+   "height citadel (CORONA 1967 stereo): 40.4 m (95%: 21.5-60.2)",
+   "height lower (CORONA 1967 stereo): 5.7 m (95%: -4.6-16.3)"
+  ]
+ },
+ "figures": {
+  "status": "ok",
+  "seconds": 48.5,
+  "finished": "2026-10-20T21:10:37+05:30",
+  "notes": [
+   "4 figures written to /workspace/kittur_map/manuscript/figures"
+  ]
+ },
+ "provenance": {
+  "status": "ok",
+  "seconds": 0.0,
+  "finished": "2026-10-20T21:18:37+05:30",
+  "notes": [
+   "104 files -> release/PROVENANCE.csv (0 newly hashed); SHA256.txt cross-check: 22 checked, 0 mismatches"
+  ]
+ },
+ "tables": {
+  "status": "ok",
+  "seconds": 0.9,
+  "finished": "2026-10-20T21:18:05+05:30",
+  "notes": [
+   "Table1_data_sources: 21 rows x 6 columns",
+   "Table2_georeferencing_accuracy: 19 rows x 7 columns",
+   "Table3_dimensions: 15 rows x 4 columns",
+   "Table4_archival_vs_measured: 10 rows x 3 columns",
+   "Table5_regional_forts: 6 rows x 6 columns",
+   "Table6_temporal_metrics: 7 rows x 8 columns",
+   "Table7_cross_site: 4 rows x 10 columns",
+   "tables.docx, tables.xlsx, 7 CSV -> /workspace/kittur_map/manuscript/tables",
+   "checklist.md: 0 figure checks not met ; docx no vertical rules: True; xlsx no vertical borders: True"
+  ]
+ },
+ "lite": {
+  "status": "ok",
+  "seconds": 32.3,
+  "finished": "2026-10-20T21:18:37+05:30",
+  "notes": [
+   "base map: 31 web layers (30 re-encoded as WebP)",
+   "99 files refreshed in /workspace/kittur_map/../kittur_map_lite (64 MB); zip kittur_basemap_lite.zip 60 MB"
+  ]
+ },
+ "map": {
+  "status": "ok",
+  "seconds": 88.4,
+  "finished": "2026-10-20T21:14:59+05:30",
+  "notes": [
+   "folium 0.20.0",
+   "kittur_basemap.html 2147693 B sha256 8383d5665482"
+  ]
+ }
+}
