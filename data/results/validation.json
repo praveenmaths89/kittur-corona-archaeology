@@ -1,0 +1,1284 @@
+{
+ "params": {
+  "min_sep_m": 300,
+  "res_m": 4,
+  "half_m": [
+   350,
+   500
+  ],
+  "agree_m": 15,
+  "min_z": 0.0,
+  "min_ncc": 0.3,
+  "search1_m": 400,
+  "search2_m": 120,
+  "ransac_m": 60,
+  "blunder_m": 60,
+  "control_frac": 0.7,
+  "k_blocks": 5,
+  "n_boot": 500,
+  "models": [
+   "affine",
+   "poly2",
+   "poly3",
+   "tps"
+  ],
+  "sensitivity": {
+   "min_ncc": [
+    0.15,
+    0.25,
+    0.3
+   ],
+   "agree_m": [
+    10,
+    20
+   ],
+   "min_sep_m": [
+    400,
+    500
+   ],
+   "exclude_kinds": [
+    [
+     "tank",
+     "village"
+    ]
+   ]
+  }
+ },
+ "targets": {
+  "corona_da224_kittur": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1045-1102DA224 (31 Jan 1968) Kittur",
+   "n_candidates": 98,
+   "n_pass1": 20,
+   "n_ties": 25,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 9,
+    "bridge": 0,
+    "tank": 7,
+    "village": 9,
+    "worship": 0
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 120.17076210095716,
+    "rmse_check_m": 119.24548572907746,
+    "median_m": 94.85493907069059,
+    "p90_m": 188.18110828909224,
+    "max_m": 240.3873479432351,
+    "mean_shift_EN_m": [
+     82.2,
+     30.4
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 17,
+     "n_check": 8,
+     "fit_rmse_m": 23.80089856655817,
+     "check_rmse_m": 15.414769066397495,
+     "check_rmse_boot95": [
+      14.32899455948341,
+      28.522299797005452
+     ],
+     "check_max_m": 28.188972176516295,
+     "loo_rmse_m": 25.956295396991383,
+     "loo_p90_m": 35.33145671676636,
+     "block_cv_rmse_m": 40.688276392166976,
+     "moran_I_E": [
+      0.08835697415513812,
+      0.061
+     ],
+     "moran_I_N": [
+      0.049537193667021605,
+      0.168
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 17,
+     "n_check": 8,
+     "fit_rmse_m": 15.553357975648238,
+     "check_rmse_m": 14.05478146971119,
+     "check_rmse_boot95": [
+      6.86039285468227,
+      62.65078425429663
+     ],
+     "check_max_m": 29.021600975269383,
+     "loo_rmse_m": 22.260901090005298,
+     "loo_p90_m": 25.95850772904761,
+     "block_cv_rmse_m": 29.919356155082525,
+     "moran_I_E": [
+      -0.06820620121595736,
+      0.62
+     ],
+     "moran_I_N": [
+      -0.033659635067131786,
+      0.841
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 17,
+     "n_check": 8,
+     "fit_rmse_m": 8.62455510161987,
+     "check_rmse_m": 63.80538736601264,
+     "check_rmse_boot95": [
+      10.21390893238991,
+      292.49436984268397
+     ],
+     "check_max_m": 171.96042930875973,
+     "loo_rmse_m": 34.40356392072091,
+     "loo_p90_m": 60.62571222081331,
+     "block_cv_rmse_m": 164.5009419687667,
+     "moran_I_E": [
+      -0.04835520970037603,
+      0.865
+     ],
+     "moran_I_N": [
+      -0.027733005318907693,
+      0.764
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 17,
+     "n_check": 8,
+     "fit_rmse_m": 11.67532562905154,
+     "check_rmse_m": 11.18714130856733,
+     "check_rmse_boot95": [
+      8.452166286319155,
+      26.577601770448805
+     ],
+     "check_max_m": 22.839239027628807,
+     "loo_rmse_m": 22.024033802851395,
+     "loo_p90_m": 21.214320422825374,
+     "block_cv_rmse_m": 35.24261557773538,
+     "moran_I_E": [
+      -0.04113817010879351,
+      0.994
+     ],
+     "moran_I_N": [
+      -0.04204736386512161,
+      0.966
+     ]
+    }
+   },
+   "chosen": "poly2",
+   "extent_km": [
+    12.2,
+    10.1
+   ]
+  },
+  "corona_df224_sangolli": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1045-1102DF224 (31 Jan 1968) Sangolli",
+   "n_candidates": 61,
+   "n_pass1": 16,
+   "n_ties": 16,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 9,
+    "bridge": 2,
+    "tank": 0,
+    "village": 4,
+    "worship": 1
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 77.1773434503547,
+    "rmse_check_m": 72.32434576108133,
+    "median_m": 57.65632881112613,
+    "p90_m": 123.93849468613112,
+    "max_m": 150.0752692839223,
+    "mean_shift_EN_m": [
+     45.3,
+     -20.3
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 11,
+     "n_check": 5,
+     "fit_rmse_m": 26.110665330130267,
+     "check_rmse_m": 21.02522612301075,
+     "check_rmse_boot95": [
+      19.89094553792217,
+      52.44134444787046
+     ],
+     "check_max_m": 40.316919259359274,
+     "loo_rmse_m": 31.75802968005832,
+     "loo_p90_m": 53.655360340073344,
+     "block_cv_rmse_m": 73.43596803371912,
+     "moran_I_E": [
+      0.1332705709740991,
+      0.209
+     ],
+     "moran_I_N": [
+      0.030647580608592316,
+      0.543
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 11,
+     "n_check": 5,
+     "fit_rmse_m": 11.760589914633647,
+     "check_rmse_m": 10.332400226158999,
+     "check_rmse_boot95": [
+      7.697932981013916,
+      191.9395861243289
+     ],
+     "check_max_m": 20.413461184738917,
+     "loo_rmse_m": 20.058573988053126,
+     "loo_p90_m": 28.721464459657675,
+     "block_cv_rmse_m": 29.801110227430257,
+     "moran_I_E": [
+      0.026521157409002696,
+      0.554
+     ],
+     "moran_I_N": [
+      -0.11513589473476657,
+      0.554
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 11,
+     "n_check": 5,
+     "fit_rmse_m": 10.560868794586282,
+     "check_rmse_m": 8.849733065250929,
+     "check_rmse_boot95": [
+      7.492957372441511,
+      49.898471377275165
+     ],
+     "check_max_m": 13.952633442891967,
+     "loo_rmse_m": 20.34284919172272,
+     "loo_p90_m": 33.06275220933588,
+     "block_cv_rmse_m": 55.00779897381707,
+     "moran_I_E": [
+      -0.0269390880838184,
+      0.689
+     ],
+     "moran_I_N": [
+      -0.11293870930157836,
+      0.682
+     ]
+    }
+   },
+   "chosen": "poly2",
+   "extent_km": [
+    14.5,
+    10.5
+   ]
+  },
+  "corona_da224_nandagad": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1045-1102DA224 (31 Jan 1968) Nandagad",
+   "n_candidates": 32,
+   "n_pass1": 15,
+   "n_ties": 20,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 9,
+    "bridge": 0,
+    "tank": 0,
+    "village": 11,
+    "worship": 0
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 34.227989535050774,
+    "rmse_check_m": 32.158771974634554,
+    "median_m": 28.179159962407965,
+    "p90_m": 46.877885952034305,
+    "max_m": 71.54403458855366,
+    "mean_shift_EN_m": [
+     -5.8,
+     10.1
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 13,
+     "n_check": 7,
+     "fit_rmse_m": 20.166424870698545,
+     "check_rmse_m": 25.72771746250077,
+     "check_rmse_boot95": [
+      22.057510798794343,
+      34.9924052979767
+     ],
+     "check_max_m": 47.93699769798755,
+     "loo_rmse_m": 26.048949728597663,
+     "loo_p90_m": 44.22324093727511,
+     "block_cv_rmse_m": 53.22571837671407,
+     "moran_I_E": [
+      0.05805439604972024,
+      0.092
+     ],
+     "moran_I_N": [
+      0.05590190139013598,
+      0.095
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 13,
+     "n_check": 7,
+     "fit_rmse_m": 4.803884297969596,
+     "check_rmse_m": 15.7602437627862,
+     "check_rmse_boot95": [
+      12.927241980904562,
+      30.758046842967527
+     ],
+     "check_max_m": 37.608892452946435,
+     "loo_rmse_m": 13.507599736939449,
+     "loo_p90_m": 21.89198946769776,
+     "block_cv_rmse_m": 69.05765802654739,
+     "moran_I_E": [
+      -0.007021757158926106,
+      0.486
+     ],
+     "moran_I_N": [
+      0.0031509315228298623,
+      0.332
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 13,
+     "n_check": 7,
+     "fit_rmse_m": 2.581143968265265,
+     "check_rmse_m": 16.837143364177315,
+     "check_rmse_boot95": [
+      17.02607701127175,
+      17.02607701127175
+     ],
+     "check_max_m": 40.21001908674035,
+     "loo_rmse_m": 12.784273710476976,
+     "loo_p90_m": 18.56409245800145,
+     "block_cv_rmse_m": 214.06240393499172,
+     "moran_I_E": [
+      -0.11060804734742702,
+      0.328
+     ],
+     "moran_I_N": [
+      -0.07095695709091739,
+      0.757
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 13,
+     "n_check": 7,
+     "fit_rmse_m": 6.449063833649784,
+     "check_rmse_m": 14.533757239993124,
+     "check_rmse_boot95": [
+      13.694671414802066,
+      32.16575247503697
+     ],
+     "check_max_m": 32.842623541253886,
+     "loo_rmse_m": 13.557453198141314,
+     "loo_p90_m": 21.21203438768315,
+     "block_cv_rmse_m": 36.63070193959319,
+     "moran_I_E": [
+      -0.012145581811453103,
+      0.493
+     ],
+     "moran_I_N": [
+      -0.0019431044445353308,
+      0.455
+     ]
+    }
+   },
+   "chosen": "tps",
+   "extent_km": [
+    9.9,
+    10.1
+   ]
+  },
+  "soi_48I14": {
+   "params_effective": {
+    "min_ncc": 0.3,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "soi",
+   "label": "Survey of India 48 I/14 (1924)",
+   "n_candidates": 157,
+   "n_pass1": 30,
+   "n_ties": 28,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 25,
+    "bridge": 0,
+    "tank": 1,
+    "village": 2,
+    "worship": 0
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 201.24264998119375,
+    "rmse_check_m": 190.33617763894745,
+    "median_m": 201.58196607774624,
+    "p90_m": 253.91280369253258,
+    "max_m": 282.38630690998076,
+    "mean_shift_EN_m": [
+     -105.2,
+     160.3
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 19,
+     "n_check": 9,
+     "fit_rmse_m": 42.97308251335401,
+     "check_rmse_m": 75.05131917201116,
+     "check_rmse_boot95": [
+      70.66279494595747,
+      89.1806976658565
+     ],
+     "check_max_m": 175.79738656701636,
+     "loo_rmse_m": 59.8529049188339,
+     "loo_p90_m": 75.32800015462955,
+     "block_cv_rmse_m": 70.56124246570997,
+     "moran_I_E": [
+      0.06615263619471626,
+      0.183
+     ],
+     "moran_I_N": [
+      0.05109834692031206,
+      0.255
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 19,
+     "n_check": 9,
+     "fit_rmse_m": 41.237121825770565,
+     "check_rmse_m": 68.81423362651758,
+     "check_rmse_boot95": [
+      56.83130535950708,
+      116.22844065156595
+     ],
+     "check_max_m": 161.1018500577151,
+     "loo_rmse_m": 67.39023332464595,
+     "loo_p90_m": 134.31293115885296,
+     "block_cv_rmse_m": 96.02269037874633,
+     "moran_I_E": [
+      -0.04244838884187643,
+      0.977
+     ],
+     "moran_I_N": [
+      -0.0347571971602919,
+      0.955
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 19,
+     "n_check": 9,
+     "fit_rmse_m": 34.74998401395244,
+     "check_rmse_m": 82.39742003521204,
+     "check_rmse_boot95": [
+      73.53554848138258,
+      1164.6909986432756
+     ],
+     "check_max_m": 174.53754786788895,
+     "loo_rmse_m": 137.9105207348592,
+     "loo_p90_m": 205.59929015479892,
+     "block_cv_rmse_m": 1302.8446471863479,
+     "moran_I_E": [
+      -0.02568699320893885,
+      0.829
+     ],
+     "moran_I_N": [
+      -0.03162178296982623,
+      0.874
+     ]
+    },
+    "tps": {
+     "smoothing": 1000.0,
+     "n_control": 19,
+     "n_check": 9,
+     "fit_rmse_m": 42.93801215690932,
+     "check_rmse_m": 75.0125247836835,
+     "check_rmse_boot95": [
+      71.00926081275622,
+      85.24004790975914
+     ],
+     "check_max_m": 175.69784948130723,
+     "loo_rmse_m": 59.80593360886547,
+     "loo_p90_m": 75.02550158414834,
+     "block_cv_rmse_m": 70.46026092181467,
+     "moran_I_E": [
+      0.06489735731036736,
+      0.169
+     ],
+     "moran_I_N": [
+      0.05002353704853871,
+      0.234
+     ]
+    }
+   },
+   "chosen": "affine",
+   "extent_km": [
+    20.1,
+    23.0
+   ]
+  },
+  "soi_48I10": {
+   "params_effective": {
+    "min_ncc": 0.3,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "soi",
+   "label": "Survey of India 48 I/10 (1924)",
+   "n_candidates": 221,
+   "n_pass1": 24,
+   "n_ties": 54,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 40,
+    "bridge": 0,
+    "tank": 0,
+    "village": 14,
+    "worship": 0
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 628.8046853213316,
+    "rmse_check_m": 595.3523285189739,
+    "median_m": 623.9385011502128,
+    "p90_m": 855.8566971398876,
+    "max_m": 1016.0034022994178,
+    "mean_shift_EN_m": [
+     510.5,
+     121.0
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 38,
+     "n_check": 16,
+     "fit_rmse_m": 56.22661864908394,
+     "check_rmse_m": 53.8168001447489,
+     "check_rmse_boot95": [
+      46.77144275216357,
+      67.25774167874008
+     ],
+     "check_max_m": 98.152537816939,
+     "loo_rmse_m": 57.33616229944841,
+     "loo_p90_m": 94.90862810353947,
+     "block_cv_rmse_m": 55.863887409995534,
+     "moran_I_E": [
+      -0.04687380064659768,
+      0.439
+     ],
+     "moran_I_N": [
+      0.026268993308554416,
+      0.321
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 38,
+     "n_check": 16,
+     "fit_rmse_m": 55.57280626139592,
+     "check_rmse_m": 53.62711378472658,
+     "check_rmse_boot95": [
+      48.10272901183538,
+      77.3718519386841
+     ],
+     "check_max_m": 94.05995156340859,
+     "loo_rmse_m": 62.00755748427704,
+     "loo_p90_m": 102.88333907457229,
+     "block_cv_rmse_m": 69.87125559218785,
+     "moran_I_E": [
+      -0.044682179724230255,
+      0.524
+     ],
+     "moran_I_N": [
+      0.024341115510317948,
+      0.351
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 38,
+     "n_check": 16,
+     "fit_rmse_m": 49.0374171288286,
+     "check_rmse_m": 51.273864550158116,
+     "check_rmse_boot95": [
+      49.99985974031044,
+      110.20354792712982
+     ],
+     "check_max_m": 108.19758963915397,
+     "loo_rmse_m": 61.942355415580955,
+     "loo_p90_m": 104.59483561265685,
+     "block_cv_rmse_m": 109.60983452336494,
+     "moran_I_E": [
+      -0.0666252425937009,
+      0.261
+     ],
+     "moran_I_N": [
+      -0.035119540179017,
+      0.66
+     ]
+    },
+    "tps": {
+     "smoothing": 1000.0,
+     "n_control": 38,
+     "n_check": 16,
+     "fit_rmse_m": 56.17288073644773,
+     "check_rmse_m": 53.80392625517353,
+     "check_rmse_boot95": [
+      48.31127584787238,
+      66.24813203068565
+     ],
+     "check_max_m": 98.08348656201092,
+     "loo_rmse_m": 57.36897823611137,
+     "loo_p90_m": 94.94035923995702,
+     "block_cv_rmse_m": 55.89243788546686,
+     "moran_I_E": [
+      -0.047124175193253834,
+      0.439
+     ],
+     "moran_I_N": [
+      0.025926011671833712,
+      0.335
+     ]
+    }
+   },
+   "chosen": "affine",
+   "extent_km": [
+    25.3,
+    24.9
+   ]
+  },
+  "corona_da222_belgaum": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1045-1102DA222 (31 Jan 1968) Belgaum",
+   "n_candidates": 162,
+   "n_pass1": 29,
+   "n_ties": 29,
+   "n_blunders": 1,
+   "kinds": {
+    "junction": 18,
+    "bridge": 1,
+    "tank": 3,
+    "village": 2,
+    "worship": 5
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 98.97201958836045,
+    "rmse_check_m": 108.91277595907643,
+    "median_m": 47.94670710228504,
+    "p90_m": 143.33699001830155,
+    "max_m": 281.72644171230826,
+    "mean_shift_EN_m": [
+     -53.9,
+     29.5
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 20,
+     "n_check": 9,
+     "fit_rmse_m": 23.897352748325304,
+     "check_rmse_m": 22.36509862452549,
+     "check_rmse_boot95": [
+      19.542068103559043,
+      57.15049519122398
+     ],
+     "check_max_m": 40.90936515941026,
+     "loo_rmse_m": 29.25079512523399,
+     "loo_p90_m": 49.76546542243436,
+     "block_cv_rmse_m": 48.36746833152101,
+     "moran_I_E": [
+      0.1939278395683985,
+      0.001
+     ],
+     "moran_I_N": [
+      0.1726471134611143,
+      0.001
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 20,
+     "n_check": 9,
+     "fit_rmse_m": 6.113905388936473,
+     "check_rmse_m": 9.175783861974038,
+     "check_rmse_boot95": [
+      9.150950733521517,
+      80.54460601414601
+     ],
+     "check_max_m": 17.432709232769398,
+     "loo_rmse_m": 10.45204067177418,
+     "loo_p90_m": 16.15873849395141,
+     "block_cv_rmse_m": 19.34974765729909,
+     "moran_I_E": [
+      0.10450676191090683,
+      0.007
+     ],
+     "moran_I_N": [
+      -0.010926596463661288,
+      0.539
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 20,
+     "n_check": 9,
+     "fit_rmse_m": 4.616180823741553,
+     "check_rmse_m": 26.353417505025174,
+     "check_rmse_boot95": [
+      15.827076669016503,
+      1249.1404725384186
+     ],
+     "check_max_m": 72.57797109008146,
+     "loo_rmse_m": 13.31887424035955,
+     "loo_p90_m": 24.816086778936576,
+     "block_cv_rmse_m": 65.89896628599156,
+     "moran_I_E": [
+      -0.02258911301963669,
+      0.695
+     ],
+     "moran_I_N": [
+      -0.09228840389164848,
+      0.166
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 20,
+     "n_check": 9,
+     "fit_rmse_m": 4.406226414014509,
+     "check_rmse_m": 9.162819730265682,
+     "check_rmse_boot95": [
+      8.520675866216397,
+      28.67022459233836
+     ],
+     "check_max_m": 16.011230141714936,
+     "loo_rmse_m": 10.973639612036639,
+     "loo_p90_m": 13.346527718920433,
+     "block_cv_rmse_m": 30.86587030407835,
+     "moran_I_E": [
+      -0.0058022021251935155,
+      0.515
+     ],
+     "moran_I_N": [
+      -0.011491069178217338,
+      0.504
+     ]
+    }
+   },
+   "chosen": "poly2",
+   "extent_km": [
+    11.2,
+    7.6
+   ]
+  },
+  "soi_48I09": {
+   "params_effective": {
+    "min_ncc": 0.3,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "soi",
+   "label": "Survey of India 48 I/09 (1924)",
+   "n_candidates": 199,
+   "n_pass1": 21,
+   "n_ties": 24,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 21,
+    "bridge": 0,
+    "tank": 0,
+    "village": 2,
+    "worship": 1
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 158.80852754856303,
+    "rmse_check_m": 158.49671236389594,
+    "median_m": 157.21896549587194,
+    "p90_m": 199.12815570495863,
+    "max_m": 259.78910588482483,
+    "mean_shift_EN_m": [
+     -14.0,
+     136.5
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 16,
+     "n_check": 8,
+     "fit_rmse_m": 36.904751268735204,
+     "check_rmse_m": 54.128887705299285,
+     "check_rmse_boot95": [
+      52.996678893459155,
+      77.73966692212457
+     ],
+     "check_max_m": 89.89680392322852,
+     "loo_rmse_m": 48.22516882795751,
+     "loo_p90_m": 75.65351831423703,
+     "block_cv_rmse_m": 80.69664813049215,
+     "moran_I_E": [
+      0.1816190002227988,
+      0.058
+     ],
+     "moran_I_N": [
+      0.37427073049302284,
+      0.005
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 16,
+     "n_check": 8,
+     "fit_rmse_m": 28.487630382204205,
+     "check_rmse_m": 44.78772817241269,
+     "check_rmse_boot95": [
+      41.46454779172074,
+      553.719466264055
+     ],
+     "check_max_m": 78.09243520375749,
+     "loo_rmse_m": 43.51041977249401,
+     "loo_p90_m": 68.35649849097753,
+     "block_cv_rmse_m": 114.71530416658776,
+     "moran_I_E": [
+      0.1008816067328695,
+      0.203
+     ],
+     "moran_I_N": [
+      0.07801550132717461,
+      0.267
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 16,
+     "n_check": 8,
+     "fit_rmse_m": 14.555855006856955,
+     "check_rmse_m": 153.42894590778778,
+     "check_rmse_boot95": [
+      153.4240071904797,
+      3642.0838893714454
+     ],
+     "check_max_m": 406.29072114039496,
+     "loo_rmse_m": 71.23025351703305,
+     "loo_p90_m": 101.41889209796678,
+     "block_cv_rmse_m": 453.04292381147303,
+     "moran_I_E": [
+      -0.004388503291861206,
+      0.657
+     ],
+     "moran_I_N": [
+      -0.009078252055389592,
+      0.709
+     ]
+    },
+    "tps": {
+     "smoothing": 10.0,
+     "n_control": 16,
+     "n_check": 8,
+     "fit_rmse_m": 29.253036319011276,
+     "check_rmse_m": 48.061886255372634,
+     "check_rmse_boot95": [
+      46.70976350024583,
+      68.68829982621513
+     ],
+     "check_max_m": 76.83969066347557,
+     "loo_rmse_m": 41.06639059907491,
+     "loo_p90_m": 60.635664726335975,
+     "block_cv_rmse_m": 77.0730434283134,
+     "moran_I_E": [
+      0.11692262584343992,
+      0.136
+     ],
+     "moran_I_N": [
+      0.23268931432281456,
+      0.023
+     ]
+    }
+   },
+   "chosen": "affine",
+   "extent_km": [
+    23.2,
+    14.9
+   ]
+  },
+  "corona_da028_srirangapatna": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1040-1039DA028 (2 Apr 1967) Srirangapatna",
+   "n_candidates": 128,
+   "n_pass1": 49,
+   "n_ties": 48,
+   "n_blunders": 3,
+   "kinds": {
+    "junction": 30,
+    "bridge": 8,
+    "tank": 2,
+    "village": 8,
+    "worship": 0
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 54.96924071687877,
+    "rmse_check_m": 61.42329021408965,
+    "median_m": 33.51785362726207,
+    "p90_m": 100.26038586910077,
+    "max_m": 140.43541429961118,
+    "mean_shift_EN_m": [
+     30.7,
+     6.1
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 33,
+     "n_check": 15,
+     "fit_rmse_m": 25.885389339760884,
+     "check_rmse_m": 32.652872155665875,
+     "check_rmse_boot95": [
+      29.062804762068367,
+      43.75972325337228
+     ],
+     "check_max_m": 92.0169374958446,
+     "loo_rmse_m": 30.933182955488714,
+     "loo_p90_m": 42.79170991102072,
+     "block_cv_rmse_m": 45.36577875255008,
+     "moran_I_E": [
+      0.1786349322553359,
+      0.001
+     ],
+     "moran_I_N": [
+      0.0489937133612419,
+      0.021
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 33,
+     "n_check": 15,
+     "fit_rmse_m": 9.381706488910718,
+     "check_rmse_m": 13.738599576125285,
+     "check_rmse_boot95": [
+      13.268654028273737,
+      22.053145324863216
+     ],
+     "check_max_m": 34.46353134446573,
+     "loo_rmse_m": 12.196101183597458,
+     "loo_p90_m": 19.616432204395245,
+     "block_cv_rmse_m": 13.209163324470861,
+     "moran_I_E": [
+      -0.0062686583646847085,
+      0.573
+     ],
+     "moran_I_N": [
+      -0.019893469620085195,
+      0.932
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 33,
+     "n_check": 15,
+     "fit_rmse_m": 8.720227902626112,
+     "check_rmse_m": 13.718552979887363,
+     "check_rmse_boot95": [
+      14.241461919725536,
+      93.37097324088576
+     ],
+     "check_max_m": 36.12087357218737,
+     "loo_rmse_m": 13.304975397751509,
+     "loo_p90_m": 19.968907097406543,
+     "block_cv_rmse_m": 33.718699916607875,
+     "moran_I_E": [
+      -0.016098946848603756,
+      0.832
+     ],
+     "moran_I_N": [
+      -0.03384784667467169,
+      0.639
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 33,
+     "n_check": 15,
+     "fit_rmse_m": 6.428446632744288,
+     "check_rmse_m": 17.82121428031397,
+     "check_rmse_boot95": [
+      17.54768116224175,
+      31.85881868378654
+     ],
+     "check_max_m": 37.15500971573891,
+     "loo_rmse_m": 15.068227396528865,
+     "loo_p90_m": 26.253647374642796,
+     "block_cv_rmse_m": 27.109684327957225,
+     "moran_I_E": [
+      -0.028661908993875745,
+      0.789
+     ],
+     "moran_I_N": [
+      -0.03897207546257352,
+      0.478
+     ]
+    }
+   },
+   "chosen": "poly2",
+   "extent_km": [
+    11.7,
+    9.5
+   ]
+  },
+  "corona_da077_hampi": {
+   "params_effective": {
+    "min_ncc": 0.2,
+    "agree_m": 15,
+    "min_sep_m": 300,
+    "min_z": 0.0,
+    "res_m": 4,
+    "half_m": [
+     350,
+     500
+    ],
+    "search2_m": 120
+   },
+   "exclude_kinds": [],
+   "kind": "corona",
+   "label": "CORONA KH-4A DS1025-1071DA077 (10 Oct 1965) Hampi",
+   "n_candidates": 95,
+   "n_pass1": 56,
+   "n_ties": 69,
+   "n_blunders": 0,
+   "kinds": {
+    "junction": 21,
+    "bridge": 10,
+    "tank": 4,
+    "village": 17,
+    "worship": 17
+   },
+   "status": "ok",
+   "before": {
+    "rmse_all_m": 52.390749552277434,
+    "rmse_check_m": 52.88920561148171,
+    "median_m": 44.67859332504575,
+    "p90_m": 79.41508998153392,
+    "max_m": 100.04576327505464,
+    "mean_shift_EN_m": [
+     42.6,
+     -0.5
+    ]
+   },
+   "models": {
+    "affine": {
+     "smoothing": 0.0,
+     "n_control": 48,
+     "n_check": 21,
+     "fit_rmse_m": 12.561507678923654,
+     "check_rmse_m": 15.996827001461106,
+     "check_rmse_boot95": [
+      15.344870254204613,
+      17.752148902858096
+     ],
+     "check_max_m": 36.5984213877004,
+     "loo_rmse_m": 14.507718165395941,
+     "loo_p90_m": 22.91216402718121,
+     "block_cv_rmse_m": 25.22206447916468,
+     "moran_I_E": [
+      0.14375256767922548,
+      0.001
+     ],
+     "moran_I_N": [
+      0.08336170990678063,
+      0.002
+     ]
+    },
+    "poly2": {
+     "smoothing": 0.0,
+     "n_control": 48,
+     "n_check": 21,
+     "fit_rmse_m": 4.67599421468309,
+     "check_rmse_m": 6.80673905351355,
+     "check_rmse_boot95": [
+      6.375928936120355,
+      8.542455249254187
+     ],
+     "check_max_m": 18.257835099153635,
+     "loo_rmse_m": 5.837695124128254,
+     "loo_p90_m": 9.739655975616737,
+     "block_cv_rmse_m": 11.214728430680648,
+     "moran_I_E": [
+      0.07161626122703528,
+      0.003
+     ],
+     "moran_I_N": [
+      0.040489567137590804,
+      0.018
+     ]
+    },
+    "poly3": {
+     "smoothing": 0.0,
+     "n_control": 48,
+     "n_check": 21,
+     "fit_rmse_m": 4.272173129229471,
+     "check_rmse_m": 7.757473444503901,
+     "check_rmse_boot95": [
+      6.493820709090872,
+      12.837733159321997
+     ],
+     "check_max_m": 17.479559778556602,
+     "loo_rmse_m": 6.159004640010801,
+     "loo_p90_m": 9.725626708471736,
+     "block_cv_rmse_m": 18.77555137701368,
+     "moran_I_E": [
+      0.043267664216889413,
+      0.019
+     ],
+     "moran_I_N": [
+      0.02806471214992186,
+      0.056
+     ]
+    },
+    "tps": {
+     "smoothing": 1.0,
+     "n_control": 48,
+     "n_check": 21,
+     "fit_rmse_m": 3.389711509075103,
+     "check_rmse_m": 7.925393388323658,
+     "check_rmse_boot95": [
+      7.690909556497996,
+      11.084262224772347
+     ],
+     "check_max_m": 19.222674101718894,
+     "loo_rmse_m": 5.645846399252921,
+     "loo_p90_m": 8.606680353133115,
+     "block_cv_rmse_m": 15.122353693693439,
+     "moran_I_E": [
+      -0.014595103989082349,
+      0.994
+     ],
+     "moran_I_N": [
+      -0.011271914192813329,
+      0.86
+     ]
+    }
+   },
+   "chosen": "poly2",
+   "extent_km": [
+    11.8,
+    11.4
+   ]
+  }
+ },
+ "note": "params holds the defaults; each target lists the values actually used in params_effective",
+ "selection_rule": "Candidates in order of complexity: affine, poly2, poly3, regularised TPS. Score = leave-spatial-block-out RMSE. Choose the simplest model whose score is within 10% of the lowest. Headline accuracy = that block-CV RMSE; LOO and check-point RMSE are reported as secondary figures.",
+ "osm_reference": {
+  "n": 44,
+  "rms_m": 10.510741259215822,
+  "median_m": 6.45
+ }
+}

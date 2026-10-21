@@ -26,3 +26,10 @@
 - Checklist: all figure checks met (600 dpi LZW TIFF, PDF Type42 Arial, 7–9 pt, widths 90/140/190 mm); DOCX/XLSX no vertical rules.
 - Lite copy refreshed: ../kittur_map_lite (64 MB), ../kittur_basemap_lite.zip (60 MB), large layers WebP.
 - 2026-10-20 21:18 IST: findings.md reconciled to pipeline results/ and tables/ (backup release/findings_pre_reconcile_20261020.md); new stage 10 map (folium 0.20.0), lite -> stage 11; Table 4 Belgaum row fixed (p. 534, oval 52.5 ha); Kittur georef refine attempt -> results/georef_kittur_refine.json (not applied)
+
+## 2026-10-21 (IST) - desk validation (stages 12-14)
+- Backup before changes: /workspace/kittur_map_backup_20261021 (full copy). Raw data untouched.
+- New: kittur/validate.py; stages s12_validation.py, s13_propagation.py, s14_evidence.py; params/evidence.yaml; params/validation_models/*.json; config blocks `validation`, `propagation`; run.py order 00-07, 12-14, 08-11.
+- Outputs: results/validation.json, results/validation/*_ties.csv, *_blunders.csv, *_qa.png, results/validation_sensitivity.csv, results/propagation.json, results/evidence_table.csv, manuscript/tables/Table2b_georeferencing_validation.csv, Table8_evidence.csv, manuscript/figures/FigS8_georef_residuals.png/.pdf, previews/evidence_kittur.png, evidence_old_sangoli.png, derived/corona/corona_1968_kittur_v2.tif, corona_1968_sangolli_v2.tif, derived/soi/SoI_48_I_14_1924_kittur_sangolli_v2.tif, derived/vectors/corona1968_features_v2.gpkg.
+- `python run.py all`: all 15 stages ok (log results/run_all_20261021.log).
+- Not yet propagated into Tables 3/T4 or main figures (stage 07 / v1 numbers still there); to switch at the writing stage.

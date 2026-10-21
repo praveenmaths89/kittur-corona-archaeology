@@ -58,7 +58,7 @@ def t1_sources(C, R):
     return d, 'Data sources.', ['CORONA dates are acquisition dates; scan pieces are USGS 7 µm scans. Scene identifiers of the median composites are listed in the epoch JSON files (raw/landsat, raw/sentinel, sites/*/raw/epochs).']
 
 
-def t2_georef(C, R):
+def t2_georef_v1(C, R):   # superseded by t2_georef (stage 12); kept for the record, not written
     A = json.load(open(R / 'georef_accuracy.json')); co = A['coreg_1967']
     n = lambda k: A.get(k, {})
     rows = [
@@ -86,7 +86,7 @@ def t2_georef(C, R):
         'Checkpoints were not used in the fits.']
 
 
-def t3_dimensions(C, R):
+def t3_dimensions_stage07(C, R):   # superseded by t3_dimensions (stage 13); kept for the regression record
     M = json.load(open(R / 'montecarlo.json')); L = json.load(open(R / 'landscape.json'))
     A = M['areas_ha_or_length_m']; rows = []
     for k in ('lower_fort', 'ring_outer', 'ring_middle', 'ring_core', 'pond_nw', 'pond_e'):
@@ -201,6 +201,58 @@ def t7_cross(C, R):
     return d, 'Cross-site summary of the workflow.', [
         '2026 classes in the 5 x 5 km crop (Kittur: 2026 dry-season median; others: single scene; see Fig. 9). 1960s classes are panchromatic tone thresholds and are crude. At Hampi bare granite falls in the built/bare class.',
         'Epoch metrics within 1.5 km of each fort centre (Fig. 10).']
+
+
+
+
+
+SHORT = lambda lab: (lab.replace('CORONA KH-4A ', 'CORONA ').replace('Survey of India ', 'SoI ')
+                     .replace('DS1045-1102', '').replace('DS1040-1039', '').replace('DS1025-1071', ''))
+
+
+def t2_georef(C, R):
+    """Table 2 (v3): accuracy of every source before and after stage 12, from results/validation.json only."""
+    V = json.load(open(R / 'validation.json')); rows = []
+    for name, t in V['targets'].items():
+        if t.get('status') != 'ok':
+            continue
+        m = t['models'][t['chosen']]; b = m['check_rmse_boot95']
+        rows.append((SHORT(t['label']), 'transfer' if C['validation']['targets'][name].get('transfer') else 'Kittur region',
+                     t['n_ties'], f"{t['before']['rmse_all_m']:.0f}", t['chosen'], f"{m['block_cv_rmse_m']:.0f}", f"{m['loo_rmse_m']:.0f}",
+                     f"{m['check_rmse_m']:.0f} ({b[0]:.0f}-{b[1]:.0f})", f"{m['moran_I_E'][1]:.3f} / {m['moran_I_N'][1]:.3f}"))
+    d = pd.DataFrame(rows, columns=['Source', 'Role', 'Ties', 'Before (m)', 'Model', 'Block-CV (m)', 'LOO (m)', 'Check (95% boot.)', "Moran's I p (E/N)"])
+    return d, 'Georeferencing accuracy before (recorded transform) and after re-estimation from automatic open-data tie points.', [
+        'Before: RMSE of the recorded transform at all ties. Block-CV: leave-spatial-block-out RMSE of the chosen model, the headline figure. LOO: leave-one-out RMSE. Check: RMSE at the held-out ~30% of ties, with a bootstrap 95% interval.',
+        f"Model selection rule: {V.get('selection_rule', '')}",
+        "Moran's I: two-sided permutation p-values of the LOO residuals; with 18 tests, p < 0.003 is significant after Bonferroni correction."]
+
+
+def t3_dimensions(C, R):
+    """Table 3 (v3): dimensions from stage 13 (empirical error budget), nominal = chosen stage-12 model."""
+    P = json.load(open(R / 'propagation.json')); M = P['metrics']; lab = {}
+    import yaml as _y
+    for f in _y.safe_load(open(C.code('params/features_1968.yaml')))['features']:
+        lab[f['id']] = f.get('name', f['id'])
+    rows = []
+    ci = lambda d, nd: f"{d['v2']:.{nd}f}", lambda d, nd: f"{d['median']:.{nd}f} ({d['lo95']:.{nd}f}-{d['hi95']:.{nd}f})"
+    for k, d in M.items():
+        if k.startswith('area_ha_') or k.startswith('length_m_'):
+            fid = k.split('_', 2)[2]; unit = 'Area (ha)' if k.startswith('area') else 'Length (m)'; nd = 2 if unit == 'Area (ha)' else 0
+            rows.append((lab.get(fid, fid), unit, ci[0](d, nd), ci[1](d, nd)))
+    for k, a, b_, nd in (('fort_citadel_m', 'Lower fort to citadel core', 'Centroid distance (m)', 0),
+                         ('citadel_bearing_deg', 'Lower fort to citadel core', 'Bearing (deg)', 0),
+                         ('iou_fort_osm', 'Lower fort vs OSM outline', 'Intersection over union', 2),
+                         ('fort_centroid_to_osm_m', 'Lower fort vs OSM outline', 'Centroid offset (m)', 0),
+                         ('vis5_lower_km2', 'Lower-fort centre', 'Visible area within 5 km (km2)', 1)):
+        rows.append((a, b_, ci[0](M[k], nd), ci[1](M[k], nd)))
+    rows.append(('Citadel summit', 'Elevation, GLO-30 (m)', f"{M['summit_z']['v2']:.1f}", 'fixed by the DSM (see text)'))
+    rows.append(('Citadel summit', 'Visible area within 5 km (km2)', f"{M['vis5_citadel_km2']['v2']:.1f}", 'fixed by the DSM (see text)'))
+    d = pd.DataFrame(rows, columns=['Feature', 'Measure', 'Nominal', 'Median (95% interval)'])
+    eb = P['error_budget']; tr = eb['threshold_sensitivity']['target_range_m']
+    return d, 'Dimensions of the Kittur features digitised on CORONA DA224 (31 January 1968), with the full error budget.', [
+        f"Nominal: chosen stage-12 model ({P['kittur_model']['kind']}, {P['kittur_model']['n_ties']} ties). Interval: {P['n']} realisations, each a bootstrap transform plus local error topped up to a target RMSE drawn from {tr[0]:.0f}-{tr[1]:.0f} m (tie-threshold sensitivity on the block-CV scale), {eb['vertex_noise_m']} m vertex noise and a {eb['digitising_sd_m']:.0f} m systematic line offset per feature.",
+        'Viewsheds: 720 rays to 10 km on GLO-30, observer 10 m above ground, refraction coefficient 0.13. The stage-06 map (2880 rays, 25 km) gives slightly larger areas because of finer ray spacing.',
+        'The citadel observer is the highest GLO-30 cell inside the outer ring; it is the same cell in every realisation, so its elevation and viewshed carry vertical error only (Section 3.4).']
 
 
 TABLES = [('Table1_data_sources', t1_sources), ('Table2_georeferencing_accuracy', t2_georef), ('Table3_dimensions', t3_dimensions),

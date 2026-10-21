@@ -1,0 +1,111 @@
+# Evidence table for features read from CORONA 1967-68 (stage 14). One entry per feature/reading.
+# Each line of evidence: source, verdict (support | neutral | contradict | n/a) and what was seen.
+# Readings of the 1924 SoI sheet, Landsat and Sentinel-2 were made by eye on the stage-12 re-georeferenced
+# crops (derived/soi/SoI_48_I_14_1924_kittur_sangolli_v2.tif, derived/corona/*_v2.tif) and the epoch medians;
+# automatic quantities (OSM overlap, DEM, propagation) are added by the stage from results/.
+# Grading rule (applied in code, not by hand):
+#   Only POSITIONAL sources independent of CORONA count (SoI 1924, Landsat 1990, Sentinel-2 2026, DEM, OSM).
+#   The gazetteer attests the KIND of feature but not where it is, so it is recorded as context, not support.
+#   confirmed   = >= 2 positional supporting sources and no contradiction;
+#   plausible   = exactly 1 positional supporting source and no contradiction;
+#   contradicted = at least one positional source contradicts the reading (v3);
+#   unsupported = no positional support (CORONA and/or text only), or a non-positional contradiction.
+# 'confirmed' means the FEATURE is corroborated at that place; it does not date it to 1824.
+features:
+  - id: lower_fort
+    reading: "Lower-fort enclosure, c. 360 x 400 m (inner wall line)"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Lawe 1825 (Gazetteer 1884 p. 577): 'a lower fort and a citadel'; Gazetteer p. 578 (1882): walls and two ditches. Kind only, no position."}
+      - {source: soi1924, verdict: support, note: "48 I/14: oval enclosure outlined by a fine line with an inner dotted line, labelled 'Market (Mon)', building inside; same place and size order."}
+      - {source: landsat1990, verdict: neutral, note: "30 m: bright/dark enclosure patch at the place, outline not resolved."}
+      - {source: sentinel2026, verdict: support, note: "Wall ring (bright) around a darker interior visible at 10 m, coincident with the v2 polygon."}
+      - {source: osm, verdict: support, note: "OSM way/97204879 'Kitturu Fort'; overlap with the v2 polygon reported automatically (IoU)."}
+  - id: citadel_hill
+    reading: "Separate hillock c. 530 m SSW of the lower fort (the 'citadel' reading)"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Lawe: 'upper fort or citadel'; Welsh 1828: 'nowhere commanded though conspicuous for many miles'. Kind only."}
+      - {source: soi1924, verdict: support, note: "48 I/14: closed contour hill with spot height 2528 ft (770.5 m) and a dotted outline at the same place, W of Kittur town."}
+      - {source: dem, verdict: support, note: "Copernicus GLO-30 summit 769.4 m inside the outer ring (1.1 m from the 1924 spot height); 1967 stereo DEM raised core."}
+      - {source: sentinel2026, verdict: support, note: "Vegetated mound surrounded by built-up area at the place."}
+  - id: citadel_rings
+    reading: "Three concentric rings on the hillock (outer 280 x 316 m, middle, inner core)"
+    evidence:
+      - {source: gazetteer, verdict: neutral, note: "No description of concentric walls."}
+      - {source: soi1924, verdict: support, note: "One closed contour plus one dotted ring around the summit; two of the three rings have a counterpart, not all three."}
+      - {source: sentinel2026, verdict: neutral, note: "Ring edges not resolved under tree cover at 10 m."}
+      - {source: corona1967, verdict: n/a, note: "Rings present on both the Nov 1967 and Jan 1968 frames (not independent of CORONA; rules out a scan artefact only)."}
+  - id: ring_core_quarry
+    placement: discussion   # v3: interpretive reading, reported in the Discussion/Supplement only
+    reading: "Dark inner core = Lawe's 'deep quarry in its centre'"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Lawe 1825: 'with a deep quarry in its centre'."}
+      - {source: dem, verdict: contradict, note: "Both DEMs show a summit, not a pit (stereo centre minus rim +2.4 m)."}
+      - {source: soi1924, verdict: contradict, note: "Spot height and closed contour mark a summit at the centre; no depression symbol."}
+  - id: moat_nw
+    reading: "North/west moat (dark band) c. 120 m outside the enclosure"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "1882: ditch about 16 ft deep near the gateway; second ditch 80 yards beyond. Kind only."}
+      - {source: soi1924, verdict: neutral, note: "No ditch or water symbol along the N/W side; a road loops round the enclosure there."}
+      - {source: sentinel2026, verdict: neutral, note: "No consistent NDVI/SAR contrast along the line (findings 5); partly built over."}
+      - {source: osm, verdict: neutral, note: "An OSM water body lies c. 60 m from the line (possible remnant), not along it."}
+  - id: outer_east
+    reading: "Tree-lined outer wall/ditch line on the east"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "'About eighty yards beyond is a second ditch and remains of the fort walls' (1882). Kind and rough spacing (73 m vs 54 m measured)."}
+      - {source: soi1924, verdict: neutral, note: "A road runs N-S on that side; no wall symbol."}
+      - {source: sentinel2026, verdict: neutral, note: "Not distinguishable from the modern street line."}
+  - id: pond_nw
+    reading: "Round pond inside the NW corner (0.23 ha)"
+    evidence:
+      - {source: soi1924, verdict: neutral, note: "No water symbol inside the enclosure."}
+      - {source: sentinel2026, verdict: neutral, note: "Small dark patch at the place, not separable from shadow/trees at 10 m."}
+      - {source: osm, verdict: neutral, note: "No OSM water body within 100 m."}
+  - id: pond_e
+    reading: "Round pond outside the east wall (0.48 ha)"
+    evidence:
+      - {source: soi1924, verdict: neutral, note: "Not shown (wells are marked by blue dots nearby)."}
+      - {source: sentinel2026, verdict: support, note: "Dark round water body at the same place in 2026."}
+      - {source: osm, verdict: support, note: "OSM water polygon (0.63 ha) at the same place (distance 0 m)."}
+  - id: old_sangoli
+    reading: "Dense pre-dam village on the Malaprabha's south bank, now at the reservoir edge"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Sangoli village and small fort listed (British post in 1803). Kind only."}
+      - {source: soi1924, verdict: support, note: "48 I/14 labels 'Sangoli' on the south bank at the sheet's north edge (position check limited by the sheet edge)."}
+      - {source: sentinel2026, verdict: support, note: "Site lies in the reservoir drawdown zone (dry in the Jan-Mar 2026 median, open water c. 20 m north); no village today."}
+      - {source: osm, verdict: support, note: "Within c. 20 m of the OSM reservoir outline (inside/outside depends on the georeference; see propagation)."}
+  - id: sangoli_fort
+    reading: "Sangoli small fort within the 1968 village"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Fort named in the Gazetteer. Kind only."}
+      - {source: soi1924, verdict: neutral, note: "No fort symbol."}
+      - {source: corona1968, verdict: n/a, note: "No fort outline resolved in DF224 or DA223."}
+  - id: tanks_pre1968
+    reading: "7 OSM tanks (>= 1 ha) already dark/water in Jan 1968"
+    evidence:
+      - {source: soi1924, verdict: neutral, note: "Not checked tank by tank (the 15 km mosaic uses extrapolated affines; see limitations)."}
+      - {source: osm, verdict: support, note: "Present as water bodies in 2026 (selection criterion, not independent of the reading of persistence)."}
+  - id: sampgaon_enclosure
+    reading: "Possible curvilinear enclosure trace S of Sampgaon (DA223)"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Sampgaon fort taken 1683. Kind only."}
+      - {source: soi1924, verdict: neutral, note: "Outside the re-georeferenced crops; not checked."}
+      - {source: sentinel2026, verdict: neutral, note: "None identifiable in 2026."}
+  - id: tigadi_perimeter
+    reading: "Straight W/S village edges at Tigadi as a possible earthen-fort perimeter"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Tigdi earthen fort listed. Kind only."}
+      - {source: sentinel2026, verdict: neutral, note: "Village edges altered."}
+  - id: siege_positions
+    placement: discussion   # v3: interpretive reading, reported in the Discussion/Supplement only
+    reading: "Advanced post, glacis crest, battery, escalade gap, camps (Trewman/Deacon 1824)"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Text describes them; no positions."}
+      - {source: soi1924, verdict: neutral, note: "Nothing marked."}
+      - {source: analysis, verdict: n/a, note: "Polygons are constructed from an ASSUMED East Gate; not located by evidence."}
+  - id: belgaum_moat
+    reading: "Belgaum fort moat ring, inner wall 58.0 ha (DA222)"
+    evidence:
+      - {source: gazetteer, verdict: support, note: "Moat 72 ft wide."}
+      - {source: soi1924, verdict: support, note: "48 I/09 shows the fort and moat at the place (compare_belgaum.png)."}
+      - {source: sentinel2026, verdict: support, note: "Moat ring and Kote Kere tank visible."}
+      - {source: osm, verdict: support, note: "OSM way/138292670 outline (51.8 ha)."}

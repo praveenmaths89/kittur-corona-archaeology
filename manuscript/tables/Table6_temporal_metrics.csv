@@ -1,8 +1,0 @@
-Epoch,Year,Scenes,Water within 600 m of Old Sangoli (ha),Water within 3 km (ha),"NDVI contrast, citadel mound","NDVI contrast, lower fort","Bare/built fraction, Kittur 1.5 km"
-CORONA 1968,1968,1,river channel only,-,-,-,-
-L1990,1990,4,0.1,2.4,0.032,0.078,0.34
-L2000,2000,4,0.5,5.8,0.034,0.091,0.37
-L2010,2009,4,11.4,48.7,0.044,0.090,0.38
-S2016,2017,4,11.7,44.2,0.120,0.124,0.34
-S2020,2020,4,99.4,652.2,0.180,0.114,0.33
-S2026,2026,3,47.3,360.7,0.167,0.097,0.35

@@ -1,0 +1,50 @@
+\begin{table*}[!htbp]
+\centering
+\scriptsize
+\caption{All candidate transforms for every source (RMSE, m). * chosen by the pre-specified rule.}
+\label{tab:smodels}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{p{0.42\linewidth}lrrrrr}
+\toprule
+Source & Model & Fit & Check & LOO & Block-CV & TPS smoothing \\
+\midrule
+DS1045-1102DA224 (31 Jan 1968) Kittur & affine & 23.8 & 15.4 & 26.0 & 40.7 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Kittur & poly2 * & 15.6 & 14.1 & 22.3 & 29.9 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Kittur & poly3 & 8.6 & 63.8 & 34.4 & 164.5 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Kittur & tps & 11.7 & 11.2 & 22.0 & 35.2 & 1 \\
+DS1045-1102DF224 (31 Jan 1968) Sangolli & affine & 26.1 & 21.0 & 31.8 & 73.4 & -- \\
+DS1045-1102DF224 (31 Jan 1968) Sangolli & poly2 * & 11.8 & 10.3 & 20.1 & 29.8 & -- \\
+DS1045-1102DF224 (31 Jan 1968) Sangolli & tps & 10.6 & 8.8 & 20.3 & 55.0 & 1 \\
+DS1045-1102DA224 (31 Jan 1968) Nandagad & affine & 20.2 & 25.7 & 26.0 & 53.2 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Nandagad & poly2 & 4.8 & 15.8 & 13.5 & 69.1 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Nandagad & poly3 & 2.6 & 16.8 & 12.8 & 214.1 & -- \\
+DS1045-1102DA224 (31 Jan 1968) Nandagad & tps * & 6.4 & 14.5 & 13.6 & 36.6 & 1 \\
+SoI 48 I/14 (1924) & affine * & 43.0 & 75.1 & 59.9 & 70.6 & -- \\
+SoI 48 I/14 (1924) & poly2 & 41.2 & 68.8 & 67.4 & 96.0 & -- \\
+SoI 48 I/14 (1924) & poly3 & 34.7 & 82.4 & 137.9 & 1302.8 & -- \\
+SoI 48 I/14 (1924) & tps & 42.9 & 75.0 & 59.8 & 70.5 & 1000 \\
+SoI 48 I/10 (1924) & affine * & 56.2 & 53.8 & 57.3 & 55.9 & -- \\
+SoI 48 I/10 (1924) & poly2 & 55.6 & 53.6 & 62.0 & 69.9 & -- \\
+SoI 48 I/10 (1924) & poly3 & 49.0 & 51.3 & 61.9 & 109.6 & -- \\
+SoI 48 I/10 (1924) & tps & 56.2 & 53.8 & 57.4 & 55.9 & 1000 \\
+DS1045-1102DA222 (31 Jan 1968) Belgaum & affine & 23.9 & 22.4 & 29.3 & 48.4 & -- \\
+DS1045-1102DA222 (31 Jan 1968) Belgaum & poly2 * & 6.1 & 9.2 & 10.5 & 19.3 & -- \\
+DS1045-1102DA222 (31 Jan 1968) Belgaum & poly3 & 4.6 & 26.4 & 13.3 & 65.9 & -- \\
+DS1045-1102DA222 (31 Jan 1968) Belgaum & tps & 4.4 & 9.2 & 11.0 & 30.9 & 1 \\
+SoI 48 I/09 (1924) & affine * & 36.9 & 54.1 & 48.2 & 80.7 & -- \\
+SoI 48 I/09 (1924) & poly2 & 28.5 & 44.8 & 43.5 & 114.7 & -- \\
+SoI 48 I/09 (1924) & poly3 & 14.6 & 153.4 & 71.2 & 453.0 & -- \\
+SoI 48 I/09 (1924) & tps & 29.3 & 48.1 & 41.1 & 77.1 & 10 \\
+DS1040-1039DA028 (2 Apr 1967) Srirangapatna & affine & 25.9 & 32.7 & 30.9 & 45.4 & -- \\
+DS1040-1039DA028 (2 Apr 1967) Srirangapatna & poly2 * & 9.4 & 13.7 & 12.2 & 13.2 & -- \\
+DS1040-1039DA028 (2 Apr 1967) Srirangapatna & poly3 & 8.7 & 13.7 & 13.3 & 33.7 & -- \\
+DS1040-1039DA028 (2 Apr 1967) Srirangapatna & tps & 6.4 & 17.8 & 15.1 & 27.1 & 1 \\
+DS1025-1071DA077 (10 Oct 1965) Hampi & affine & 12.6 & 16.0 & 14.5 & 25.2 & -- \\
+DS1025-1071DA077 (10 Oct 1965) Hampi & poly2 * & 4.7 & 6.8 & 5.8 & 11.2 & -- \\
+DS1025-1071DA077 (10 Oct 1965) Hampi & poly3 & 4.3 & 7.8 & 6.2 & 18.8 & -- \\
+DS1025-1071DA077 (10 Oct 1965) Hampi & tps & 3.4 & 7.9 & 5.6 & 15.1 & 1 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\par\smallskip\parbox{\linewidth}{\scriptsize Rule: simplest model whose block-CV RMSE is within 10\% of the lowest, in the order affine, poly2, poly3, TPS. TPS smoothing chosen from 1, 10, 100, 1000 by leave-one-out on the control points; zero smoothing is excluded. poly3 is skipped where the control set is too small.}
+\end{table*}

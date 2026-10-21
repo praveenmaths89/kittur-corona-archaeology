@@ -1,0 +1,539 @@
+{
+ "by_model": {
+  "affine": {
+   "fort_area_ha": 13.069404776538317,
+   "ring_outer_ha": 6.772468261896506,
+   "fort_citadel_m": 534.7010278881556,
+   "citadel_bearing_deg": 202.411149337108,
+   "iou_fort_osm": 0.7904251971254842,
+   "frac_osm_fort_covered": 0.9975636542861648,
+   "fort_centroid_to_osm_m": 14.591179568616083,
+   "summit_z": 769.371826171875,
+   "higher_cells_1000m": 2.0,
+   "higher_cells_1500m": 2.0,
+   "max_excess_1500m": 0.117431640625,
+   "relief_300_600m": 36.99019445316503,
+   "vis5_citadel_km2": 33.6897,
+   "vis10_citadel_km2": 42.9471,
+   "vis5_lower_km2": 22.4946,
+   "vis10_lower_km2": 26.8488,
+   "shift_lower_fort_m": 36.27264994223012,
+   "shift_citadel_m": 33.498074820512294,
+   "area_ha_lower_fort": 13.069404776538317,
+   "length_m_moat_nw": 1044.4267283263514,
+   "length_m_outer_east": 528.3937327524989,
+   "area_ha_pond_nw": 0.22289136051827277,
+   "area_ha_pond_e": 0.4653775659166402,
+   "area_ha_ring_outer": 6.772468261896506,
+   "area_ha_ring_middle": 3.693628260012518,
+   "area_ha_ring_core": 1.6165747026595045
+  },
+  "poly2": {
+   "fort_area_ha": 13.006489439975367,
+   "ring_outer_ha": 6.733413160169528,
+   "fort_citadel_m": 534.6486865461694,
+   "citadel_bearing_deg": 202.5194260626549,
+   "iou_fort_osm": 0.7799674747537774,
+   "frac_osm_fort_covered": 0.9874916743004004,
+   "fort_centroid_to_osm_m": 24.259811404688257,
+   "summit_z": 769.371826171875,
+   "higher_cells_1000m": 2.0,
+   "higher_cells_1500m": 2.0,
+   "max_excess_1500m": 0.117431640625,
+   "relief_300_600m": 36.99019445316503,
+   "vis5_citadel_km2": 33.6897,
+   "vis10_citadel_km2": 42.9471,
+   "vis5_lower_km2": 22.3695,
+   "vis10_lower_km2": 26.6445,
+   "shift_lower_fort_m": 26.30632313556229,
+   "shift_citadel_m": 23.518529851147214,
+   "area_ha_lower_fort": 13.006489439975367,
+   "length_m_moat_nw": 1041.439685563253,
+   "length_m_outer_east": 527.7758625131265,
+   "area_ha_pond_nw": 0.22193172720882506,
+   "area_ha_pond_e": 0.46299396184477576,
+   "area_ha_ring_outer": 6.733413160169528,
+   "area_ha_ring_middle": 3.672388063769574,
+   "area_ha_ring_core": 1.60728695357616
+  },
+  "tps": {
+   "fort_area_ha": 12.995869175661909,
+   "ring_outer_ha": 6.731974271791853,
+   "fort_citadel_m": 535.0058628706215,
+   "citadel_bearing_deg": 202.3782655209601,
+   "iou_fort_osm": 0.7826719905934769,
+   "frac_osm_fort_covered": 0.9889630475733064,
+   "fort_centroid_to_osm_m": 24.057870333599364,
+   "summit_z": 769.371826171875,
+   "higher_cells_1000m": 2.0,
+   "higher_cells_1500m": 2.0,
+   "max_excess_1500m": 0.117431640625,
+   "relief_300_600m": 36.99019445316503,
+   "vis5_citadel_km2": 33.6897,
+   "vis10_citadel_km2": 42.9471,
+   "vis5_lower_km2": 22.3749,
+   "vis10_lower_km2": 26.6823,
+   "shift_lower_fort_m": 27.267054860147077,
+   "shift_citadel_m": 24.571302368384305,
+   "area_ha_lower_fort": 12.995869175661909,
+   "length_m_moat_nw": 1040.94706808866,
+   "length_m_outer_east": 527.9551527099554,
+   "area_ha_pond_nw": 0.22174246431179673,
+   "area_ha_pond_e": 0.4626582093922186,
+   "area_ha_ring_outer": 6.731974271791853,
+   "area_ha_ring_middle": 3.6714774307263585,
+   "area_ha_ring_core": 1.606858955858626
+  }
+ },
+ "vertical_commanding_ground": {
+  "n": 500,
+  "sd_m": 2.0,
+  "corr_m": 90,
+  "frac_no_higher_cell_1500m": 0.434,
+  "frac_no_higher_cell_1000m": 0.466,
+  "frac_excess_le_1m_1500m": 0.594,
+  "frac_excess_le_3m_1500m": 0.84,
+  "excess_95": [
+   -4.385117800533772,
+   0.39558808133006096,
+   5.920387178659439
+  ]
+ },
+ "vertical_scenarios": {
+  "sd2_canopy0": {
+   "sd_m": 2.0,
+   "canopy_bias_max_m": 0.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.432,
+   "frac_excess_le_1m_1500m": 0.62,
+   "frac_excess_le_3m_1500m": 0.868,
+   "excess_95": [
+    -4.848007476329803,
+    0.4344106912612915,
+    5.224135684967042
+   ]
+  },
+  "sd2_canopy5": {
+   "sd_m": 2.0,
+   "canopy_bias_max_m": 5.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.424,
+   "frac_excess_le_1m_1500m": 0.564,
+   "frac_excess_le_3m_1500m": 0.828,
+   "excess_95": [
+    -4.778924293071031,
+    0.5826930403709412,
+    6.002524769306183
+   ]
+  },
+  "sd3_canopy0": {
+   "sd_m": 3.0,
+   "canopy_bias_max_m": 0.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.344,
+   "frac_excess_le_1m_1500m": 0.468,
+   "frac_excess_le_3m_1500m": 0.676,
+   "excess_95": [
+    -5.355965039134025,
+    1.3846247792243958,
+    8.84606717824936
+   ]
+  },
+  "sd3_canopy5": {
+   "sd_m": 3.0,
+   "canopy_bias_max_m": 5.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.388,
+   "frac_excess_le_1m_1500m": 0.512,
+   "frac_excess_le_3m_1500m": 0.732,
+   "excess_95": [
+    -6.244081619169199,
+    0.8143993616104126,
+    8.992003095149997
+   ]
+  },
+  "sd5_canopy0": {
+   "sd_m": 5.0,
+   "canopy_bias_max_m": 0.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.336,
+   "frac_excess_le_1m_1500m": 0.416,
+   "frac_excess_le_3m_1500m": 0.544,
+   "excess_95": [
+    -5.9881649851799015,
+    2.631234437227249,
+    14.360469591617587
+   ]
+  },
+  "sd5_canopy5": {
+   "sd_m": 5.0,
+   "canopy_bias_max_m": 5.0,
+   "n": 250,
+   "frac_no_higher_cell_1500m": 0.252,
+   "frac_excess_le_1m_1500m": 0.304,
+   "frac_excess_le_3m_1500m": 0.44,
+   "excess_95": [
+    -5.957603079080582,
+    3.472041368484497,
+    15.176736465096475
+   ]
+  }
+ },
+ "error_budget": {
+  "target": "block-CV RMSE",
+  "threshold_sensitivity": {
+   "per_setting": {
+    "baseline": {
+     "target_m": 29.919356155082525,
+     "source": "block-CV (measured)",
+     "n_ties": 25
+    },
+    "min_ncc=0.15": {
+     "target_m": 18.706671648348333,
+     "source": "block-CV (measured)",
+     "n_ties": 30
+    },
+    "min_ncc=0.25": {
+     "target_m": 43.40065316938507,
+     "source": "LOO x ratio",
+     "n_ties": 9
+    },
+    "agree_m=10": {
+     "target_m": 28.33670056582749,
+     "source": "block-CV (measured)",
+     "n_ties": 24
+    },
+    "agree_m=20": {
+     "target_m": 30.95881124156264,
+     "source": "block-CV (measured)",
+     "n_ties": 27
+    },
+    "min_sep_m=400": {
+     "target_m": 38.715120742792045,
+     "source": "block-CV (measured)",
+     "n_ties": 22
+    },
+    "min_sep_m=500": {
+     "target_m": 45.64048222049037,
+     "source": "block-CV (measured)",
+     "n_ties": 20
+    },
+    "exclude_kinds=['tank', 'village']": {
+     "target_m": 53.09534212766154,
+     "source": "LOO x ratio",
+     "n_ties": 11
+    }
+   },
+   "blockcv_scale": 1.3440316739251728,
+   "target_range_m": [
+    18.706671648348333,
+    53.09534212766154
+   ],
+   "n_settings": 8,
+   "sampling": "uniform over settings"
+  },
+  "digitising_sd_m": 5.0,
+  "vertex_noise_m": 4,
+  "canopy_ndvi": 0.45,
+  "canopy_frac_window": 0.16298264458137826,
+  "components_halfwidth_95": {
+   "transform (bootstrap + local error at baseline block-CV)": {
+    "fort_area_ha": 0.1221134094473344,
+    "ring_outer_ha": 0.07527447967213385,
+    "fort_citadel_m": 54.94302438636433,
+    "citadel_bearing_deg": 5.530073264185958,
+    "iou_fort_osm": 0.09739622280660087,
+    "fort_centroid_to_osm_m": 30.07994133565348,
+    "area_ha_ring_middle": 0.04093984283341223,
+    "area_ha_ring_core": 0.017902633814306124,
+    "area_ha_pond_nw": 0.0019095737957912362,
+    "area_ha_pond_e": 0.004638248922501198,
+    "length_m_moat_nw": 5.639849275972097
+   },
+   "tie-threshold (target RMSE across settings, nominal transform)": {
+    "fort_area_ha": 0.0,
+    "ring_outer_ha": 0.0,
+    "fort_citadel_m": 64.16788506574764,
+    "citadel_bearing_deg": 8.02484471418336,
+    "iou_fort_osm": 0.11008591610234175,
+    "fort_centroid_to_osm_m": 31.77627416138266,
+    "area_ha_ring_middle": 0.0,
+    "area_ha_ring_core": 0.0,
+    "area_ha_pond_nw": 0.0,
+    "area_ha_pond_e": 0.0,
+    "length_m_moat_nw": 0.0
+   },
+   "digitising offset (sd 5 m)": {
+    "fort_area_ha": 1.5094838677679023,
+    "ring_outer_ha": 0.850564941367661,
+    "fort_citadel_m": 0.6241424238922377,
+    "citadel_bearing_deg": 0.006143498671875136,
+    "iou_fort_osm": 0.051230287663219076,
+    "fort_centroid_to_osm_m": 0.5391796859010167,
+    "area_ha_ring_middle": 0.702558488857483,
+    "area_ha_ring_core": 0.4186189676091766,
+    "area_ha_pond_nw": 0.19125391955767315,
+    "area_ha_pond_e": 0.23000804872717595,
+    "length_m_moat_nw": 0.0
+   },
+   "vertex noise (4 m)": {
+    "fort_area_ha": 0.36368286219735513,
+    "ring_outer_ha": 0.1117951469260996,
+    "fort_citadel_m": 3.2299667354707253,
+    "citadel_bearing_deg": 0.3596046983254695,
+    "iou_fort_osm": 0.01674345764029378,
+    "fort_centroid_to_osm_m": 2.8402736966306534,
+    "area_ha_ring_middle": 0.07631971134723381,
+    "area_ha_ring_core": 0.046336691552334996,
+    "area_ha_pond_nw": 0.022919193475288716,
+    "area_ha_pond_e": 0.027600348533042246,
+    "length_m_moat_nw": 16.056984622120922
+   },
+   "full budget": {
+    "fort_area_ha": 1.2611302735930146,
+    "ring_outer_ha": 0.9493593146933805,
+    "fort_citadel_m": 74.69247195609293,
+    "citadel_bearing_deg": 9.368741552588716,
+    "iou_fort_osm": 0.1385536736697745,
+    "fort_centroid_to_osm_m": 40.68368281152546,
+    "area_ha_ring_middle": 0.820354604934624,
+    "area_ha_ring_core": 0.5274960473694132,
+    "area_ha_pond_nw": 0.31022677824444206,
+    "area_ha_pond_e": 0.36789131213237897,
+    "length_m_moat_nw": 16.165959436782373
+   }
+  }
+ },
+ "n": 200,
+ "seed": 1824,
+ "kittur_model": {
+  "kind": "poly2",
+  "n_ties": 25,
+  "loo_rmse_m": 22.260901090005298,
+  "block_cv_rmse_m": 29.919356155082525,
+  "bootstrap_sd_m": 13.231997242641851,
+  "local_sd_m": 18.974747978634564
+ },
+ "metrics": {
+  "fort_area_ha": {
+   "v1": 13.3722,
+   "v2": 13.006489439975367,
+   "median": 13.041439656989898,
+   "lo95": 11.664944536661048,
+   "hi95": 14.187205083847077
+  },
+  "ring_outer_ha": {
+   "v1": 6.929374492577158,
+   "v2": 6.733413160169528,
+   "median": 6.759148833125517,
+   "lo95": 5.854354927605008,
+   "hi95": 7.753073556991769
+  },
+  "fort_citadel_m": {
+   "v1": 532.6763731838696,
+   "v2": 534.6486865461694,
+   "median": 538.5794406764114,
+   "lo95": 463.5865794418142,
+   "hi95": 612.971523354
+  },
+  "citadel_bearing_deg": {
+   "v1": 202.02028660032863,
+   "v2": 202.5194260626549,
+   "median": 202.57457863214847,
+   "lo95": 192.0675194859041,
+   "hi95": 210.80500259108155
+  },
+  "iou_fort_osm": {
+   "v1": 0.6792325091620862,
+   "v2": 0.7799674747537774,
+   "median": 0.7308568580501805,
+   "lo95": 0.54379941378335,
+   "hi95": 0.820906761122899
+  },
+  "frac_osm_fort_covered": {
+   "v1": 0.9257989821920273,
+   "v2": 0.9874916743004004,
+   "median": 0.9534268867997477,
+   "lo95": 0.8058457984065617,
+   "hi95": 1.0
+  },
+  "fort_centroid_to_osm_m": {
+   "v1": 50.35668566086492,
+   "v2": 24.259811404688257,
+   "median": 34.252546768138245,
+   "lo95": 6.454239770931708,
+   "hi95": 87.82160539398262
+  },
+  "summit_z": {
+   "v1": 769.371826171875,
+   "v2": 769.371826171875,
+   "median": 769.371826171875,
+   "lo95": 769.371826171875,
+   "hi95": 769.371826171875
+  },
+  "higher_cells_1000m": {
+   "v1": 2,
+   "v2": 2,
+   "median": 2.0,
+   "lo95": 2.0,
+   "hi95": 2.0
+  },
+  "higher_cells_1500m": {
+   "v1": 2,
+   "v2": 2,
+   "median": 2.0,
+   "lo95": 2.0,
+   "hi95": 2.0
+  },
+  "max_excess_1500m": {
+   "v1": 0.117431640625,
+   "v2": 0.117431640625,
+   "median": 0.117431640625,
+   "lo95": 0.117431640625,
+   "hi95": 0.117431640625
+  },
+  "relief_300_600m": {
+   "v1": 36.99019445316503,
+   "v2": 36.99019445316503,
+   "median": 36.99019445316503,
+   "lo95": 36.99019445316503,
+   "hi95": 36.99019445316503
+  },
+  "vis5_citadel_km2": {
+   "v1": 33.6897,
+   "v2": 33.6897,
+   "median": 33.6897,
+   "lo95": 33.6897,
+   "hi95": 33.6897
+  },
+  "vis10_citadel_km2": {
+   "v1": 42.9471,
+   "v2": 42.9471,
+   "median": 42.9471,
+   "lo95": 42.9471,
+   "hi95": 42.9471
+  },
+  "vis5_lower_km2": {
+   "v1": 22.122,
+   "v2": 22.3695,
+   "median": 22.304699999999997,
+   "lo95": 21.0609225,
+   "hi95": 22.828725
+  },
+  "vis10_lower_km2": {
+   "v1": 26.3592,
+   "v2": 26.6445,
+   "median": 26.5887,
+   "lo95": 24.945704999999997,
+   "hi95": 27.226665
+  },
+  "shift_lower_fort_m": {
+   "v1": 0.0,
+   "v2": 26.30632313556229,
+   "median": 39.7461168853105,
+   "lo95": 9.141531391390714,
+   "hi95": 98.3644055452537
+  },
+  "shift_citadel_m": {
+   "v1": 0.0,
+   "v2": 23.518529851147214,
+   "median": 33.95153145512313,
+   "lo95": 7.325317863165843,
+   "hi95": 95.5265973010718
+  },
+  "area_ha_lower_fort": {
+   "v1": 13.3722,
+   "v2": 13.006489439975367,
+   "median": 13.041439656989898,
+   "lo95": 11.664944536661048,
+   "hi95": 14.187205083847077
+  },
+  "length_m_moat_nw": {
+   "v1": 1059.5677509313107,
+   "v2": 1041.439685563253,
+   "median": 1042.8809719688493,
+   "lo95": 1026.7280721790971,
+   "hi95": 1059.0599910526619
+  },
+  "length_m_outer_east": {
+   "v1": 527.912116392305,
+   "v2": 527.7758625131265,
+   "median": 528.3938821711482,
+   "lo95": 515.2419881495792,
+   "hi95": 540.5412810454037
+  },
+  "area_ha_pond_nw": {
+   "v1": 0.2280553630468136,
+   "v2": 0.22193172720882506,
+   "median": 0.2257696394555258,
+   "lo95": 0.007558470747112339,
+   "hi95": 0.6280120272359965
+  },
+  "area_ha_pond_e": {
+   "v1": 0.47615954921867587,
+   "v2": 0.46299396184477576,
+   "median": 0.4454609567544566,
+   "lo95": 0.16493157487883525,
+   "hi95": 0.9007141991435932
+  },
+  "area_ha_ring_outer": {
+   "v1": 6.929374492577158,
+   "v2": 6.733413160169528,
+   "median": 6.759148833125517,
+   "lo95": 5.854354927605008,
+   "hi95": 7.753073556991769
+  },
+  "area_ha_ring_middle": {
+   "v1": 3.77920315906204,
+   "v2": 3.672388063769574,
+   "median": 3.6427933136016524,
+   "lo95": 2.8192078002315086,
+   "hi95": 4.459917010100757
+  },
+  "area_ha_ring_core": {
+   "v1": 1.6540279078124294,
+   "v2": 1.60728695357616,
+   "median": 1.6965742081462571,
+   "lo95": 1.133917430888654,
+   "hi95": 2.1889095256274804
+  }
+ },
+ "claims_fraction": {
+  "citadel_SSW_of_lower_fort (bearing 180-235 deg)": 1.0,
+  "fort_citadel_distance_450_650m": 0.985,
+  "citadel_summit_highest_within_1km (<= 2 higher cells; horizontal error only, see vertical_commanding_ground)": 1.0,
+  "citadel_summit_highest_within_1.5km (no cell > +1 m; horizontal error only)": 1.0,
+  "citadel_relief_gt_20m": 1.0,
+  "citadel_sees_more_than_lower_fort_within_5km": 1.0,
+  "lower_fort_overlaps_osm_fort_IoU_gt_0.5": 0.985
+ },
+ "old_sangoli": {
+  "v1_utm": [
+   482185.028750466,
+   1740913.0253966516
+  ],
+  "v2_utm": [
+   482218.5026677843,
+   1740884.702547929
+  ],
+  "shift_m": 43.84845379705418,
+  "v1_inside_reservoir": true,
+  "v2_inside_reservoir": false,
+  "v2_dist_to_shore_m": 17.235273808457762,
+  "frac_inside_reservoir": 0.175,
+  "dist_shore_95": [
+   0.49023668009339383,
+   18.967791505166282,
+   68.54331345215967
+  ],
+  "dist_to_present_sangolli_km": 3.237113941350569,
+  "north_of_present_km": 3.2369486600605306,
+  "v1_open_water_2026": false,
+  "v2_open_water_2026": false,
+  "frac_open_water_2026": 0.005,
+  "frac_within_100m_of_osm_shore": 1.0,
+  "model": "poly2",
+  "loo_rmse_m": 20.058573988053126,
+  "local_sd_m": 17.244284337594692
+ }
+}

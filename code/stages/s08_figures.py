@@ -146,17 +146,18 @@ def fig01(X):
         b = d.bounds
     lo, la = geo.utm2ll(np.array([b.left, b.right, b.right, b.left]), np.array([b.bottom, b.bottom, b.top, b.top]))
     ax0.add_patch(Rectangle((lo.min(), la.min()), lo.max() - lo.min(), la.max() - la.min(), fc='none', ec=OK['vermillion'], lw=1.0, zorder=5))
-    ax0.annotate('Study area\n(panel b)', (lo.max(), la.mean()), xytext=(lo.max() + 3.2, la.mean() + 3.2), fontsize=7, ha='center',
+    ax0.annotate('panel b', (lo.max(), la.max()), xytext=(lo.max() + 1.0, la.max() + 0.5), fontsize=7, ha='center',
                  arrowprops=dict(arrowstyle='-', lw=0.5))
-    for nm, dx in (('Srirangapatna', 0.5), ('Hampi', 0.5)):
+    for nm, dx in (('Srirangapatna', 0.15), ('Hampi', 0.15)):
         la_, lo_ = C['points'][nm]
         ax0.plot(lo_, la_, '^', ms=3.5, mfc=OK['blue'], mec='k', mew=0.3, zorder=6)
         ax0.text(lo_ + dx, la_, nm, fontsize=7, va='center')
-    ax0.text(77.2, 13.0, 'Karnataka', fontsize=7, rotation=0, ha='center', color='0.15')
-    ax0.text(86.5, 9.5, 'Bay of\nBengal', fontsize=7, ha='center', style='italic', color='0.35')
-    ax0.text(69.5, 12.0, 'Arabian\nSea', fontsize=7, ha='center', style='italic', color='0.35')
-    ax0.set_xlim(67, 91); ax0.set_ylim(6, 24); ax0.set_aspect('equal')
-    ax0.set_xticks([70, 75, 80, 85, 90]); ax0.set_yticks([8, 12, 16, 20, 24])
+    # Elsevier map policy: the overview shows only the bounding box of the studied sites (Kittur region,
+    # Hampi, Srirangapatna), not a wider country map.
+    ax0.text(75.9, 14.3, 'Karnataka', fontsize=7, rotation=0, ha='center', color='0.15')
+    ax0.text(74.0, 12.6, 'Arabian\nSea', fontsize=6.5, ha='center', style='italic', color='0.35')
+    ax0.set_xlim(73.4, 77.8); ax0.set_ylim(11.8, 16.6); ax0.set_aspect('equal')
+    ax0.set_xticks([74, 75, 76, 77]); ax0.set_yticks([12, 13, 14, 15, 16])
     ax0.xaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f'{v:.0f}°E'))
     ax0.yaxis.set_major_formatter(plt.FuncFormatter(lambda v, _: f'{v:.0f}°N'))
     ax0.tick_params(labelsize=7, length=2); ax0.set_facecolor('#e8f1f8'); ax0.set_xlabel(''); ax0.set_ylabel('')

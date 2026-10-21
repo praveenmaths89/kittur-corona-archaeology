@@ -132,3 +132,65 @@ points:   # lat, lon (gazetteer.csv; OSM / Wikidata)
   Dharwad: [15.45898, 75.00779]
   Srirangapatna: [12.4216, 76.6806]
   Hampi: [15.3350, 76.4600]
+
+validation:   # stage 12: independent tie points and transform comparison (see stages/s12_validation.py)
+  min_sep_m: 300          # minimum spacing of OSM candidate features
+  res_m: 4                # matching grid (CORONA and SoI)
+  half_m: [350, 500]      # two template half-sizes that must agree
+  agree_m: 15             # max disagreement between the two template sizes
+  min_z: 0.0              # optional min NCC peak height above the correlation surface (sd); 0 = off (depends on search size)
+  min_ncc: 0.30           # min NCC peak
+  search1_m: 400          # pass 1 search radius about the recorded transform
+  search2_m: 120          # pass 2 search radius about the RANSAC-updated prediction
+  ransac_m: 60
+  blunder_m: 60           # gross-error screen against a robust 2nd-order fit (flagged points listed separately)
+  control_frac: 0.7
+  k_blocks: 5
+  n_boot: 500
+  models: [affine, poly2, poly3, tps]
+  # One-at-a-time sensitivity (Kittur CORONA). The Kittur-area targets override min_ncc to 0.20 (see 'match');
+  # 0.30 leaves only 2 ties there, so the lower threshold is kept and its effect is carried into stage 13.
+  sensitivity: {min_ncc: [0.15, 0.25, 0.30], agree_m: [10, 20], min_sep_m: [400, 500], exclude_kinds: [[tank, village]]}
+  targets:
+    corona_da224_kittur: {kind: corona, label: "CORONA KH-4A DS1045-1102DA224 (31 Jan 1968) Kittur", entity: DS1045-1102DA224, piece: b,
+                          transform: da224_An, crop: kittur, cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [469606, 1716746, 485606, 1732746],
+                          inner_bbox_utm: [474606, 1721746, 480606, 1727746], inner_min_sep_m: 150,
+                          v2_crop: {centre_lonlat: [74.79107, 15.60044], half_m: 2500, res_m: 2, out: corona_1968_kittur_v2.tif}}
+    corona_df224_sangolli: {kind: corona, label: "CORONA KH-4A DS1045-1102DF224 (31 Jan 1968) Sangolli", entity: DS1045-1102DF224, piece: c,
+                            cues: [road, s2], match: {min_ncc: 0.2}, transform: df224_F, params: params/df224_F2.json, bbox_utm: [474185, 1732913, 490185, 1748913],
+                            v2_crop: {centre_lonlat: [74.8337, 15.7466], half_m: 3000, res_m: 2, out: corona_1968_sangolli_v2.tif}}
+    corona_da224_nandagad: {kind: corona, label: "CORONA KH-4A DS1045-1102DA224 (31 Jan 1968) Nandagad", entity: DS1045-1102DA224, piece: b,
+                            transform: da224_An, crop: nandagad, cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [448295, 1716402, 460295, 1728402]}
+    soi_48I14: {kind: soi, label: "Survey of India 48 I/14 (1924)", sheet: derived/soi/SoI_48_I_14_1924_cornergeoref.tif,
+                bbox_utm: [473723, 1714198, 494644, 1740730],
+                v2_crop: {centre_lonlat: [74.81, 15.665], half_m: 9500, res_m: 5, out: SoI_48_I_14_1924_kittur_sangolli_v2.tif}}
+    soi_48I10: {kind: soi, label: "Survey of India 48 I/10 (1924)", sheet: derived/soi/SoI_48_I_10_1924_cornergeoref.tif,
+                bbox_utm: [446910, 1714244, 472683, 1740746]}
+    corona_da222_belgaum: {kind: corona, label: "CORONA KH-4A DS1045-1102DA222 (31 Jan 1968) Belgaum", entity: DS1045-1102DA222, piece: b,
+                           scan: sites/belgaum/corona/DS1045-1102DA222/DS1045-1102DA222_b.tif, transform: site_fit, site: belgaum,
+                           cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [442844, 1747884, 454844, 1759884]}
+    soi_48I09: {kind: soi, label: "Survey of India 48 I/09 (1924)", sheet: derived/soi/SoI_48_I_09_1924_cornergeoref.tif,
+                bbox_utm: [446975, 1741897, 472703, 1757338]}
+
+    # Transferability (v3): two other CORONA missions in other regions, run with the SAME settings.
+    corona_da028_srirangapatna: {kind: corona, label: "CORONA KH-4A DS1040-1039DA028 (2 Apr 1967) Srirangapatna", entity: DS1040-1039DA028, piece: d,
+                                 scan: sites/srirangapatna/corona/DS1040-1039DA028/DS1040-1039DA028_d.tif, transform: site_fit, site: srirangapatna,
+                                 osm: sites/srirangapatna/raw/osm/osm_raw.gpkg, s2: sites/srirangapatna/raw/sentinel/S2B_43PFP_20260204_0_L2A_5band.tif,
+                                 cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [678031, 1367759, 690031, 1379759], transfer: true}
+    corona_da077_hampi: {kind: corona, label: "CORONA KH-4A DS1025-1071DA077 (10 Oct 1965) Hampi", entity: DS1025-1071DA077, piece: b,
+                         scan: sites/hampi/corona/DS1025-1071DA077/DS1025-1071DA077_b.tif, transform: site_fit, site: hampi,
+                         osm: sites/hampi/raw/osm/osm_raw.gpkg, s2: "sites/hampi/raw/sentinel/S2B_43PFS+PFT_20260306_merged_5band.tif",
+                         cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [650729, 1689907, 662729, 1701907], transfer: true}
+
+propagation:   # stage 13: empirical georeferencing uncertainty carried downstream
+  n: 200                 # bootstrap realisations
+  rays: 720              # viewshed rays per realisation (stage 06 uses 2880 for the nominal map)
+  viewshed_max_m: 10000
+  n_vertical: 500        # DSM-noise realisations for the commanding-ground test
+  dsm_corr_m: 90         # correlation length of the DSM error field
+  dsm_sd_scenarios_m: [2.0, 3.0, 5.0]   # v3: GLO-30 vertical error scenarios (reviewer M4: 3-5 m under trees/buildings)
+  canopy_bias_max_m: 5.0 # v3: one-sided canopy bias, U(0, max) m removed from cells with dry-season NDVI > canopy_ndvi
+  canopy_ndvi: 0.45
+  digitising_sd_m: 5.0   # v3: systematic line-placement error of an eye-traced boundary on 2 m CORONA (ASSUMED until
+                         # the repeat-digitising exercise in manuscript/blind_grading/ is done by a second analyst)
+  old_sangoli_lonlat: [74.8337, 15.7466]   # 1968 village centre on the v1 DF224 crop (findings 6)

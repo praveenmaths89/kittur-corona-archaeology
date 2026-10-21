@@ -1,0 +1,24 @@
+\begin{table*}[!htbp]
+\centering
+\footnotesize
+\caption{Horizontal accuracy (RMSE, m) of each source before and after re-estimation from automatic open-data tie points.}
+\label{tab:accuracy}
+\begin{adjustbox}{max width=\linewidth}
+\begin{tabular}{llrrrlrrll}
+\toprule
+Source & Role & Ties & Check pts & Before & Model & Block-CV & LOO & Check (95\% boot.) & Moran's $I$ $p$ (E/N) \\
+\midrule
+DA224 (31 Jan 1968) Kittur & Kittur region & 25 & 8 & 120 & poly2 & 30 & 22 & 14 (7--63) & 0.620 / 0.841 \\
+DF224 (31 Jan 1968) Sangolli & Kittur region & 16 & 5 & 77 & poly2 & 30 & 20 & 10 (8--192) & 0.554 / 0.554 \\
+DA224 (31 Jan 1968) Nandagad & Kittur region & 20 & 7 & 34 & tps & 37 & 14 & 15 (14--32) & 0.493 / 0.455 \\
+SoI 48 I/14 (1924) & Kittur region & 28 & 9 & 201 & affine & 71 & 60 & 75 (71--89) & 0.183 / 0.255 \\
+SoI 48 I/10 (1924) & Kittur region & 54 & 16 & 629 & affine & 56 & 57 & 54 (47--67) & 0.439 / 0.321 \\
+DA222 (31 Jan 1968) Belgaum & Kittur region & 29 & 9 & 99 & poly2 & 19 & 10 & 9 (9--81) & 0.007 / 0.539 \\
+SoI 48 I/09 (1924) & Kittur region & 24 & 8 & 159 & affine & 81 & 48 & 54 (53--78) & 0.058 / 0.005 \\
+DA028 (2 Apr 1967) Srirangapatna & transfer & 48 & 15 & 55 & poly2 & 13 & 12 & 14 (13--22) & 0.573 / 0.932 \\
+DA077 (10 Oct 1965) Hampi & transfer & 69 & 21 & 52 & poly2 & 11 & 6 & 7 (6--9) & 0.003 / 0.018 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\par\smallskip\parbox{\linewidth}{\scriptsize Before: recorded transform evaluated at all ties. Block-CV: leave-spatial-block-out RMSE of the chosen model (headline figure). LOO: leave-one-out. Check: held-out ties ($\approx$30\%), with a bootstrap 95\% interval. The bootstrap refits the transform on resampled control ties and re-scores the fixed check set, so it measures fit variability only; where the full-control fit is already close to optimal for those check points (Belgaum, Srirangapatna) the lower bound sits at the point estimate. Moran's $I$: permutation $p$ for the LOO residuals; with 18 tests the Bonferroni threshold is $p<0.0028$. Kittur-region and transfer sources use identical settings.}
+\end{table*}

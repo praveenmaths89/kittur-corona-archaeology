@@ -1,16 +1,16 @@
 {
  "fetch": {
   "status": "ok",
-  "seconds": 17.9,
-  "finished": "2026-10-20T20:59:32+05:30",
+  "seconds": 15.3,
+  "finished": "2026-10-21T18:43:09+05:30",
   "notes": [
    "provenance: 104/104 files verified by sha256; 0 mismatched; 0 missing"
   ]
  },
  "preprocess": {
   "status": "ok",
-  "seconds": 6.1,
-  "finished": "2026-10-20T20:59:39+05:30",
+  "seconds": 5.2,
+  "finished": "2026-10-21T18:43:16+05:30",
   "notes": [
    "DEM (1663, 1789), z 571.6-995.9 m; hillshade, slope, local relief written",
    "  hillshade vs legacy: {'r': 1.0, 'mad': 0.0, 'valid': 1.0}",
@@ -27,8 +27,8 @@
  },
  "georeference": {
   "status": "ok",
-  "seconds": 36.1,
-  "finished": "2026-10-20T21:00:15+05:30",
+  "seconds": 34.6,
+  "finished": "2026-10-21T18:43:50+05:30",
   "notes": [
    "DA224 kittur: corona_1968_kittur.tif; scan pixel ~2.22 m",
    "DA224 nandagad: corona_1968_nandagad.tif; scan pixel ~2.24 m",
@@ -79,8 +79,8 @@
  },
  "dem": {
   "status": "ok",
-  "seconds": 5.2,
-  "finished": "2026-10-20T21:00:21+05:30",
+  "seconds": 4.6,
+  "finished": "2026-10-21T18:43:55+05:30",
   "notes": [
    "SGBM valid fraction 0.60",
    "height scale -0.2930 px/m; residual noise 7.7 m (1 sigma, 30 m blocks); 21942 blocks",
@@ -94,8 +94,8 @@
  },
  "metrics": {
   "status": "ok",
-  "seconds": 5.9,
-  "finished": "2026-10-20T21:00:27+05:30",
+  "seconds": 5.1,
+  "finished": "2026-10-21T18:44:01+05:30",
   "notes": [
    "features: lower_fort 13.37 ha; pond_nw 0.23 ha; pond_e 0.48 ha; ring_outer 6.93 ha; ring_middle 3.78 ha; ring_core 1.65 ha",
    "epoch metrics: 54 rows -> results/epoch_metrics.csv",
@@ -113,8 +113,8 @@
  },
  "landscape": {
   "status": "ok",
-  "seconds": 2.9,
-  "finished": "2026-10-20T21:00:30+05:30",
+  "seconds": 3.2,
+  "finished": "2026-10-21T18:44:04+05:30",
   "notes": [
    "viewshed citadel: z 769.4 m, 35.8 km2 within 5 km (46%), 153 km2 within 25 km",
    "viewshed lower_fort: z 731.9 m, 23.3 km2 within 5 km (30%), 38 km2 within 25 km",
@@ -126,8 +126,8 @@
  },
  "montecarlo": {
   "status": "ok",
-  "seconds": 2.5,
-  "finished": "2026-10-20T21:00:32+05:30",
+  "seconds": 2.4,
+  "finished": "2026-10-21T18:44:06+05:30",
   "notes": [
    "Lower-fort enclosure: 13.37 ha (95%: 12.53-14.26)",
    "N/W moat line: 1061.06 m (95%: 1024.59-1096.24)",
@@ -146,52 +146,174 @@
  },
  "figures": {
   "status": "ok",
-  "seconds": 48.5,
-  "finished": "2026-10-20T21:10:37+05:30",
+  "seconds": 6.8,
+  "finished": "2026-10-21T19:24:53+05:30",
   "notes": [
-   "4 figures written to /workspace/kittur_map/manuscript/figures"
+   "1 figures written to /workspace/kittur_map/manuscript/figures"
   ]
  },
  "provenance": {
   "status": "ok",
-  "seconds": 0.0,
-  "finished": "2026-10-20T21:18:37+05:30",
+  "seconds": 19.3,
+  "finished": "2026-10-21T18:42:54+05:30",
   "notes": [
-   "104 files -> release/PROVENANCE.csv (0 newly hashed); SHA256.txt cross-check: 22 checked, 0 mismatches"
+   "104 files -> release/PROVENANCE.csv (104 newly hashed); SHA256.txt cross-check: 22 checked, 0 mismatches"
   ]
  },
  "tables": {
   "status": "ok",
-  "seconds": 0.9,
-  "finished": "2026-10-20T21:18:05+05:30",
+  "seconds": 1.2,
+  "finished": "2026-10-21T19:54:11+05:30",
   "notes": [
    "Table1_data_sources: 21 rows x 6 columns",
-   "Table2_georeferencing_accuracy: 19 rows x 7 columns",
+   "Table2_georeferencing_accuracy: 9 rows x 9 columns",
    "Table3_dimensions: 15 rows x 4 columns",
    "Table4_archival_vs_measured: 10 rows x 3 columns",
    "Table5_regional_forts: 6 rows x 6 columns",
    "Table6_temporal_metrics: 7 rows x 8 columns",
    "Table7_cross_site: 4 rows x 10 columns",
    "tables.docx, tables.xlsx, 7 CSV -> /workspace/kittur_map/manuscript/tables",
-   "checklist.md: 0 figure checks not met ; docx no vertical rules: True; xlsx no vertical borders: True"
+   "checklist.md: 1 figure checks not met ['Fig01_study_area: font_size']; docx no vertical rules: True; xlsx no vertical borders: True"
   ]
  },
  "lite": {
   "status": "ok",
-  "seconds": 32.3,
-  "finished": "2026-10-20T21:18:37+05:30",
+  "seconds": 29.6,
+  "finished": "2026-10-21T18:50:15+05:30",
   "notes": [
    "base map: 31 web layers (30 re-encoded as WebP)",
-   "99 files refreshed in /workspace/kittur_map/../kittur_map_lite (64 MB); zip kittur_basemap_lite.zip 60 MB"
+   "104 files refreshed in /workspace/kittur_map/../kittur_map_lite (65 MB); zip kittur_basemap_lite.zip 61 MB"
   ]
  },
  "map": {
   "status": "ok",
-  "seconds": 88.4,
-  "finished": "2026-10-20T21:14:59+05:30",
+  "seconds": 82.8,
+  "finished": "2026-10-21T18:49:46+05:30",
   "notes": [
    "folium 0.20.0",
-   "kittur_basemap.html 2147693 B sha256 8383d5665482"
+   "kittur_basemap.html 2147693 B sha256 f672ca6dc04a"
+  ]
+ },
+ "validation": {
+  "status": "ok",
+  "seconds": 158.8,
+  "finished": "2026-10-21T19:13:34+05:30",
+  "notes": [
+   "corona_da224_kittur: 98 OSM candidates; pass 1 20 matches, 15 RANSAC inliers",
+   "corona_da224_kittur: 25 ties (0 blunders excluded), extent [np.float64(12.2), np.float64(10.1)] km; before RMSE 120 m; affine check 15 / LOO 26 / block 41 m; poly2 check 14 / LOO 22 / block 30 m; poly3 check 64 / LOO 34 / block 165 m; tps check 11 / LOO 22 / block 35 m; chosen poly2",
+   "corona_da224_kittur: v2 crop corona_1968_kittur_v2.tif",
+   "corona_df224_sangolli: 61 OSM candidates; pass 1 16 matches, 10 RANSAC inliers",
+   "corona_df224_sangolli: 16 ties (0 blunders excluded), extent [np.float64(14.5), np.float64(10.5)] km; before RMSE 77 m; affine check 21 / LOO 32 / block 73 m; poly2 check 10 / LOO 20 / block 30 m; tps check 9 / LOO 20 / block 55 m; chosen poly2",
+   "corona_df224_sangolli: v2 crop corona_1968_sangolli_v2.tif",
+   "corona_da224_nandagad: 32 OSM candidates; pass 1 15 matches, 14 RANSAC inliers",
+   "corona_da224_nandagad: 20 ties (0 blunders excluded), extent [np.float64(9.9), np.float64(10.1)] km; before RMSE 34 m; affine check 26 / LOO 26 / block 53 m; poly2 check 16 / LOO 14 / block 69 m; poly3 check 17 / LOO 13 / block 214 m; tps check 15 / LOO 14 / block 37 m; chosen tps",
+   "soi_48I14: 157 OSM candidates; pass 1 30 matches, 21 RANSAC inliers",
+   "soi_48I14: 28 ties (0 blunders excluded), extent [np.float64(20.1), np.float64(23.0)] km; before RMSE 201 m; affine check 75 / LOO 60 / block 71 m; poly2 check 69 / LOO 67 / block 96 m; poly3 check 82 / LOO 138 / block 1303 m; tps check 75 / LOO 60 / block 70 m; chosen affine",
+   "soi_48I14: v2 crop SoI_48_I_14_1924_kittur_sangolli_v2.tif",
+   "soi_48I10: 221 OSM candidates; pass 1 24 matches, 15 RANSAC inliers",
+   "soi_48I10: 54 ties (0 blunders excluded), extent [np.float64(25.3), np.float64(24.9)] km; before RMSE 629 m; affine check 54 / LOO 57 / block 56 m; poly2 check 54 / LOO 62 / block 70 m; poly3 check 51 / LOO 62 / block 110 m; tps check 54 / LOO 57 / block 56 m; chosen affine",
+   "corona_da222_belgaum: 162 OSM candidates; pass 1 29 matches, 24 RANSAC inliers",
+   "corona_da222_belgaum: 29 ties (1 blunders excluded), extent [np.float64(11.2), np.float64(7.6)] km; before RMSE 99 m; affine check 22 / LOO 29 / block 48 m; poly2 check 9 / LOO 10 / block 19 m; poly3 check 26 / LOO 13 / block 66 m; tps check 9 / LOO 11 / block 31 m; chosen poly2",
+   "soi_48I09: 199 OSM candidates; pass 1 21 matches, 11 RANSAC inliers",
+   "soi_48I09: 24 ties (0 blunders excluded), extent [np.float64(23.2), np.float64(14.9)] km; before RMSE 159 m; affine check 54 / LOO 48 / block 81 m; poly2 check 45 / LOO 44 / block 115 m; poly3 check 153 / LOO 71 / block 453 m; tps check 48 / LOO 41 / block 77 m; chosen affine",
+   "corona_da028_srirangapatna: 128 OSM candidates; pass 1 49 matches, 36 RANSAC inliers",
+   "corona_da028_srirangapatna: 48 ties (3 blunders excluded), extent [np.float64(11.7), np.float64(9.5)] km; before RMSE 55 m; affine check 33 / LOO 31 / block 45 m; poly2 check 14 / LOO 12 / block 13 m; poly3 check 14 / LOO 13 / block 34 m; tps check 18 / LOO 15 / block 27 m; chosen poly2",
+   "corona_da077_hampi: 95 OSM candidates; pass 1 56 matches, 54 RANSAC inliers",
+   "corona_da077_hampi: 69 ties (0 blunders excluded), extent [np.float64(11.8), np.float64(11.4)] km; before RMSE 52 m; affine check 16 / LOO 15 / block 25 m; poly2 check 7 / LOO 6 / block 11 m; poly3 check 8 / LOO 6 / block 19 m; tps check 8 / LOO 6 / block 15 m; chosen poly2",
+   "OSM-road vs Sentinel-2 position of the same feature (dual-cue CORONA ties): n=44, RMS 10.510741259215822 m",
+   "Table2b_georeferencing_validation.csv and FigS8_georef_residuals written",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 20 matches, 15 RANSAC inliers",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 24 matches, 16 RANSAC inliers",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 13 matches, 10 RANSAC inliers",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 7 matches, 5 RANSAC inliers",
+   "corona_da224_kittur: only 2 ties; not evaluated",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 17 matches, 13 RANSAC inliers",
+   "corona_da224_kittur: 98 OSM candidates; pass 1 19 matches, 14 RANSAC inliers",
+   "corona_da224_kittur: 91 OSM candidates; pass 1 17 matches, 12 RANSAC inliers",
+   "corona_da224_kittur: 88 OSM candidates; pass 1 16 matches, 11 RANSAC inliers",
+   "corona_da224_kittur: 61 OSM candidates; pass 1 11 matches, 7 RANSAC inliers",
+   "sensitivity (Kittur CORONA): 9 settings; ties 2-30; chosen-model LOO 9-40 m; before 114-157 m"
+  ]
+ },
+ "propagation": {
+  "status": "ok",
+  "seconds": 110.0,
+  "finished": "2026-10-21T19:54:33+05:30",
+  "notes": [
+   "Kittur: poly2 on 25 ties, LOO 22.3 m; bootstrap spread 13.2 m, local sd 19.0 m/axis",
+   "component breakdown (95 pct half-widths) computed with 100 realisations each",
+   "error budget: target RMSE 18.7-53.1 m (tie-threshold sensitivity), digitising sd 5.0 m, vertex noise 4 m",
+   "DSM scenarios: sd2_canopy0: none higher 43%, <=3 m 87%; sd2_canopy5: none higher 42%, <=3 m 83%; sd3_canopy0: none higher 34%, <=3 m 68%; sd3_canopy5: none higher 39%, <=3 m 73%; sd5_canopy0: none higher 34%, <=3 m 54%; sd5_canopy5: none higher 25%, <=3 m 44%",
+   "fort_area_ha: v1 13.37, v2 13.01 (95%: 11.66-14.19)",
+   "ring_outer_ha: v1 6.93, v2 6.73 (95%: 5.85-7.75)",
+   "fort_citadel_m: v1 532.68, v2 534.65 (95%: 463.59-612.97)",
+   "citadel_bearing_deg: v1 202.02, v2 202.52 (95%: 192.07-210.81)",
+   "iou_fort_osm: v1 0.68, v2 0.78 (95%: 0.54-0.82)",
+   "frac_osm_fort_covered: v1 0.93, v2 0.99 (95%: 0.81-1.00)",
+   "fort_centroid_to_osm_m: v1 50.36, v2 24.26 (95%: 6.45-87.82)",
+   "summit_z: v1 769.37, v2 769.37 (95%: 769.37-769.37)",
+   "higher_cells_1000m: v1 2.00, v2 2.00 (95%: 2.00-2.00)",
+   "higher_cells_1500m: v1 2.00, v2 2.00 (95%: 2.00-2.00)",
+   "max_excess_1500m: v1 0.12, v2 0.12 (95%: 0.12-0.12)",
+   "relief_300_600m: v1 36.99, v2 36.99 (95%: 36.99-36.99)",
+   "vis5_citadel_km2: v1 33.69, v2 33.69 (95%: 33.69-33.69)",
+   "vis10_citadel_km2: v1 42.95, v2 42.95 (95%: 42.95-42.95)",
+   "vis5_lower_km2: v1 22.12, v2 22.37 (95%: 21.06-22.83)",
+   "vis10_lower_km2: v1 26.36, v2 26.64 (95%: 24.95-27.23)",
+   "shift_lower_fort_m: v1 0.00, v2 26.31 (95%: 9.14-98.36)",
+   "shift_citadel_m: v1 0.00, v2 23.52 (95%: 7.33-95.53)",
+   "area_ha_lower_fort: v1 13.37, v2 13.01 (95%: 11.66-14.19)",
+   "length_m_moat_nw: v1 1059.57, v2 1041.44 (95%: 1026.73-1059.06)",
+   "length_m_outer_east: v1 527.91, v2 527.78 (95%: 515.24-540.54)",
+   "area_ha_pond_nw: v1 0.23, v2 0.22 (95%: 0.01-0.63)",
+   "area_ha_pond_e: v1 0.48, v2 0.46 (95%: 0.16-0.90)",
+   "area_ha_ring_outer: v1 6.93, v2 6.73 (95%: 5.85-7.75)",
+   "area_ha_ring_middle: v1 3.78, v2 3.67 (95%: 2.82-4.46)",
+   "area_ha_ring_core: v1 1.65, v2 1.61 (95%: 1.13-2.19)",
+   "claim citadel_SSW_of_lower_fort (bearing 180-235 deg): holds in 100% of realisations",
+   "claim fort_citadel_distance_450_650m: holds in 98% of realisations",
+   "claim citadel_summit_highest_within_1km (<= 2 higher cells; horizontal error only, see vertical_commanding_ground): holds in 100% of realisations",
+   "claim citadel_summit_highest_within_1.5km (no cell > +1 m; horizontal error only): holds in 100% of realisations",
+   "claim citadel_relief_gt_20m: holds in 100% of realisations",
+   "claim citadel_sees_more_than_lower_fort_within_5km: holds in 100% of realisations",
+   "claim lower_fort_overlaps_osm_fort_IoU_gt_0.5: holds in 98% of realisations",
+   "model affine: fort 13.07 ha, fort-citadel 535 m, IoU OSM 0.79, shift 36 m",
+   "model poly2: fort 13.01 ha, fort-citadel 535 m, IoU OSM 0.78, shift 26 m",
+   "model tps: fort 13.00 ha, fort-citadel 535 m, IoU OSM 0.78, shift 27 m",
+   "DSM noise (2.0 m, 90 m corr.): no higher cell within 1.5 km in 43%, excess <= 1 m in 59%, <= 3 m in 84% of realisations",
+   "Old Sangoli: shift 44 m; inside reservoir v1 True, v2 False, 18% of realisations; shore distance 17 m; open water in Feb 2026 S2 median: v2 False, 0% of realisations"
+  ]
+ },
+ "evidence": {
+  "status": "ok",
+  "seconds": 1.2,
+  "finished": "2026-10-21T19:17:11+05:30",
+  "notes": [
+   "grades: unsupported 7, confirmed 5, plausible 2, contradicted 1",
+   "lower_fort: confirmed",
+   "citadel_hill: confirmed",
+   "citadel_rings: plausible",
+   "ring_core_quarry: contradicted",
+   "moat_nw: unsupported",
+   "outer_east: unsupported",
+   "pond_nw: unsupported",
+   "pond_e: confirmed",
+   "old_sangoli: confirmed",
+   "sangoli_fort: unsupported",
+   "tanks_pre1968: plausible",
+   "sampgaon_enclosure: unsupported",
+   "tigadi_perimeter: unsupported",
+   "siege_positions: unsupported",
+   "belgaum_moat: confirmed",
+   "panels: previews/evidence_kittur.png, previews/evidence_old_sangoli.png"
+  ]
+ },
+ "validation_figure": {
+  "status": "ok",
+  "seconds": 2.7,
+  "finished": "2026-10-21T19:15:17+05:30",
+  "notes": [
+   "Table2b_georeferencing_validation.csv and FigS8_georef_residuals written"
   ]
  }
 }

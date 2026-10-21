@@ -9,6 +9,7 @@ pyogrio==0.13.0
 rasterio==1.5.2
 opencv-python-headless==5.0.0.93
 scikit-image==0.26.0
+scikit-learn==1.9.1        # KMeans spatial blocks (stage 12)
 matplotlib==3.11.2
 Pillow==12.3.0
 PyYAML==6.0.3
