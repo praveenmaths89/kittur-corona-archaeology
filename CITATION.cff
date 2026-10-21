@@ -3,8 +3,13 @@ message: "If you use this code or data, please cite it as below."
 type: software
 title: "Kittur fort georeferencing pipeline: code and data for 'Open-data georeferencing of 1924 maps and CORONA imagery at Kittur fort, India, with a cross-validated error budget'"
 version: "v1.2-jasr-submission"
+doi: "10.5281/zenodo.23538614"
 date-released: "2026-10-21"
 license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23538614"
+    description: "Zenodo archive of code and data (v1.2-jasr-submission)"
 repository-code: "https://github.com/praveenmaths89/kittur-corona-archaeology"
 authors:
   - family-names: Chougale

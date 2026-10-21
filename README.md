@@ -2,7 +2,7 @@
 
 Code and data for the manuscript "Open-data georeferencing of 1924 maps and CORONA imagery at Kittur fort, India, with a cross-validated error budget" by Praveen D Chougale (Koita Centre for Digital Health, IIT Bombay; ORCID 0000-0002-5262-4726), prepared for the Journal of Archaeological Science: Reports.
 
-Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.2-jasr-submission); archived on Zenodo with a DOI at acceptance.
+Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.2-jasr-submission); archived on Zenodo: https://doi.org/10.5281/zenodo.23538614 ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23538614.svg)](https://doi.org/10.5281/zenodo.23538614)).
 
 The pipeline georeferences 1924 Survey of India sheets and 1967-68 CORONA KH-4A frames against open reference data (OpenStreetMap, Sentinel-2, GLO-30), validates each transform with independent tie points (check split, leave-one-out, block cross-validation, bootstrap), carries the positional error through every reported measurement by Monte Carlo, and grades each reading of the imagery against a written evidence rule. Transfer tests at Srirangapatna and Hampi are included.
 
