@@ -53,7 +53,7 @@ def main(out):
             ('Copernicus DEM GLO-30', '2011--2015', '30 m', 'Terrain, viewsheds, DSM test'),
             ('OpenStreetMap extracts (Overpass API)', 'Oct 2026', 'vector', 'Tie candidates, road reference, outlines'),
             ('Gazetteer of the Bombay Presidency XXI, Belgaum', '1884', 'text', 'Descriptions of 1825 and 1882')]
-    open(out / 'tab_sources.tex', 'w').write(table(rows, ['Source', 'Date', 'Resolution', 'Use'], 'p{0.40\\linewidth}p{0.16\\linewidth}p{0.12\\linewidth}p{0.24\\linewidth}',
+    open(out / 'tab_sources.tex', 'w').write(table(rows, ['Source', 'Date', 'Resolution', 'Use'], '>{\\raggedright\\arraybackslash}>{\\raggedright\\arraybackslash}p{0.40\\linewidth}>{\\raggedright\\arraybackslash}p{0.16\\linewidth}>{\\raggedright\\arraybackslash}p{0.12\\linewidth}>{\\raggedright\\arraybackslash}p{0.24\\linewidth}',
         'tab:sources', 'Sources used. All imagery and vector data are free and open; licences are listed in the data deposit.',
         ['CORONA resolution is the nominal ground sample distance at nadir; the scans were resampled to 2 m (Kittur) or 4 m (matching).']))
     # Table 2: accuracy (from manuscript/tables/Table2 csv written by stage 09)
@@ -71,7 +71,7 @@ def main(out):
     d = d[~d.iloc[:, 3].astype(str).str.contains('fixed by the DSM')]     # vertical-only rows are reported in the text (Section 4.5)
     rows = [dash(r) for r in d.itertuples(index=False)]
     eb = P['error_budget']; tr = eb['threshold_sensitivity']['target_range_m']
-    open(out / 'tab_dimensions.tex', 'w').write(table(rows, ['Feature', 'Measure', 'Nominal', 'Median (95\\% interval)'], 'p{0.36\\linewidth}p{0.27\\linewidth}rl',
+    open(out / 'tab_dimensions.tex', 'w').write(table(rows, ['Feature', 'Measure', 'Nominal', 'Median (95\\% interval)'], '>{\\raggedright\\arraybackslash}>{\\raggedright\\arraybackslash}p{0.36\\linewidth}>{\\raggedright\\arraybackslash}p{0.27\\linewidth}rl',
         'tab:dimensions', 'Kittur features digitised on CORONA DA224 (31 January 1968) under the full error budget.',
         [rf"Nominal: chosen model ({P['kittur_model']['kind']}, {P['kittur_model']['n_ties']} ties). Interval: {P['n']} realisations combining a bootstrap transform, local error scaled to a target RMSE drawn from {tr[0]:.0f}--{tr[1]:.0f} m, {eb['vertex_noise_m']} m vertex noise and a {eb['digitising_sd_m']:.0f} m systematic line offset per feature (Section~\ref{{sec:budget}}).",
          r'The median is that of the realisations. For the IoU and centroid offset it differs from the nominal value because the nominal outline is close to the best-case alignment with OSM, so most perturbations lower the IoU and raise the offset (a one-sided distribution). Citadel elevation (769.4 m) and viewshed (33.7 km$^2$) are fixed by the highest GLO-30 cell and carry vertical error only (Section~\ref{sec:terrain}). Viewsheds: 720 rays to 10 km, observer 10 m above ground.']))
@@ -82,7 +82,7 @@ def main(out):
     rows = [(r.reading.replace('(0.23 ha)', '(0.22 ha)').replace('(0.48 ha)', '(0.46 ha)'), r.grade, named(r, 'support'), named(r, 'contradict'),
              'Results' if r.placement == 'results' else 'Discussion') for r in e.itertuples()]
     open(out / 'tab_evidence.tex', 'w').write(table(rows, ['Reading on CORONA 1967--68', 'Grade', 'Supported by', 'Contradicted by', 'Reported in'],
-        'p{0.47\\linewidth}lp{0.14\\linewidth}p{0.1\\linewidth}l', 'tab:evidence', 'Evidence grades of the CORONA readings (single grader; rule applied in code).',
+        '>{\\raggedright\\arraybackslash}>{\\raggedright\\arraybackslash}p{0.47\\linewidth}l>{\\raggedright\\arraybackslash}p{0.14\\linewidth}>{\\raggedright\\arraybackslash}p{0.1\\linewidth}l', 'tab:evidence', 'Evidence grades of the CORONA readings (single grader; rule applied in code).',
         [r'Positional sources independent of CORONA: SoI, Survey of India 1924; L90, Landsat 1990; S2, Sentinel-2 2026; DEM, Copernicus GLO-30; OSM, OpenStreetMap 2026. The Trewman and Deacon letters of December 1824 and the Gazetteer support the kind of feature only. GLO-30 is also the analysis surface for the hillock, and the OSM fort outline may have been traced from the same walls. Confirmed: $\geq$2 supporting, none contradicting; plausible: 1; unsupported: none; contradicted: $\geq$1 positional source contradicts. ``Confirmed'' means a feature exists at this place in 1967--68 and in an independent source; it does not date the feature to 1824.']))
     # Supplement: all models
     rows = []
@@ -93,7 +93,7 @@ def main(out):
             rows.append((t['label'].replace('CORONA KH-4A ', '').replace('Survey of India ', 'SoI '), k + (' *' if k == t['chosen'] else ''),
                          f"{m['fit_rmse_m']:.1f}", f"{m['check_rmse_m']:.1f}", f"{m['loo_rmse_m']:.1f}", f"{m['block_cv_rmse_m']:.1f}",
                          f"{m['smoothing']:g}" if k == 'tps' else '--'))
-    open(out / 'tab_s_models.tex', 'w').write(table(rows, ['Source', 'Model', 'Fit', 'Check', 'LOO', 'Block-CV', 'TPS smoothing'], 'p{0.42\\linewidth}lrrrrr',
+    open(out / 'tab_s_models.tex', 'w').write(table(rows, ['Source', 'Model', 'Fit', 'Check', 'LOO', 'Block-CV', 'TPS smoothing'], '>{\\raggedright\\arraybackslash}>{\\raggedright\\arraybackslash}p{0.42\\linewidth}lrrrrr',
         'tab:smodels', 'All candidate transforms for every source (RMSE, m). * chosen by the pre-specified rule.',
         [r'Rule: simplest model whose block-CV RMSE is within 10\% of the lowest, in the order affine, poly2, poly3, TPS. TPS smoothing chosen from 1, 10, 100, 1000 by leave-one-out on the control points; zero smoothing is excluded. poly3 is skipped where the control set is too small.'],
         size=r'\scriptsize'))
