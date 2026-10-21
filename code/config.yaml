@@ -195,3 +195,13 @@ propagation:   # stage 13: empirical georeferencing uncertainty carried downstre
   digitising_sd_m: 5.0   # v3: systematic line-placement error of an eye-traced boundary on 2 m CORONA (ASSUMED until
                          # the repeat-digitising exercise in manuscript/blind_grading/ is done by a second analyst)
   old_sangoli_lonlat: [74.8337, 15.7466]   # 1968 village centre on the v1 DF224 crop (findings 6)
+
+figures:   # descriptive labels for Fig. 2 (tools/fig_workflow_sites.py); every number in that figure is read from results/*.json
+  workflow:
+    sites:     # validation target -> short role shown under the site name (order = left to right)
+      corona_da224_kittur: "fort and town"
+      corona_df224_sangolli: "old village on the Malaprabha"
+      corona_da224_nandagad: "control area west of Kittur"
+      corona_da222_belgaum: "reference fort for Lawe's area fractions"
+    lawe_fractions: [6, 10]   # Lawe 1825 (Gazetteer 1884): Kittur lower fort about 1/6 and 1/10 of Belgaum fort
+    texts: "Gazetteer of the Bombay Presidency, Belgaum volume (Lawe; Welsh)"

@@ -37,25 +37,9 @@ def short(lab):
 
 
 def fig2_workflow(out):
-    """Workflow: inputs, automatic tie points, validation, propagation, grading."""
-    fig, ax = plt.subplots(figsize=(190 * MM, 62 * MM)); ax.set_xlim(0, 100); ax.set_ylim(0, 32); ax.axis('off')
-    boxes = [
-        (0.6, 'Inputs (open)', 'CORONA KH-4A scans\nSoI 1924 sheets\nOpenStreetMap\nSentinel-2 2026, GLO-30', OI['grey']),
-        (21, '1  Candidate points', 'OSM junctions, bridges,\ntanks, village nodes,\nshrines; spaced\n>= 300 m apart', OI['sky']),
-        (41, '2  Tie matching', 'NCC of 700 and 1000 m\nchips vs OSM roads, S2;\nsizes agree <= 15 m;\nRANSAC, blunder screen', OI['blue']),
-        (61, '3  Validation', 'affine, poly2, poly3,\nregularised TPS; check\nsplit, LOO, block-CV,\nbootstrap, Moran\'s I', OI['green']),
-        (81, '4  Propagation', 'transform bootstrap\n+ tie-threshold range\n+ digitising offset\n+ DSM error, canopy', OI['orange']),
-    ]
-    for x, t, b, c in boxes:
-        ax.add_patch(FancyBboxPatch((x, 9), 18, 20, boxstyle='round,pad=0.4,rounding_size=1.2', fc='white', ec=c, lw=1.2))
-        ax.text(x + 9, 26.3, t, ha='center', va='center', fontsize=6.8, weight='bold', color=c)
-        ax.text(x + 9, 17, b, ha='center', va='center', fontsize=5.6, linespacing=1.4)
-    for x in (19.6, 39.6, 59.6, 79.6):
-        ax.annotate('', (x + 1.0, 19), (x, 19), arrowprops=dict(arrowstyle='-|>', lw=0.9, color='k'))
-    ax.add_patch(FancyBboxPatch((20.6, 0.6), 78, 5.2, boxstyle='round,pad=0.3,rounding_size=1', fc='#F2F2F2', ec=OI['purple'], lw=1.0))
-    ax.text(59.6, 3.2, '5  Evidence grading of each CORONA reading against independent positional sources:\n'
-            'confirmed, plausible, unsupported or contradicted', ha='center', va='center', fontsize=6.0)
-    save(fig, out, 'Fig2_workflow')
+    """Fig. 2 is drawn by tools/fig_workflow_sites.py (four sites; every number read from config/results/git tag)."""
+    import subprocess
+    subprocess.run([sys.executable, str(Path(__file__).with_name('fig_workflow_sites.py')), str(out / 'Fig2_workflow')], check=True)
 
 
 def fig3_accuracy(out):
