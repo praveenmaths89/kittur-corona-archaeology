@@ -161,7 +161,10 @@ def main(argv=None):
             reps.append(metrics(geoms(M, sh, C['montecarlo']['vertex_noise_m'], DIG)))
         # contribution breakdown (round-2 review M3): one-at-a-time runs, each switching ON a single component
         # with the others at their nominal value; reported as the 95% interval half-width of each metric.
-        NC = P.get('n_components', 100)
+        # r3: the 95% half-widths are percentile estimates, so with few draws a single component can come out wider
+        # than the full budget (round 3: digitising 1.51 ha vs full 1.26 ha at n=100/200; both ~1.37 ha analytically).
+        # Not a combination bug: config now uses n=1000 for the full run and for every component run.
+        NC = P.get('n_components', 1000)
         def halfw(rs):
             out = {}
             for k in ('fort_area_ha', 'ring_outer_ha', 'fort_citadel_m', 'citadel_bearing_deg', 'iou_fort_osm', 'fort_centroid_to_osm_m',

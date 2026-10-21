@@ -2,7 +2,7 @@
 
 Code and data for the manuscript "Open-data georeferencing of 1924 maps and CORONA imagery at Kittur fort, India, with a cross-validated error budget" by Praveen D Chougale (Koita Centre for Digital Health, IIT Bombay; ORCID 0000-0002-5262-4726), prepared for the Journal of Archaeological Science: Reports.
 
-Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.1-jasr-submission); archived on Zenodo with a DOI at acceptance.
+Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.2-jasr-submission); archived on Zenodo with a DOI at acceptance.
 
 The pipeline georeferences 1924 Survey of India sheets and 1967-68 CORONA KH-4A frames against open reference data (OpenStreetMap, Sentinel-2, GLO-30), validates each transform with independent tie points (check split, leave-one-out, block cross-validation, bootstrap), carries the positional error through every reported measurement by Monte Carlo, and grades each reading of the imagery against a written evidence rule. Transfer tests at Srirangapatna and Hampi are included.
 
@@ -36,7 +36,7 @@ The pipeline georeferences 1924 Survey of India sheets and 1967-68 CORONA KH-4A 
 Raw scans (about 26.5 GB) are not in git. They are listed with checksums in `ZENODO_MANIFEST.csv` and `PROVENANCE.csv` and can be re-downloaded from USGS by scene ID.
 
 ## Branches and tags
-- `main` - v3 pipeline; tag `v1.1-jasr-submission` marks the state described in the submitted manuscript (adds Video S1 and the four-site workflow figure). The earlier tag `v1.0-jasr-submission` is kept unchanged.
+- `main` - v3 pipeline; tag `v1.2-jasr-submission` marks the state described in the submitted manuscript (adds Video S1 and the four-site workflow figure). The earlier tag `v1.0-jasr-submission` is kept unchanged.
 - `pre-v3` - the repository as it was before the v3 update.
 - `backup-20261021` - working-folder backup of 21 Oct 2026.
 
@@ -51,7 +51,7 @@ See `CITATION.cff`.
 ## Supplementary Video S1
 `media/Video_S1_Kittur_3D.mp4` (MPEG-4, 640 x 480, 5 s, 1.7 MB): the re-georeferenced CORONA DA224 frame of 31 January 1968 draped on Copernicus GLO-30 (vertical exaggeration 2), rotating about Kittur lower fort and the citadel hillock, with a schematic of the two works about 1824. Wall height (6 m) and moat depth (4.9 m) are assumed for display; the moat band is graded unsupported in the paper. Illustration only, not a measurement. Still frame: `media/Video_S1_still.png`.
 
-Stable link: https://github.com/praveenmaths89/kittur-corona-archaeology/blob/v1.1-jasr-submission/media/Video_S1_Kittur_3D.mp4
+Stable link: https://github.com/praveenmaths89/kittur-corona-archaeology/blob/v1.2-jasr-submission/media/Video_S1_Kittur_3D.mp4
 
 ## Workflow figure
 `code/tools/fig_workflow_sites.py` draws Fig. 2 (workflow across the four Kittur-region CORONA sites: Kittur, Sangolli, Nandagad, Belgaum).

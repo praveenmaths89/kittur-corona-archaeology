@@ -183,7 +183,8 @@ validation:   # stage 12: independent tie points and transform comparison (see s
                          cues: [road, s2], match: {min_ncc: 0.2}, bbox_utm: [650729, 1689907, 662729, 1701907], transfer: true}
 
 propagation:   # stage 13: empirical georeferencing uncertainty carried downstream
-  n: 200                 # bootstrap realisations
+  n: 1000                # bootstrap realisations (r3: raised from 200; 95% half-widths from 200 draws scatter by about +-12%)
+  n_components: 1000     # r3: one-at-a-time component runs (was default 100, too few for stable percentiles)
   rays: 720              # viewshed rays per realisation (stage 06 uses 2880 for the nominal map)
   viewshed_max_m: 10000
   n_vertical: 500        # DSM-noise realisations for the commanding-ground test
