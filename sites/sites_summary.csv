@@ -1,0 +1,5 @@
+site,frames,georef,rms_m,stereo_dem,key,status
+Kittur,"DA224 (1968-01-31), DA217/DF217 (1967-11-11)",chained local affines + manual shift,~25 near fort (50-100 at crop edge),"yes (DA217/DF217, ~10 m noise)",lower fort 13.4 ha + 3-ring citadel; Old Sangoli submerged,done
+Srirangapatna,DS1040-1039DA028 (1967-04-02); DA094 (1965) not located (<=6 inliers),"coarse NCC + 46 patch-NCC ties, RANSAC affine (11 inliers)",22 LOO (fit 17),no (single frame used),bastioned fort on W end of island visible 1967,done (moderate confidence)
+Hampi,"DS1025-1071DA077 (1965-10-10, KH-4); DF071 not located","coarse NCC + patch-NCC ties, RANSAC affine (21 inliers)",20 LOO (fit 18) PROVISIONAL,"no (DF071 not located, <=6 inliers)",E-W granite ridges + wide post-monsoon river; not visually confirmed,provisional
+Belgaum fort,DS1045-1102DA222 (1968-01-31); DF223 not located,patch-NCC + RANSAC affine (14 inliers),20 LOO (fit 15),no (DF223 not located),"moat ring; inner 58.0 ha vs OSM 51.8, Gazetteer ~40.5 (100 acres)",done

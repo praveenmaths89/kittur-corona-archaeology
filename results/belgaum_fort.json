@@ -1,0 +1,12 @@
+{
+ "moat_centreline_ha": 61.32168546099794,
+ "inner_wall_line_ha": 57.970358127748945,
+ "moat_outer_edge_ha": 64.765,
+ "with_glacis_ha": 80.08788717151135,
+ "moat_area_ha": 6.794641872251057,
+ "perimeter_centreline_m": 2831.100780103973,
+ "osm_way_ha": 51.80712376972544,
+ "gazetteer_ha": 40.4686,
+ "ew_m": 875.636508090538,
+ "ns_m": 845.9626105104107
+}

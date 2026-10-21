@@ -1,0 +1,34 @@
+{
+ "srirangapatna": {
+  "site": "srirangapatna",
+  "water_1960s_pct": 4.5876,
+  "darkveg_1960s_pct": 25.407600000000002,
+  "water_2026_pct": 1.7116,
+  "veg_2026_pct": 67.9404,
+  "built_2026_pct": 13.616
+ },
+ "hampi": {
+  "site": "hampi",
+  "water_1960s_pct": 12.004,
+  "darkveg_1960s_pct": 17.994799999999998,
+  "water_2026_pct": 0.2988,
+  "veg_2026_pct": 44.474799999999995,
+  "built_2026_pct": 33.456
+ },
+ "belgaum": {
+  "site": "belgaum",
+  "water_1960s_pct": 5.668,
+  "darkveg_1960s_pct": 24.320800000000002,
+  "water_2026_pct": 0.832,
+  "veg_2026_pct": 30.072,
+  "built_2026_pct": 34.915600000000005
+ },
+ "kittur": {
+  "site": "kittur",
+  "water_1960s_pct": 8.758615691832002,
+  "darkveg_1960s_pct": 21.241303787683588,
+  "water_2026_pct": 0.3144324916258696,
+  "veg_2026_pct": 25.10950785879928,
+  "built_2026_pct": 25.58377351198145
+ }
+}

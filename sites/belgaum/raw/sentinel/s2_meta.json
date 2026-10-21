@@ -1,0 +1,8 @@
+{
+ "id": "S2B_43PDT_20260207_0_L2A",
+ "datetime": "2026-02-07 05:44:30.821000+00:00",
+ "cloud": 7.3e-05,
+ "crs": "EPSG:32643",
+ "file": "/workspace/kittur_map/sites/belgaum_fort/raw/sentinel/S2B_43PDT_20260207_0_L2A_5band.tif",
+ "source": "https://earth-search.aws.element84.com/v1 sentinel-2-l2a"
+}

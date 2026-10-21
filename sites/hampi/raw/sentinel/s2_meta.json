@@ -1,0 +1,8 @@
+{
+ "id": "S2B_43PFS_20260306_0_L2A + S2B_43PFT_20260306_0_L2A (merged)",
+ "datetime": "2026-03-06 05:34:47.608000+00:00",
+ "cloud": 0.000229,
+ "crs": "EPSG:32643",
+ "file": "hampi/raw/sentinel/S2B_43PFS+PFT_20260306_merged_5band.tif",
+ "source": "https://earth-search.aws.element84.com/v1 sentinel-2-l2a"
+}

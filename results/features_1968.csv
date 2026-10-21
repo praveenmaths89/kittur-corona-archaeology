@@ -1,0 +1,9 @@
+id,name,kind,area_ha,length_m,ew_m,ns_m
+lower_fort,Lower-fort enclosure (inner wall line),polygon,13.37,1403.8,360.0,402.0
+moat_nw,North/west moat (dark band),line,,1059.6,520.0,520.0
+outer_east,"Outer wall/ditch line, east (tree-lined)",line,,527.9,30.0,520.0
+pond_nw,Round pond inside NW corner,ellipse,0.23,169.6,56.0,52.0
+pond_e,Round pond east of enclosure,ellipse,0.48,244.9,80.0,76.0
+ring_outer,"Citadel mound, outer ring",ellipse,6.93,936.4,280.0,316.0
+ring_middle,"Citadel mound, middle ring",ellipse,3.78,691.2,208.0,232.0
+ring_core,"Citadel mound, inner core",ellipse,1.65,459.4,132.0,160.0

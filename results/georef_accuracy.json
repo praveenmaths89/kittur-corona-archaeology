@@ -1,0 +1,161 @@
+{
+ "nandagad_recorded_checkpoints": {
+  "n": 106,
+  "rms_m": 30.4,
+  "mean_dE": -17.7,
+  "mean_dN": -0.2
+ },
+ "kittur_recorded_checkpoints": {
+  "n": 3,
+  "rms_m": 28.4,
+  "points": [
+   {
+    "name": "Copernicus DEM summit vs CORONA citadel-core centre",
+    "dE": 2,
+    "dN": -11
+   },
+   {
+    "name": "East round pond vs Sentinel-2 dark pond",
+    "dE": 10,
+    "dN": 30
+   },
+   {
+    "name": "Citadel hill vs Sentinel-2 vegetated hill",
+    "dE": 20,
+    "dN": 30
+   }
+  ]
+ },
+ "corona_1968_kittur_auto_ncc": {
+  "n_patches": 9,
+  "n_kept": 9,
+  "mean_dE": -11.1,
+  "mean_dN": -2.2,
+  "rms_m": 123.0,
+  "median_ncc": 0.6
+ },
+ "corona_1968_nandagad_auto_ncc": {
+  "n_patches": 33,
+  "n_kept": 27,
+  "mean_dE": -1.9,
+  "mean_dN": -10.0,
+  "rms_m": 22.9,
+  "median_ncc": 0.58
+ },
+ "corona_1968_sangolli_auto_ncc": {
+  "n_patches": 22,
+  "n_kept": 22,
+  "mean_dE": -2.7,
+  "mean_dN": 5.0,
+  "rms_m": 89.7,
+  "median_ncc": 0.55
+ },
+ "corona_1968DA223_sampgaon_auto_ncc": {
+  "n_patches": 5,
+  "n_kept": 5,
+  "mean_dE": 100.0,
+  "mean_dN": 10.0,
+  "rms_m": 128.5,
+  "median_ncc": 0.49
+ },
+ "corona_1968DA223_bailhongal_auto_ncc": {
+  "n_patches": 6,
+  "n_kept": 4,
+  "mean_dE": -30.0,
+  "mean_dN": -62.5,
+  "rms_m": 76.6,
+  "median_ncc": 0.48
+ },
+ "corona_1968DA223_oldsangoli_auto_ncc": {
+  "n_patches": 9,
+  "n_kept": 8,
+  "mean_dE": 26.2,
+  "mean_dN": -16.2,
+  "rms_m": 108.2,
+  "median_ncc": 0.51
+ },
+ "corona_1968DA223_tigadi_auto_ncc": {
+  "n_patches": 2,
+  "rms_m": null
+ },
+ "corona_srirangapatna_auto_ncc": {
+  "n_patches": 27,
+  "n_kept": 19,
+  "mean_dE": 22.6,
+  "mean_dN": 7.4,
+  "rms_m": 50.3,
+  "median_ncc": 0.56
+ },
+ "corona_srirangapatna_recorded_fit": {
+  "ties": 46,
+  "inliers": 11,
+  "rms_fit_m": 17.0,
+  "rms_loo_m": 22.4
+ },
+ "corona_hampi_auto_ncc": {
+  "n_patches": 35,
+  "n_kept": 29,
+  "mean_dE": 37.2,
+  "mean_dN": 1.0,
+  "rms_m": 45.3,
+  "median_ncc": 0.61
+ },
+ "corona_hampi_recorded_fit": {
+  "ties": 45,
+  "inliers": 21,
+  "rms_fit_m": 17.8,
+  "rms_loo_m": 20.5
+ },
+ "corona_belgaum_auto_ncc": {
+  "n_patches": 8,
+  "n_kept": 6,
+  "mean_dE": -46.7,
+  "mean_dN": -25.0,
+  "rms_m": 74.9,
+  "median_ncc": 0.5
+ },
+ "corona_belgaum_recorded_fit": {
+  "ties": 40,
+  "inliers": 14,
+  "rms_fit_m": 15.1,
+  "rms_loo_m": 19.6
+ },
+ "coreg_1967": {
+  "DA217": {
+   "entity": "DS1044-2134DA217",
+   "piece": "d",
+   "locate": "SIFT locate (7 inliers)",
+   "locate_col": 15613,
+   "locate_row": 4392,
+   "rotation": -179.42704222437263,
+   "gsd_m": 2.75,
+   "gcps": 82,
+   "rms_m": 2.79,
+   "coverage": 1.0
+  },
+  "DF217": {
+   "entity": "DS1044-2134DF217",
+   "piece": "a",
+   "locate": "SIFT locate (5 inliers)",
+   "locate_col": 24641,
+   "locate_row": 7706,
+   "rotation": 13.715901111206554,
+   "gsd_m": 2.68,
+   "gcps": 120,
+   "rms_m": 3.13,
+   "coverage": 1.0
+  },
+  "DF224": {
+   "entity": "DS1045-1102DF224",
+   "piece": "c",
+   "locate": "prior affine",
+   "locate_col": 27245,
+   "locate_row": 9797,
+   "rotation": null,
+   "gsd_m": 2.18,
+   "gcps": 317,
+   "rms_m": 2.89,
+   "coverage": 0.687
+  }
+ }
+}

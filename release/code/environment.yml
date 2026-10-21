@@ -1,0 +1,10 @@
+# conda env create -f environment.yml && conda activate kittur
+name: kittur
+channels: [conda-forge]
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - -r requirements.txt
+# Fonts: figures use Arial (matplotlib falls back to DejaVu Sans with a warning). On Linux install the
+# Microsoft core fonts (e.g. ttf-mscorefonts-installer, or extract arial32.exe with cabextract into ~/.fonts).

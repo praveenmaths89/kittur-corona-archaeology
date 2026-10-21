@@ -1,0 +1,12 @@
+{
+ "site": "srirangapatna",
+ "corona": "srirangapatna/qgis/corona_1967_DA028_srirangapatna.tif",
+ "s2": "srirangapatna/raw/sentinel/S2B_43PFP_20260204_0_L2A_5band.tif",
+ "valid_frac": 1.0,
+ "water_1960s_pct": 4.5912,
+ "darkveg_1960s_pct": 25.402400000000004,
+ "water_2026_pct": 1.7252,
+ "veg_2026_pct": 67.8728,
+ "built_2026_pct": 13.652000000000001,
+ "note": "1960s classes are tone-based (crude, panchromatic); 2026 from S2 MNDWI>0.1, NDVI>0.4, NDBI>0 & NDVI<0.25; 5x5 km box"
+}

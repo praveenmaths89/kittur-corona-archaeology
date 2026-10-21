@@ -1,0 +1,3125 @@
+[
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.62035,
+  "lon": 74.80021,
+  "area68_ha": 0.85,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 3.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61951,
+  "lon": 74.79835,
+  "area68_ha": 0.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61899,
+  "lon": 74.79751,
+  "area68_ha": 0.35,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61836,
+  "lon": 74.80071,
+  "area68_ha": 1.86,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61811,
+  "lon": 74.78997,
+  "area68_ha": 2.08,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61679,
+  "lon": 74.79866,
+  "area68_ha": 1.92,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.6169,
+  "lon": 74.79041,
+  "area68_ha": 0.79,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61667,
+  "lon": 74.79964,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61525,
+  "lon": 74.79698,
+  "area68_ha": 2.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61584,
+  "lon": 74.8014,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61544,
+  "lon": 74.79555,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61523,
+  "lon": 74.80379,
+  "area68_ha": 0.46,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61533,
+  "lon": 74.80599,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61454,
+  "lon": 74.80119,
+  "area68_ha": 0.87,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 2.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61362,
+  "lon": 74.80296,
+  "area68_ha": 2.12,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 2.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61276,
+  "lon": 74.79851,
+  "area68_ha": 2.82,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.614,
+  "lon": 74.79116,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61316,
+  "lon": 74.80167,
+  "area68_ha": 0.69,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61341,
+  "lon": 74.78648,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61308,
+  "lon": 74.80784,
+  "area68_ha": 0.56,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61264,
+  "lon": 74.80731,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.61242,
+  "lon": 74.8035,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60955,
+  "lon": 74.7868,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60937,
+  "lon": 74.78606,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 1.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60837,
+  "lon": 74.7877,
+  "area68_ha": 0.9,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60895,
+  "lon": 74.80516,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.6086,
+  "lon": 74.80129,
+  "area68_ha": 0.54,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60807,
+  "lon": 74.80527,
+  "area68_ha": 0.37,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60726,
+  "lon": 74.78943,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60674,
+  "lon": 74.79052,
+  "area68_ha": 0.55,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60674,
+  "lon": 74.80391,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60593,
+  "lon": 74.80407,
+  "area68_ha": 0.94,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60593,
+  "lon": 74.76852,
+  "area68_ha": 0.61,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60552,
+  "lon": 74.78946,
+  "area68_ha": 0.79,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60539,
+  "lon": 74.80627,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60516,
+  "lon": 74.80782,
+  "area68_ha": 0.37,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60525,
+  "lon": 74.8019,
+  "area68_ha": 0.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60476,
+  "lon": 74.79255,
+  "area68_ha": 0.64,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60472,
+  "lon": 74.80537,
+  "area68_ha": 0.78,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60488,
+  "lon": 74.79534,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60448,
+  "lon": 74.79348,
+  "area68_ha": 0.25,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60401,
+  "lon": 74.78641,
+  "area68_ha": 0.32,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60344,
+  "lon": 74.79538,
+  "area68_ha": 0.64,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60315,
+  "lon": 74.78576,
+  "area68_ha": 1.01,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60339,
+  "lon": 74.80656,
+  "area68_ha": 0.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60306,
+  "lon": 74.79661,
+  "area68_ha": 0.76,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60263,
+  "lon": 74.78334,
+  "area68_ha": 2.91,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60279,
+  "lon": 74.80443,
+  "area68_ha": 0.61,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.6025,
+  "lon": 74.79814,
+  "area68_ha": 0.59,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60171,
+  "lon": 74.80701,
+  "area68_ha": 1.82,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.6018,
+  "lon": 74.80514,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60101,
+  "lon": 74.78156,
+  "area68_ha": 1.72,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.6008,
+  "lon": 74.80757,
+  "area68_ha": 1.03,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60096,
+  "lon": 74.78009,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60055,
+  "lon": 74.80413,
+  "area68_ha": 1.14,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.60008,
+  "lon": 74.79361,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59873,
+  "lon": 74.7749,
+  "area68_ha": 0.84,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 1.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59839,
+  "lon": 74.78659,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 0.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59773,
+  "lon": 74.77909,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.18,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 0.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59651,
+  "lon": 74.81058,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.5953,
+  "lon": 74.81096,
+  "area68_ha": 0.44,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59392,
+  "lon": 74.81089,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59393,
+  "lon": 74.77407,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.3
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59385,
+  "lon": 74.81407,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59292,
+  "lon": 74.8114,
+  "area68_ha": 0.6,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59188,
+  "lon": 74.81046,
+  "area68_ha": 0.77,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59192,
+  "lon": 74.81146,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59112,
+  "lon": 74.7969,
+  "area68_ha": 0.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.5
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.5913,
+  "lon": 74.80447,
+  "area68_ha": 0.55,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59099,
+  "lon": 74.81111,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59101,
+  "lon": 74.80007,
+  "area68_ha": 0.45,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59099,
+  "lon": 74.8024,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59038,
+  "lon": 74.79342,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.2
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59016,
+  "lon": 74.79171,
+  "area68_ha": 1.56,
+  "water2026_frac": 0.01,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.1
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59053,
+  "lon": 74.80583,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.5904,
+  "lon": 74.80783,
+  "area68_ha": 0.6,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59029,
+  "lon": 74.79539,
+  "area68_ha": 1.39,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.4
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.59047,
+  "lon": 74.80121,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 1.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58918,
+  "lon": 74.81161,
+  "area68_ha": 2.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58996,
+  "lon": 74.81021,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.8
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58973,
+  "lon": 74.80909,
+  "area68_ha": 0.5,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58572,
+  "lon": 74.77701,
+  "area68_ha": 0.39,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 1.6
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58362,
+  "lon": 74.80542,
+  "area68_ha": 0.32,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.7
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58358,
+  "lon": 74.80723,
+  "area68_ha": 0.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 2.9
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58296,
+  "lon": 74.8081,
+  "area68_ha": 0.44,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.0
+ },
+ {
+  "crop": "kittur_DA224",
+  "lat": 15.58101,
+  "lon": 74.81062,
+  "area68_ha": 0.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 3.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75447,
+  "lon": 74.80777,
+  "area68_ha": 3.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75487,
+  "lon": 74.81066,
+  "area68_ha": 0.78,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75464,
+  "lon": 74.84515,
+  "area68_ha": 2.03,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75302,
+  "lon": 74.8121,
+  "area68_ha": 5.85,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75335,
+  "lon": 74.8256,
+  "area68_ha": 0.73,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75291,
+  "lon": 74.85775,
+  "area68_ha": 0.47,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75261,
+  "lon": 74.84742,
+  "area68_ha": 0.97,
+  "water2026_frac": 0.76,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75152,
+  "lon": 74.83871,
+  "area68_ha": 2.09,
+  "water2026_frac": 0.41,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 17.9
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75261,
+  "lon": 74.83677,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.0
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75188,
+  "lon": 74.80925,
+  "area68_ha": 0.56,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.2
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7517,
+  "lon": 74.81045,
+  "area68_ha": 1.02,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.2
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75157,
+  "lon": 74.82608,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 17.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75164,
+  "lon": 74.84516,
+  "area68_ha": 0.76,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.2
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75107,
+  "lon": 74.82888,
+  "area68_ha": 1.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75065,
+  "lon": 74.8458,
+  "area68_ha": 1.25,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75033,
+  "lon": 74.8103,
+  "area68_ha": 0.6,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.75052,
+  "lon": 74.85969,
+  "area68_ha": 0.24,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74988,
+  "lon": 74.84075,
+  "area68_ha": 1.08,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74953,
+  "lon": 74.82941,
+  "area68_ha": 1.12,
+  "water2026_frac": 0.17,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 17.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74976,
+  "lon": 74.84909,
+  "area68_ha": 0.21,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74967,
+  "lon": 74.82666,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.94,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7484,
+  "lon": 74.82623,
+  "area68_ha": 1.14,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.2
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74586,
+  "lon": 74.82121,
+  "area68_ha": 23.36,
+  "water2026_frac": 0.04,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74739,
+  "lon": 74.84448,
+  "area68_ha": 0.72,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74694,
+  "lon": 74.82683,
+  "area68_ha": 0.32,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7463,
+  "lon": 74.8365,
+  "area68_ha": 1.08,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7465,
+  "lon": 74.84306,
+  "area68_ha": 0.81,
+  "water2026_frac": 0.41,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 17.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74647,
+  "lon": 74.82779,
+  "area68_ha": 0.44,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.746,
+  "lon": 74.82518,
+  "area68_ha": 1.14,
+  "water2026_frac": 0.77,
+  "status2026": "water 2026",
+  "dist_kittur_km": 16.9
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7458,
+  "lon": 74.80829,
+  "area68_ha": 0.64,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7457,
+  "lon": 74.80617,
+  "area68_ha": 0.67,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7447,
+  "lon": 74.80616,
+  "area68_ha": 0.59,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74375,
+  "lon": 74.80754,
+  "area68_ha": 2.48,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74425,
+  "lon": 74.82609,
+  "area68_ha": 0.34,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 16.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74225,
+  "lon": 74.84367,
+  "area68_ha": 2.38,
+  "water2026_frac": 0.13,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74048,
+  "lon": 74.81035,
+  "area68_ha": 16.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.0
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74117,
+  "lon": 74.83274,
+  "area68_ha": 1.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74032,
+  "lon": 74.81515,
+  "area68_ha": 2.68,
+  "water2026_frac": 0.03,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.74026,
+  "lon": 74.82514,
+  "area68_ha": 0.81,
+  "water2026_frac": 0.75,
+  "status2026": "water 2026",
+  "dist_kittur_km": 16.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73879,
+  "lon": 74.80896,
+  "area68_ha": 2.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73838,
+  "lon": 74.81597,
+  "area68_ha": 0.24,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.9
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73782,
+  "lon": 74.80595,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7376,
+  "lon": 74.83946,
+  "area68_ha": 0.66,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.5
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73687,
+  "lon": 74.8091,
+  "area68_ha": 3.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73539,
+  "lon": 74.81705,
+  "area68_ha": 1.25,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.6
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73522,
+  "lon": 74.8555,
+  "area68_ha": 0.88,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.0
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73237,
+  "lon": 74.84238,
+  "area68_ha": 12.8,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73408,
+  "lon": 74.84445,
+  "area68_ha": 0.33,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73332,
+  "lon": 74.81395,
+  "area68_ha": 1.3,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.3
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73242,
+  "lon": 74.82073,
+  "area68_ha": 3.73,
+  "water2026_frac": 0.13,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 15.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73261,
+  "lon": 74.80606,
+  "area68_ha": 1.4,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.7317,
+  "lon": 74.85749,
+  "area68_ha": 1.24,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 16.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73136,
+  "lon": 74.81553,
+  "area68_ha": 0.81,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73144,
+  "lon": 74.85109,
+  "area68_ha": 0.55,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 16.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73129,
+  "lon": 74.84826,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.2
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.73009,
+  "lon": 74.83123,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72987,
+  "lon": 74.83071,
+  "area68_ha": 0.68,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.4
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72937,
+  "lon": 74.84378,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 15.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72931,
+  "lon": 74.84222,
+  "area68_ha": 0.51,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.8
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72842,
+  "lon": 74.84236,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72509,
+  "lon": 74.836,
+  "area68_ha": 6.92,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 15.1
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.72084,
+  "lon": 74.83685,
+  "area68_ha": 0.81,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 14.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.71997,
+  "lon": 74.83856,
+  "area68_ha": 0.33,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 14.7
+ },
+ {
+  "crop": "sangolli_DF224",
+  "lat": 15.71006,
+  "lon": 74.80756,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 12.6
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76447,
+  "lon": 74.82808,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 19.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76422,
+  "lon": 74.83489,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 19.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76207,
+  "lon": 74.84575,
+  "area68_ha": 2.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 19.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76331,
+  "lon": 74.84504,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 19.4
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76289,
+  "lon": 74.84799,
+  "area68_ha": 0.47,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 19.4
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76273,
+  "lon": 74.8471,
+  "area68_ha": 0.33,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 19.4
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76205,
+  "lon": 74.83581,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.9
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76145,
+  "lon": 74.82901,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.7
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76134,
+  "lon": 74.82153,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.5
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76035,
+  "lon": 74.8214,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.4
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.76016,
+  "lon": 74.82972,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.6
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75988,
+  "lon": 74.84605,
+  "area68_ha": 0.86,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 19.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75908,
+  "lon": 74.82062,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75895,
+  "lon": 74.84666,
+  "area68_ha": 0.55,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 19.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75897,
+  "lon": 74.83014,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 18.5
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75856,
+  "lon": 74.84742,
+  "area68_ha": 0.57,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 19.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75756,
+  "lon": 74.84554,
+  "area68_ha": 2.83,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 18.8
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75807,
+  "lon": 74.81587,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75764,
+  "lon": 74.81607,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 18.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75572,
+  "lon": 74.84547,
+  "area68_ha": 2.97,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 18.6
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.7533,
+  "lon": 74.84786,
+  "area68_ha": 0.72,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.5
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75366,
+  "lon": 74.8258,
+  "area68_ha": 0.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.8
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75233,
+  "lon": 74.84561,
+  "area68_ha": 0.6,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75138,
+  "lon": 74.84582,
+  "area68_ha": 0.67,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 18.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75132,
+  "lon": 74.83921,
+  "area68_ha": 0.6,
+  "water2026_frac": 0.74,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.9
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75127,
+  "lon": 74.83733,
+  "area68_ha": 0.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.9
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75066,
+  "lon": 74.84101,
+  "area68_ha": 1.14,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.9
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.75016,
+  "lon": 74.82957,
+  "area68_ha": 0.66,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.5
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74907,
+  "lon": 74.82636,
+  "area68_ha": 1.07,
+  "water2026_frac": 0.83,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74854,
+  "lon": 74.82412,
+  "area68_ha": 0.58,
+  "water2026_frac": 0.09,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 17.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.7481,
+  "lon": 74.82298,
+  "area68_ha": 2.27,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74583,
+  "lon": 74.82047,
+  "area68_ha": 16.7,
+  "water2026_frac": 0.01,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.8
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74713,
+  "lon": 74.82785,
+  "area68_ha": 0.35,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74669,
+  "lon": 74.82513,
+  "area68_ha": 0.45,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.0
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74652,
+  "lon": 74.83662,
+  "area68_ha": 0.38,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 17.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74294,
+  "lon": 74.8439,
+  "area68_ha": 1.47,
+  "water2026_frac": 0.39,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 17.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74097,
+  "lon": 74.82502,
+  "area68_ha": 0.7,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 16.4
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.74023,
+  "lon": 74.81524,
+  "area68_ha": 0.3,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73616,
+  "lon": 74.81682,
+  "area68_ha": 0.92,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.7
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.7347,
+  "lon": 74.8416,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 16.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73422,
+  "lon": 74.84325,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73355,
+  "lon": 74.8208,
+  "area68_ha": 0.67,
+  "water2026_frac": 0.75,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.5
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73309,
+  "lon": 74.84205,
+  "area68_ha": 2.01,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.1
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.7336,
+  "lon": 74.84317,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 16.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73331,
+  "lon": 74.81555,
+  "area68_ha": 0.28,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.3
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73211,
+  "lon": 74.81526,
+  "area68_ha": 0.3,
+  "water2026_frac": 0.96,
+  "status2026": "water 2026",
+  "dist_kittur_km": 15.2
+ },
+ {
+  "crop": "oldsangoli_DA223",
+  "lat": 15.73136,
+  "lon": 74.84225,
+  "area68_ha": 1.16,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 16.0
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81979,
+  "lon": 74.71396,
+  "area68_ha": 2.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81981,
+  "lon": 74.71782,
+  "area68_ha": 1.01,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 25.6
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81967,
+  "lon": 74.71203,
+  "area68_ha": 1.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81917,
+  "lon": 74.73334,
+  "area68_ha": 0.4,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81862,
+  "lon": 74.71857,
+  "area68_ha": 1.19,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 25.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81813,
+  "lon": 74.73167,
+  "area68_ha": 0.32,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.0
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81736,
+  "lon": 74.70243,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.8
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81676,
+  "lon": 74.70448,
+  "area68_ha": 0.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81592,
+  "lon": 74.70308,
+  "area68_ha": 0.87,
+  "water2026_frac": 0.69,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81609,
+  "lon": 74.71428,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81478,
+  "lon": 74.70469,
+  "area68_ha": 0.45,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81406,
+  "lon": 74.7028,
+  "area68_ha": 2.05,
+  "water2026_frac": 0.83,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81415,
+  "lon": 74.73379,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81348,
+  "lon": 74.70395,
+  "area68_ha": 0.82,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81243,
+  "lon": 74.71391,
+  "area68_ha": 2.74,
+  "water2026_frac": 0.74,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81338,
+  "lon": 74.733,
+  "area68_ha": 0.37,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81305,
+  "lon": 74.71687,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81286,
+  "lon": 74.71538,
+  "area68_ha": 0.44,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81238,
+  "lon": 74.70321,
+  "area68_ha": 0.27,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81222,
+  "lon": 74.72241,
+  "area68_ha": 0.25,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.6
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81061,
+  "lon": 74.70256,
+  "area68_ha": 0.21,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81011,
+  "lon": 74.71381,
+  "area68_ha": 1.77,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81031,
+  "lon": 74.70359,
+  "area68_ha": 0.46,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.81016,
+  "lon": 74.70473,
+  "area68_ha": 0.21,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.0
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80836,
+  "lon": 74.73309,
+  "area68_ha": 0.86,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80865,
+  "lon": 74.73261,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 24.0
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80834,
+  "lon": 74.73488,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80824,
+  "lon": 74.7225,
+  "area68_ha": 0.3,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 24.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80799,
+  "lon": 74.73572,
+  "area68_ha": 0.64,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.8
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80728,
+  "lon": 74.73426,
+  "area68_ha": 0.47,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.8
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80692,
+  "lon": 74.71115,
+  "area68_ha": 2.05,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80736,
+  "lon": 74.71268,
+  "area68_ha": 0.29,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80724,
+  "lon": 74.7234,
+  "area68_ha": 0.47,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80638,
+  "lon": 74.73552,
+  "area68_ha": 2.99,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80662,
+  "lon": 74.71319,
+  "area68_ha": 0.66,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80595,
+  "lon": 74.71189,
+  "area68_ha": 0.39,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80543,
+  "lon": 74.71115,
+  "area68_ha": 0.28,
+  "water2026_frac": 1.0,
+  "status2026": "water 2026",
+  "dist_kittur_km": 24.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80473,
+  "lon": 74.71312,
+  "area68_ha": 1.06,
+  "water2026_frac": 0.38,
+  "status2026": "partly water 2026",
+  "dist_kittur_km": 24.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80477,
+  "lon": 74.71442,
+  "area68_ha": 0.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80347,
+  "lon": 74.72964,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80357,
+  "lon": 74.71559,
+  "area68_ha": 0.54,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.9
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80239,
+  "lon": 74.72913,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.80092,
+  "lon": 74.71649,
+  "area68_ha": 0.65,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.6
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79922,
+  "lon": 74.73089,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.0
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79905,
+  "lon": 74.72227,
+  "area68_ha": 0.32,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79822,
+  "lon": 74.71829,
+  "area68_ha": 0.46,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.3
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79837,
+  "lon": 74.72257,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79816,
+  "lon": 74.73324,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.8
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79697,
+  "lon": 74.73493,
+  "area68_ha": 0.3,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79589,
+  "lon": 74.73436,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.6
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79536,
+  "lon": 74.72411,
+  "area68_ha": 0.47,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.8
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79475,
+  "lon": 74.73092,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 22.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79367,
+  "lon": 74.73228,
+  "area68_ha": 0.31,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79328,
+  "lon": 74.73112,
+  "area68_ha": 1.07,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.4
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79299,
+  "lon": 74.73695,
+  "area68_ha": 1.48,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79293,
+  "lon": 74.73559,
+  "area68_ha": 0.86,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 22.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.792,
+  "lon": 74.73507,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.1
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.79206,
+  "lon": 74.73322,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 22.2
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.78913,
+  "lon": 74.73939,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.7
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.78743,
+  "lon": 74.73956,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.5
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.7857,
+  "lon": 74.72996,
+  "area68_ha": 0.51,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.6
+ },
+ {
+  "crop": "tigadi_DA223",
+  "lat": 15.7853,
+  "lon": 74.73134,
+  "area68_ha": 0.25,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.81119,
+  "lon": 74.75075,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.81054,
+  "lon": 74.75102,
+  "area68_ha": 0.34,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 23.8
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80981,
+  "lon": 74.74949,
+  "area68_ha": 0.81,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.7
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80899,
+  "lon": 74.74705,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.7
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80808,
+  "lon": 74.76162,
+  "area68_ha": 0.3,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80696,
+  "lon": 74.77391,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.1
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80622,
+  "lon": 74.74573,
+  "area68_ha": 0.97,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 23.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80653,
+  "lon": 74.74092,
+  "area68_ha": 0.39,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80548,
+  "lon": 74.74538,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 23.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80445,
+  "lon": 74.74555,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 23.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80358,
+  "lon": 74.74212,
+  "area68_ha": 1.03,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 23.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80365,
+  "lon": 74.74442,
+  "area68_ha": 0.61,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 23.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.8038,
+  "lon": 74.77422,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.8
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80123,
+  "lon": 74.77545,
+  "area68_ha": 2.57,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80073,
+  "lon": 74.74319,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.80073,
+  "lon": 74.77416,
+  "area68_ha": 0.39,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 22.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.79533,
+  "lon": 74.74385,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.79498,
+  "lon": 74.73999,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 22.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.79179,
+  "lon": 74.7753,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78998,
+  "lon": 74.77404,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78986,
+  "lon": 74.75069,
+  "area68_ha": 0.5,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.7895,
+  "lon": 74.77281,
+  "area68_ha": 1.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.788,
+  "lon": 74.74015,
+  "area68_ha": 1.12,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 21.6
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78749,
+  "lon": 74.77281,
+  "area68_ha": 4.68,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.0
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78827,
+  "lon": 74.74882,
+  "area68_ha": 0.92,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78822,
+  "lon": 74.77511,
+  "area68_ha": 0.8,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.1
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78691,
+  "lon": 74.77591,
+  "area68_ha": 0.41,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.7865,
+  "lon": 74.74032,
+  "area68_ha": 0.65,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78666,
+  "lon": 74.7701,
+  "area68_ha": 0.57,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 20.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78623,
+  "lon": 74.77625,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.8
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78611,
+  "lon": 74.75031,
+  "area68_ha": 0.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.1
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78567,
+  "lon": 74.74273,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 21.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78564,
+  "lon": 74.77071,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.8
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78524,
+  "lon": 74.74962,
+  "area68_ha": 1.06,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.1
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78422,
+  "lon": 74.74705,
+  "area68_ha": 3.86,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 21.0
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.7845,
+  "lon": 74.77426,
+  "area68_ha": 0.97,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.7
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78452,
+  "lon": 74.76882,
+  "area68_ha": 0.48,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.7
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78401,
+  "lon": 74.7509,
+  "area68_ha": 0.77,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78353,
+  "lon": 74.74897,
+  "area68_ha": 0.38,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.9
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78266,
+  "lon": 74.7693,
+  "area68_ha": 0.42,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78189,
+  "lon": 74.7509,
+  "area68_ha": 1.17,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.7
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78142,
+  "lon": 74.74255,
+  "area68_ha": 1.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.8
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78097,
+  "lon": 74.75259,
+  "area68_ha": 1.68,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78066,
+  "lon": 74.75619,
+  "area68_ha": 0.48,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 20.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.78068,
+  "lon": 74.77354,
+  "area68_ha": 0.54,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77975,
+  "lon": 74.74976,
+  "area68_ha": 1.98,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.5
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77839,
+  "lon": 74.75526,
+  "area68_ha": 3.03,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77892,
+  "lon": 74.75372,
+  "area68_ha": 1.07,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77894,
+  "lon": 74.74606,
+  "area68_ha": 1.21,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77946,
+  "lon": 74.75625,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 20.3
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77942,
+  "lon": 74.76225,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77824,
+  "lon": 74.76777,
+  "area68_ha": 1.8,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.0
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77808,
+  "lon": 74.74501,
+  "area68_ha": 0.23,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.4
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77773,
+  "lon": 74.75356,
+  "area68_ha": 1.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.2
+ },
+ {
+  "crop": "sampgaon_DA223",
+  "lat": 15.77751,
+  "lon": 74.75203,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 20.2
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83283,
+  "lon": 74.86878,
+  "area68_ha": 5.43,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 27.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83365,
+  "lon": 74.87197,
+  "area68_ha": 0.62,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.7
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83275,
+  "lon": 74.85016,
+  "area68_ha": 1.2,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.9
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83105,
+  "lon": 74.87249,
+  "area68_ha": 0.45,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.4
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83079,
+  "lon": 74.87514,
+  "area68_ha": 0.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.83074,
+  "lon": 74.87021,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 27.3
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82954,
+  "lon": 74.8737,
+  "area68_ha": 1.69,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.3
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82963,
+  "lon": 74.86678,
+  "area68_ha": 2.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82985,
+  "lon": 74.87278,
+  "area68_ha": 0.28,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 27.3
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82772,
+  "lon": 74.83911,
+  "area68_ha": 1.18,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82692,
+  "lon": 74.86632,
+  "area68_ha": 7.15,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.8
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82671,
+  "lon": 74.85226,
+  "area68_ha": 0.88,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.3
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82707,
+  "lon": 74.85607,
+  "area68_ha": 0.43,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82478,
+  "lon": 74.83839,
+  "area68_ha": 0.63,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.7
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82473,
+  "lon": 74.86606,
+  "area68_ha": 0.26,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82216,
+  "lon": 74.83966,
+  "area68_ha": 5.8,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82335,
+  "lon": 74.87412,
+  "area68_ha": 1.5,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.7
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82125,
+  "lon": 74.84262,
+  "area68_ha": 6.57,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82274,
+  "lon": 74.84186,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.6
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82261,
+  "lon": 74.87468,
+  "area68_ha": 0.91,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.6
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82163,
+  "lon": 74.87146,
+  "area68_ha": 1.49,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.4
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.82051,
+  "lon": 74.87181,
+  "area68_ha": 0.58,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.3
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81921,
+  "lon": 74.83924,
+  "area68_ha": 1.18,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81949,
+  "lon": 74.86772,
+  "area68_ha": 0.29,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 26.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81885,
+  "lon": 74.84306,
+  "area68_ha": 0.55,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.2
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81682,
+  "lon": 74.83844,
+  "area68_ha": 0.32,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 24.9
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81498,
+  "lon": 74.85467,
+  "area68_ha": 1.05,
+  "water2026_frac": 0.62,
+  "status2026": "water 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.8149,
+  "lon": 74.87426,
+  "area68_ha": 0.52,
+  "water2026_frac": 0.0,
+  "status2026": "dry/other 2026",
+  "dist_kittur_km": 25.8
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81163,
+  "lon": 74.87531,
+  "area68_ha": 0.24,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.81135,
+  "lon": 74.87426,
+  "area68_ha": 0.22,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 25.5
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.80799,
+  "lon": 74.87444,
+  "area68_ha": 0.27,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 25.1
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.80609,
+  "lon": 74.87484,
+  "area68_ha": 2.18,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 24.9
+ },
+ {
+  "crop": "bailhongal_DA223",
+  "lat": 15.80414,
+  "lon": 74.871,
+  "area68_ha": 0.36,
+  "water2026_frac": 0.0,
+  "status2026": "vegetated/cropped 2026",
+  "dist_kittur_km": 24.6
+ }
+]

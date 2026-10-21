@@ -1,0 +1,12 @@
+{
+ "site": "hampi",
+ "corona": "hampi/qgis/corona_1965_DA077_hampi.tif",
+ "s2": "hampi/raw/sentinel/S2B_43PFS+PFT_20260306_merged_5band.tif",
+ "valid_frac": 1.0,
+ "water_1960s_pct": 12.0044,
+ "darkveg_1960s_pct": 17.9708,
+ "water_2026_pct": 0.3044,
+ "veg_2026_pct": 44.43,
+ "built_2026_pct": 33.4588,
+ "note": "1960s classes are tone-based (crude, panchromatic); 2026 from S2 MNDWI>0.1, NDVI>0.4, NDBI>0 & NDVI<0.25; 5x5 km box"
+}

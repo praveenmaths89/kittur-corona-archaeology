@@ -1,0 +1,10 @@
+# Belgaum fort moat traced by eye on the 1968 DA222 crop (derived/corona/corona_belgaum.tif, 2 m grid).
+# Ported from sites/belgaum/code_digitize.py. Vertices are (col, row) on a 900 x 900 px zoom whose top-left is
+# (row 1100, col 1000) of the 2500 x 2500 crop. The traced line sits on the OUTER moat bank (checked on overlay).
+# Moat half-width 12 m and glacis band 50 m were measured by eye on the same zoom (assumptions, +-5 m).
+offset_row: 1100
+offset_col: 1000
+vertices: [[300,235],[400,230],[480,240],[540,265],[585,320],[610,400],[625,480],[630,560],[610,620],[560,650],
+           [480,665],[400,665],[320,660],[260,640],[215,590],[190,520],[180,450],[200,380],[230,310],[260,265]]
+moat_half_width_m: 12
+glacis_m: 50

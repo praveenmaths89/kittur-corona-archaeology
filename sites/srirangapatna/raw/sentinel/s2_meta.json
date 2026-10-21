@@ -1,0 +1,8 @@
+{
+ "id": "S2B_43PFP_20260204_0_L2A",
+ "datetime": "2026-02-04 05:35:27.235000+00:00",
+ "cloud": 0,
+ "crs": "EPSG:32643",
+ "file": "srirangapatna/raw/sentinel/S2B_43PFP_20260204_0_L2A_5band.tif",
+ "source": "https://earth-search.aws.element84.com/v1 sentinel-2-l2a"
+}

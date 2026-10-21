@@ -1,0 +1,5 @@
+file,size_MB,source,acquisition,download_date,license,sha256,processing_script,storage
+raw/corona/DS1025-1071DA094.tgz,967.0,"USGS EarthExplorer corona2, entity DS1025-1071DA094",1965-10-10,2026-10-20,Public domain (USGS),803fd825ce2b232a174cc8cd3f4c4ed0518a6b194a4104f55670d4eee1e73554,"code/locate.py, refine.py, warp.py",Zenodo/LFS
+raw/corona/DS1040-1039DA028.tgz,953.9,"USGS EarthExplorer corona2, entity DS1040-1039DA028",1967-04-02,2026-10-20,Public domain (USGS),184155e11456be68228a3b6b0ad8ac4a4569324a60afbf4c87876f5733de99a3,"code/locate.py, refine.py, warp.py",Zenodo/LFS
+raw/sentinel/S2B_43PFP_20260204_0_L2A_5band.tif,27.1,Earth Search sentinel-2-l2a S2B_43PFP_20260204_0_L2A,2026-02-04,2026-10-20,"Copernicus Sentinel data 2026 (free/open, attribution)",cca2a09a06227b491d52d8b23225d2bfc1d128e5f85d298a087fa7e80790dfc2,code/fetch_s2.py,git
+raw/sentinel/s2_meta.json,0.0,scene metadata,,2026-10-20,-,b9322ca3a0e0e6f49e79e53687533311bfef03b7d4881c87e7011c6f69877cd3,code/fetch_s2.py,git

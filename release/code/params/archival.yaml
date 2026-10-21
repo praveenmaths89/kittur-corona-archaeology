@@ -1,0 +1,18 @@
+# Archival and gazetteer statements used for the comparison table (verbatim where quoted).
+# Sources: Gazetteer of the Bombay Presidency XXI, Belgaum (Campbell, 1884) pp. 402-403, 577-578, 580-581;
+# National Archives of India (NAI), Abhilekh Patal, Foreign Political (Secret) Cons. 7 Jan 1825 No. 17 (Deacon to Pierce and Trewman, 8 Dec 1824;
+# viewer OCR, not visually proofread - see sources/nai_1824_transcriptions.md).
+belgaum_fort_osm: way/138292670
+kittur_fort_osm: way/97204879
+lawe_fraction_lower: 0.1667     # "occupied one-sixth of the space of Belgaum fort"
+lawe_fraction_citadel: 0.10     # "had one-tenth the area of Belgaum fort"
+items:
+  - {source: "Lawe 1825, in Gazetteer 1884 p. 577", statement: "a weak and ruined fort consisting of a lower fort and a citadel", measure: two_part}
+  - {source: "Lawe 1825, in Gazetteer 1884 p. 577", statement: "The lower fort ... occupied one-sixth of the space of Belgaum fort", measure: lower_area}
+  - {source: "Lawe 1825, in Gazetteer 1884 p. 577", statement: "The upper fort or citadel, with a deep quarry in its centre had one-tenth the area of Belgaum fort", measure: citadel_area}
+  - {source: "Lawe 1825, in Gazetteer 1884 p. 577", statement: "deep quarry in its centre", measure: quarry}
+  - {source: "Welsh 1828, in Gazetteer 1884 pp. 577-578", statement: "The upper battery was a strong citadel nowhere commanded though conspicuous for many miles in every direction", measure: commanded}
+  - {source: "Gazetteer 1884 p. 578 (state in 1882)", statement: "Near it is a ditch about sixteen feet deep ... About eighty yards beyond is a second ditch and remains of the fort walls", measure: ditches}
+  - {source: "Gazetteer 1884 pp. 403, 580-581", statement: "an advanced fortified post was carried. On this post a battery was raised which next day effected a practical breach", measure: advanced_post}
+  - {source: "Deacon to Pierce and Trewman, 8 Dec 1824 (NAI Foreign Political (Secret) Cons. 7 Jan 1825 No. 17)", statement: "the most advanced Post, nearest to the East [?] Gate ... I advanced repeatedly close to the Crest of the Glacis", measure: east_gate}
+  - {source: "Trewman, 8 Dec 1824 (NAI Foreign Political (Secret) Cons. 7 Jan 1825 No. 17)", statement: "entered the Works by escalade between the lower, and the Upper Fort", measure: escalade}

@@ -1,0 +1,4 @@
+ae1df6a8b9540bd40e821cf193cfae94f2525329f4c98d74d2c6744771c605fe  /home/box/Downloads/DS1025-1071DA077.tgz
+ae1df6a8b9540bd40e821cf193cfae94f2525329f4c98d74d2c6744771c605fe  sites/hampi/raw/corona/DS1025-1071DA077.tgz
+a1e490e72d7a5ea62dcfa81b4448b9f5c6794a8b4dc2f72348c675a7cf1f1ea1  /home/box/Downloads/DS1025-1071DF071.tgz
+a1e490e72d7a5ea62dcfa81b4448b9f5c6794a8b4dc2f72348c675a7cf1f1ea1  sites/hampi/raw/corona/DS1025-1071DF071.tgz

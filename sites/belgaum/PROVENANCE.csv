@@ -1,0 +1,3 @@
+file,size_MB,source,acquisition,download_date,license,sha256,processing_script,storage
+raw/sentinel/S2B_43PDT_20260207_0_L2A_5band.tif,26.1,Earth Search sentinel-2-l2a S2B_43PDT_20260207_0_L2A,2026-02-07,2026-10-20,"Copernicus Sentinel data 2026 (free/open, attribution)",b71af3618ed11390b21da5948d370226597ea4a773a0f3408df01fbea234e4b9,code/fetch_s2.py,git
+raw/sentinel/s2_meta.json,0.0,scene metadata,,2026-10-20,-,e6baa15ae46884ff71f261b33cbc99fc7cd905383b0b9dea55392164d8c0d5d8,code/fetch_s2.py,git

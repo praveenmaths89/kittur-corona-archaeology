@@ -1,0 +1,12 @@
+{
+ "site": "belgaum",
+ "corona": "belgaum/qgis/corona_1968_DA222_belgaum.tif",
+ "s2": "belgaum/raw/sentinel/S2B_43PDT_20260207_0_L2A_5band.tif",
+ "valid_frac": 1.0,
+ "water_1960s_pct": 5.668,
+ "darkveg_1960s_pct": 24.320800000000002,
+ "water_2026_pct": 0.832,
+ "veg_2026_pct": 30.072,
+ "built_2026_pct": 34.915600000000005,
+ "note": "1960s classes are tone-based (crude, panchromatic); 2026 from S2 MNDWI>0.1, NDVI>0.4, NDBI>0 & NDVI<0.25; 5x5 km box"
+}

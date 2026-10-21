@@ -1,0 +1,5 @@
+Site,CORONA frame(s),Georeferencing,RMS (m),Stereo DEM,2026 built/bare / vegetation / water (%),1960s dark-tone water / dark vegetation (%),Bare/built fraction 1990 -> 2026 (1.5 km),NDVI 1990 -> 2026 (1.5 km),Main observation
+Kittur,DA224 (31 Jan 1968); DA217/DF217 (11 Nov 1967),Chained local affines,c. 25-30 m near the fort (checkpoints),Yes (DA217/DF217),26 / 25 / 0.3,8.8 / 21,0.34 -> 0.35,0.28 -> 0.30,Lower fort 13.4 ha and three-ring citadel mound; Old Sangoli submerged
+Srirangapatna,DA028 (2 Apr 1967),Patch-NCC + RANSAC affine (11/46 ties),22 (leave-one-out),No,14 / 68 / 1.7,4.6 / 25,0.19 -> 0.22,0.41 -> 0.44,Fort at W end of the Kaveri island visible in 1967
+Hampi,DA077 (10 Oct 1965),Patch-NCC + RANSAC affine (21/45 ties),20 (leave-one-out),No (DF071 not located),33 / 44 / 0.3,12.0 / 18,0.36 -> 0.30,0.36 -> 0.40,Granite ridges and post-monsoon river; provisional placement
+Belgaum,DA222 (31 Jan 1968),Patch-NCC + RANSAC affine (14/40 ties),20 (leave-one-out),No (DF223 not located),35 / 30 / 0.8,5.7 / 24,0.49 -> 0.51,0.27 -> 0.29,Moat ring; inner wall line 58.0 ha
