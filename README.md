@@ -2,7 +2,7 @@
 
 Code and data for the manuscript "Open-data georeferencing of 1924 maps and CORONA imagery at Kittur fort, India, with a cross-validated error budget" by Praveen D Chougale (Koita Centre for Digital Health, IIT Bombay; ORCID 0000-0002-5262-4726), prepared for the Journal of Archaeological Science: Reports.
 
-Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.3-jasr-submission); archived on Zenodo as version v1.2-jasr-submission: https://doi.org/10.5281/zenodo.23538614 ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23538614.svg)](https://doi.org/10.5281/zenodo.23538614)).
+Code: https://github.com/praveenmaths89/kittur-corona-archaeology (tag v1.3-jasr-submission); archived on Zenodo as version v1.3-jasr-submission: https://doi.org/10.5281/zenodo.23540772 ([![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23540772.svg)](https://doi.org/10.5281/zenodo.23540772)); all versions: https://doi.org/10.5281/zenodo.23538613.
 
 The pipeline georeferences 1924 Survey of India sheets and 1967-68 CORONA KH-4A frames against open reference data (OpenStreetMap, Sentinel-2, GLO-30), validates each transform with independent tie points (check split, leave-one-out, block cross-validation, bootstrap), carries the positional error through every reported measurement by Monte Carlo, and grades each reading of the imagery against a written evidence rule. Transfer tests at Srirangapatna and Hampi are included.
 
@@ -36,7 +36,7 @@ The pipeline georeferences 1924 Survey of India sheets and 1967-68 CORONA KH-4A 
 Raw scans (about 26.5 GB) are not in git. They are listed with checksums in `ZENODO_MANIFEST.csv` and `PROVENANCE.csv` and can be re-downloaded from USGS by scene ID.
 
 ## Branches and tags
-- `main` - v3 pipeline; tag `v1.3-jasr-submission` marks the state described in the submitted manuscript (figures redrawn at 140 mm with 7-8 pt text, tables harmonised; no numbers changed). Tag `v1.2-jasr-submission` (adds Video S1 and the four-site workflow figure) is the version archived on Zenodo. The earlier tag `v1.0-jasr-submission` is kept unchanged.
+- `main` - v3 pipeline; tag `v1.3-jasr-submission` marks the state described in the submitted manuscript (figures redrawn at 140 mm with 7-8 pt text, tables harmonised; no numbers changed). Tag `v1.2-jasr-submission` (adds Video S1 and the four-site workflow figure) is archived on Zenodo as 10.5281/zenodo.23538614. The earlier tag `v1.0-jasr-submission` is kept unchanged.
 - `pre-v3` - the repository as it was before the v3 update.
 - `backup-20261021` - working-folder backup of 21 Oct 2026.
 
