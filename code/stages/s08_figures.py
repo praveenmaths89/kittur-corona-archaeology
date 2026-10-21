@@ -133,9 +133,9 @@ class Ctx:
 # ----------------------------------------------------------------------------------------------- Fig 1
 def fig01(X):
     C = X.C
-    f = fs.fig('double', 98)
-    ax0 = f.add_axes([0.045, 0.08, 0.30, 0.88])
-    ax1 = f.add_axes([0.40, 0.08, 0.54, 0.90])
+    f = fs.fig('onehalf', 84)   # 140 mm: prints at ~1:1 in the single-column manuscript
+    ax0 = f.add_axes([0.075, 0.23, 0.27, 0.75])
+    ax1 = f.add_axes([0.43, 0.23, 0.47, 0.75])
     ne = C.p('natural_earth')
     land = gpd.read_file(f"zip://{ne / 'ne_50m_land.zip'}").clip(sbox(66, 5, 92, 25))
     a1 = gpd.read_file(f"zip://{ne / 'ne_10m_admin_1_states_provinces.zip'}")
@@ -148,10 +148,10 @@ def fig01(X):
     ax0.add_patch(Rectangle((lo.min(), la.min()), lo.max() - lo.min(), la.max() - la.min(), fc='none', ec=OK['vermillion'], lw=1.0, zorder=5))
     ax0.annotate('panel b', (lo.max(), la.max()), xytext=(lo.max() + 1.0, la.max() + 0.5), fontsize=7, ha='center',
                  arrowprops=dict(arrowstyle='-', lw=0.5))
-    for nm, dx in (('Srirangapatna', 0.15), ('Hampi', 0.15)):
+    for nm, dx, ha_ in (('Srirangapatna', -0.15, 'right'), ('Hampi', 0.15, 'left')):
         la_, lo_ = C['points'][nm]
         ax0.plot(lo_, la_, '^', ms=3.5, mfc=OK['blue'], mec='k', mew=0.3, zorder=6)
-        ax0.text(lo_ + dx, la_, nm, fontsize=7, va='center')
+        ax0.text(lo_ + dx, la_, nm, fontsize=7, va='center', ha=ha_)
     # Elsevier map policy: the overview shows only the bounding box of the studied sites (Kittur region,
     # Hampi, Srirangapatna), not a wider country map.
     ax0.text(75.9, 14.3, 'Karnataka', fontsize=7, rotation=0, ha='center', color='0.15')
@@ -186,7 +186,7 @@ def fig01(X):
                                 ec=OK['vermillion'] if 'DA223' not in nm else OK['purple'], lw=0.7, ls='-' if 'DA223' not in nm else '--', zorder=6))
     pts = [('Kittur fort', 'Kittur', 900, 0, 'left'), ('Old Sangoli (1968 village)', 'Old Sangoli', 900, 700, 'left'),
            ('Sangolli (present)', 'Sangolli', 900, -500, 'left'), ('Nandagad', 'Nandagad', -900, 0, 'right'),
-           ('Bailhongal', 'Bailhongal', 900, 0, 'left'), ('Belgaum fort', 'Belgaum (Belagavi) fort', 900, 600, 'left'),
+           ('Bailhongal', 'Bailhongal', 900, -1200, 'left'), ('Belgaum fort', 'Belgaum (Belagavi) fort', 900, 600, 'left'),
            ('Sampgaon', 'Sampgaon', 900, -900, 'left'), ('Tigadi', 'Tigadi', -900, 0, 'right')]
     for k, s, dx, dy, ha in pts:
         x, y = X.pt(k)
@@ -196,13 +196,13 @@ def fig01(X):
     ax1.text(474500, 1737600, 'Renuka Sagara\n(Malaprabha reservoir)', fontsize=7, color=OK['blue'], style='italic', ha='center', zorder=12,
              path_effects=[pe.withStroke(linewidth=1.5, foreground='white')])
     fs.map_axes(ax1, e, step_m=10000)
-    cax = f.add_axes([0.955, 0.30, 0.012, 0.35])
+    cax = f.add_axes([0.915, 0.40, 0.012, 0.40])
     cb = f.colorbar(im, cax=cax); cb.set_label('Elevation (m)', fontsize=7); cb.ax.tick_params(labelsize=7, length=1.5)
     h = [Line2D([], [], color=OK['blue'], lw=0.8, label='River (OSM)'), Patch(fc=OK['skyblue'], ec=OK['blue'], lw=0.4, label='Reservoir/tank (OSM, 2026)'),
          Line2D([], [], color='0.25', lw=0.6, label='Main road (OSM)'),
          Patch(fc='none', ec=OK['vermillion'], lw=0.8, label='CORONA crop, 2 m (DA224/DF224)'),
          Patch(fc='none', ec=OK['purple'], ls='--', lw=0.8, label='CORONA crop, coarse (DA223)')]
-    ax1.legend(handles=h, loc='lower left', fontsize=7)
+    f.legend(handles=h, loc='lower center', bbox_to_anchor=(0.5, -0.01), ncol=3, fontsize=7, frameon=False, columnspacing=1.2, handlelength=1.4)
     fs.panel_label(ax1, 'b')
     X.save(f, 'Fig01_study_area',
            'Study area. (a) Location of the study area (red box) in peninsular India, with Karnataka shaded and the two comparison sites '

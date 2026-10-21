@@ -22,7 +22,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("out", nargs="?", default="Fig2_workflow")
 ap.add_argument("--repo", default=__import__("os").environ.get("KITTUR_REPO", str(CODE)))
 ap.add_argument("--tag", default=None)
-ap.add_argument("--width-mm", type=float, default=137.0)
+ap.add_argument("--width-mm", type=float, default=140.0)
 A = ap.parse_args()
 
 C = yaml.safe_load(open(CODE / "config.yaml"))

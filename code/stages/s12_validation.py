@@ -430,8 +430,8 @@ def table_and_figure(C, st, summary):
     short = lambda lab: (lab.replace('CORONA KH-4A ', '').replace(' (31 Jan 1968)', ', 1968').replace('Survey of India ', 'SoI ')
                          .replace('DS1045-1102', '').replace('DS1040-1039', '').replace('DS1025-1071', ''))
     sc = 20.0                                  # residual exaggeration
-    ncol = 4; nrow = int(np.ceil(len(names) / ncol))
-    fig, axs = plt.subplots(nrow, ncol, figsize=(190 / 25.4, 52 / 25.4 * nrow + 12 / 25.4), squeeze=False)
+    ncol = 3; nrow = int(np.ceil(len(names) / ncol))
+    fig, axs = plt.subplots(nrow, ncol, figsize=(140 / 25.4, 47 / 25.4 * nrow + 12 / 25.4), squeeze=False)
     for ax, name in zip(axs.ravel(), names):
         t = pd.read_csv(C.p('results') / 'validation' / f'{name}_ties.csv'); k = summary['targets'][name]['chosen']
         E, N = t.E / 1000, t.N / 1000
@@ -448,17 +448,17 @@ def table_and_figure(C, st, summary):
         # reference arrow: 50 m on the ground
         x0, x1 = ax.get_xlim(); y0, y1 = ax.get_ylim()
         ax.quiver([x0 + 0.05 * (x1 - x0)], [y0 + 0.05 * (y1 - y0)], [50], [0], color='k', **kw)
-        ax.text(x0 + 0.05 * (x1 - x0), y0 + 0.08 * (y1 - y0), '50 m (x20)', fontsize=5)
-        ax.set_title(f'{short(summary["targets"][name]["label"])}\nchosen: {k}', fontsize=6.5, pad=2)
-        ax.tick_params(labelsize=5.5, pad=1); ax.set_aspect('equal', adjustable='box')
+        ax.text(x0 + 0.05 * (x1 - x0), y0 + 0.08 * (y1 - y0), '50 m (x20)', fontsize=6)
+        ax.set_title(f'{short(summary["targets"][name]["label"])}\nchosen: {k}', fontsize=7, pad=2)
+        ax.tick_params(labelsize=6.5, pad=1); ax.set_aspect('equal', adjustable='box')
     for ax in axs.ravel()[len(names):]:
         ax.axis('off')
     from matplotlib.lines import Line2D
     h = [Line2D([], [], color='#D55E00', lw=1.2, label='recorded transform (before)'),
-         Line2D([], [], color='#0072B2', lw=1.2, label='chosen model, leave-one-out residual'),
+         Line2D([], [], color='#0072B2', lw=1.2, label='chosen model, LOO residual'),
          Line2D([], [], color='k', marker='^', ls='', mfc='none', ms=3, label='held-out check point')]
-    fig.legend(handles=h, loc='lower center', ncol=3, fontsize=6.5, frameon=False, bbox_to_anchor=(0.5, 0.0))
-    fig.text(0.5, 0.045, f'UTM 43N easting / northing (km); residual arrows exaggerated x{sc:.0f}', ha='center', fontsize=6.5)
+    fig.legend(handles=h, loc='lower center', ncol=3, fontsize=7, frameon=False, bbox_to_anchor=(0.5, 0.0), columnspacing=1.0, handlelength=1.5)
+    fig.text(0.5, 0.045, f'UTM 43N easting / northing (km); residual arrows exaggerated x{sc:.0f}', ha='center', fontsize=7)
     fig.tight_layout(rect=(0, 0.07, 1, 1), h_pad=0.6, w_pad=0.4)
     for ext in ('png', 'pdf'):
         fig.savefig(C.out('figures', f'FigS8_georef_residuals.{ext}'), dpi=600 if ext == 'png' else None)

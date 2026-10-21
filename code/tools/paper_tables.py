@@ -28,7 +28,7 @@ def dash(r):
 
 def table(rows, cols, spec, label, caption, notes, size=r'\footnotesize', star=True):
     env = 'table*' if star else 'table'
-    out = [rf'\begin{{{env}}}[!htbp]', r'\centering', size, rf'\caption{{{caption}}}', rf'\label{{{label}}}',
+    out = [rf'\begin{{{env}}}[!htbp]', r'\centering', size, r'\setlength{\tabcolsep}{4pt}', rf'\caption{{{caption}}}', rf'\label{{{label}}}',
            r'\begin{adjustbox}{max width=\linewidth}', rf'\begin{{tabular}}{{{spec}}}', r'\toprule', ' & '.join(cols) + r' \\', r'\midrule']
     out += [' & '.join(tex(c).replace('\\textendash', '') for c in r) + r' \\' for r in rows]
     out += [r'\bottomrule', r'\end{tabular}', r'\end{adjustbox}']
@@ -60,14 +60,21 @@ def main(out):
     d = pd.read_csv(T / 'Table2_georeferencing_accuracy.csv')
     # shorter cells so the table stays legible at full width
     nchk = [t['models'][t['chosen']]['n_check'] for t in V['targets'].values() if t.get('status') == 'ok']
-    rows = [dash((str(r[0]).replace('CORONA ', '').replace('Survey of India ', 'SoI '), r[1], r[2], k, *r[3:]))
-            for r, k in zip(d.itertuples(index=False), nchk)]
-    open(out / 'tab_accuracy.tex', 'w').write(table(rows, ['Source', 'Role', 'Ties', 'Check pts', 'Before', 'Model', 'Block-CV', 'LOO', 'Check (95\\% boot.)', "Moran's $I$ $p$ (E/N)"],
-        'llrrrlrrll', 'tab:accuracy', 'Horizontal accuracy (RMSE, m) of each source before and after re-estimation from automatic open-data tie points.',
+    # RMSE values at one decimal, as in the text and Table S1 (read from validation.json; the CSV is rounded to whole metres)
+    okt = [t for t in V['targets'].values() if t.get('status') == 'ok']
+    def accrow(r, t):
+        m = t['models'][t['chosen']]; b = m['check_rmse_boot95']
+        chk = f"{m['check_rmse_m']:.1f} ({b[0]:.1f}-{b[1]:.1f})" if b else f"{m['check_rmse_m']:.1f}"
+        src = re.sub(r' \(\d+ (\w+) (\d{4})\)', r' \1 \2', str(r[0]).replace('CORONA ', '').replace('Survey of India ', 'SoI ')) + (' *' if str(r[1]).strip() == 'transfer' else '')
+        return dash((src, r[2], m['n_check'], f"{t['before']['rmse_all_m']:.1f}",
+                     t['chosen'], f"{m['block_cv_rmse_m']:.1f}", f"{m['loo_rmse_m']:.1f}", chk, f"{m['moran_I_E'][1]:.3f} / {m['moran_I_N'][1]:.3f}"))
+    rows = [accrow(r, t) for r, t in zip(d.itertuples(index=False), okt)]
+    open(out / 'tab_accuracy.tex', 'w').write(table(rows, ['Source', 'Ties', 'Check pts', 'Before', 'Model', 'Block-CV', 'LOO', 'Check (95\\% CI)', "Moran $p$ (E/N)"],
+        'lrrrlrrll', 'tab:accuracy', 'Horizontal accuracy (RMSE, m) of each source before and after re-estimation from automatic open-data tie points.',
         [r'Before: recorded transform evaluated at all ties. Block-CV: leave-spatial-block-out RMSE of the chosen model (headline figure). LOO: leave-one-out. Check: held-out ties ($\approx$30\%), with a bootstrap 95\% interval. The bootstrap refits the transform on resampled control ties and re-scores the fixed check set, so it measures fit variability only; where the full-control fit is already close to optimal for those check points (Belgaum, Srirangapatna) the lower bound sits at the point estimate.',
-         r"Moran's $I$: permutation $p$ for the LOO residuals; with 18 tests the Bonferroni threshold is $p<0.0028$. Kittur-region and transfer sources use identical settings."]))
+         r"Moran's $I$: permutation $p$ for the LOO residuals; with 18 tests the Bonferroni threshold is $p<0.0028$. * Transfer site outside the Kittur region (Srirangapatna, Hampi); Kittur-region and transfer sources use identical settings."]))
     # Table 3: dimensions
-    d = pd.read_csv(T / 'Table3_dimensions.csv')
+    d = pd.read_csv(T / 'Table3_dimensions.csv', dtype=str)
     d = d[~d.iloc[:, 3].astype(str).str.contains('fixed by the DSM')]     # vertical-only rows are reported in the text (Section 4.5)
     rows = [dash(r) for r in d.itertuples(index=False)]
     eb = P['error_budget']; tr = eb['threshold_sensitivity']['target_range_m']
@@ -96,7 +103,7 @@ def main(out):
     open(out / 'tab_s_models.tex', 'w').write(table(rows, ['Source', 'Model', 'Fit', 'Check', 'LOO', 'Block-CV', 'TPS smoothing'], '>{\\raggedright\\arraybackslash}p{0.42\\linewidth}lrrrrr',
         'tab:smodels', 'All candidate transforms for every source (RMSE, m). * chosen by the stated selection rule.',
         [r'Rule: simplest model whose block-CV RMSE is within 10\% of the lowest, in the order affine, poly2, poly3, TPS. TPS smoothing chosen from 1, 10, 100, 1000 by leave-one-out on the control points; zero smoothing is excluded. poly3 is skipped where the control set is too small.'],
-        size=r'\scriptsize'))
+        size=r'\footnotesize'))
     print('tables written to', out)
 
 
